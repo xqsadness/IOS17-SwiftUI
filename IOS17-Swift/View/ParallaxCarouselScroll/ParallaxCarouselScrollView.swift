@@ -20,53 +20,63 @@ struct ParallaxCarouselScrollView: View {
             GeometryReader{ geo in
                 let size = geo.size
                 
-                ScrollView(.horizontal){
-                    HStack(spacing: 5){
-                        ForEach(parallaxCarouselScrollViewModel.imageData, id: \.id){ imageData in
+                if parallaxCarouselScrollViewModel.isLoading{
+                    VStack{
+                        Text("Loading data ...")
+                        ProgressView()
+                    }
+                    .frame(maxWidth: .infinity,maxHeight: .infinity ,alignment: .center)
+                }else{
+                    ScrollView(.horizontal){
+                        HStack(spacing: 5){
                             
-                            GeometryReader{ proxy in
-                                let cardSize = proxy.size
-                                //                                    let minX = proxy.frame(in: .scrollView).minX - 30.0
-                                let minX = min((proxy.frame(in: .scrollView).minX - 30.0) * 1.4, size.width * 1.4)
+                            ForEach(parallaxCarouselScrollViewModel.imageData, id: \.id){ imageData in
                                 
-                                KFImage(URL(string: imageData.urls.raw))
-                                    .placeholder {
-                                        Image("ImageDefault")
-                                            .resizable()
-                                            .aspectRatio(contentMode: .fill)
-                                            .offset(x: -minX)
-                                            .frame(width: proxy.size.width * 2.5)
-                                            .frame(width: cardSize.width, height: cardSize.height)
-                                    }
-                                    .loadDiskFileSynchronously()
-                                    .cacheMemoryOnly()
-                                    .fade(duration: 0.25)
-                                    .resizable()
-                                    .aspectRatio(contentMode: .fill)
-                                //                                        .scaleEffect(1.25)
-                                    .offset(x: -minX)
-                                    .frame(width: proxy.size.width * 2.5)
-                                    .frame(width: cardSize.width, height: cardSize.height)
-                                    .overlay(content: {
-                                        OverlayView(imageData)
-                                    })
-                                    .clipShape(.rect(cornerRadius: 15))
-                                    .shadow(color: .black.opacity(0.25), radius: 8, x: 5, y: 10)
-                            }
-                            .frame(width: size.width - 60, height: size.height - 50)
-                            // scroll animation
-                            .scrollTransition(.interactive, axis: .horizontal) { view, phase in
-                                view
-                                    .scaleEffect(phase.isIdentity ? 1 : 0.95)
+                                GeometryReader{ proxy in
+                                    let cardSize = proxy.size
+                                    //                                    let minX = proxy.frame(in: .scrollView).minX - 30.0
+                                    let minX = min((proxy.frame(in: .scrollView).minX - 30.0) * 1.4, size.width * 1.4)
+                                    
+                                    KFImage(URL(string: imageData.urls.raw))
+                                        .placeholder {
+                                            Image("ImageDefault")
+                                                .resizable()
+                                                .aspectRatio(contentMode: .fill)
+                                                .offset(x: -minX)
+                                                .frame(width: proxy.size.width * 2.5)
+                                                .frame(width: cardSize.width, height: cardSize.height)
+                                        }
+                                        .loadDiskFileSynchronously()
+                                        .cacheMemoryOnly()
+                                        .fade(duration: 0.25)
+                                        .resizable()
+                                        .aspectRatio(contentMode: .fill)
+                                    //                                        .scaleEffect(1.25)
+                                        .offset(x: -minX)
+                                        .frame(width: proxy.size.width * 2.5)
+                                        .frame(width: cardSize.width, height: cardSize.height)
+                                        .overlay(content: {
+                                            OverlayView(imageData)
+                                        })
+                                        .clipShape(.rect(cornerRadius: 15))
+                                        .shadow(color: .black.opacity(0.25), radius: 8, x: 5, y: 10)
+                                }
+                                .frame(width: size.width - 60, height: size.height - 50)
+                                // scroll animation
+                                .scrollTransition(.interactive, axis: .horizontal) { view, phase in
+                                    view
+                                        .scaleEffect(phase.isIdentity ? 1 : 0.95)
+                                }
                             }
                         }
                     }
                     .padding(.horizontal, 30)
                     .scrollTargetLayout()
                     .frame(height: size.height, alignment: .top)
+                    .scrollTargetBehavior(.viewAligned)
+                    .scrollIndicators(.hidden)
                 }
-                .scrollTargetBehavior(.viewAligned)
-                .scrollIndicators(.hidden)
+                
             }
             .frame(height: 500)
             .padding(.horizontal, -15)

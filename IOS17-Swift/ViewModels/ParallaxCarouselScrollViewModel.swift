@@ -11,6 +11,7 @@ import Combine
 class ParallaxCarouselScrollViewModel: ObservableObject{
     
     @Published var imageData: [ImageUnsplash] = []
+    @Published var isLoading: Bool = true
     
     private var cancellables = Set<AnyCancellable>()
     
@@ -28,6 +29,7 @@ class ParallaxCarouselScrollViewModel: ObservableObject{
             .decode(type: [ImageUnsplash].self, decoder: JSONDecoder())
             .sink(receiveCompletion: NetworkingManager.handleCompeltion) { [weak self] returnedImage in
                 self?.imageData = returnedImage
+                self?.isLoading = false
             }
             .store(in: &cancellables)
     }
