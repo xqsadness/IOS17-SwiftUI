@@ -1,5 +1,5 @@
 # IOS17-SwiftUI
-This repository contains technical information about iOS 17 and what I have learned.
+This archive contains technical information about iOS 17 and things I've learned.
 
 <a href="https://github.com/xqsadness/IOS17-SwiftUI/tree/main/IOS17-Swift/View/ParallaxCarouselScroll" > ParallaxCarouselScrollView </a>
 
