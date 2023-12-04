@@ -22,6 +22,9 @@
 		DD656D852B19D5370067E6F9 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = DD656D842B19D5370067E6F9 /* Kingfisher */; };
 		DD656D872B19D9680067E6F9 /* CoinModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD656D862B19D9680067E6F9 /* CoinModel.swift */; };
 		DD656D8A2B19D9900067E6F9 /* CoinDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD656D892B19D9900067E6F9 /* CoinDataService.swift */; };
+		DD656D8E2B19E7AA0067E6F9 /* DIHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD656D8D2B19E7AA0067E6F9 /* DIHomeView.swift */; };
+		DD656D902B19E8070067E6F9 /* DLView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD656D8F2B19E8070067E6F9 /* DLView.swift */; };
+		DD656D922B19E8E10067E6F9 /* DLNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD656D912B19E8E10067E6F9 /* DLNetworkManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +43,9 @@
 		DD656D812B19C66A0067E6F9 /* ParallaxCarouselScrollViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParallaxCarouselScrollViewModel.swift; sourceTree = "<group>"; };
 		DD656D862B19D9680067E6F9 /* CoinModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinModel.swift; sourceTree = "<group>"; };
 		DD656D892B19D9900067E6F9 /* CoinDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinDataService.swift; sourceTree = "<group>"; };
+		DD656D8D2B19E7AA0067E6F9 /* DIHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DIHomeView.swift; sourceTree = "<group>"; };
+		DD656D8F2B19E8070067E6F9 /* DLView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DLView.swift; sourceTree = "<group>"; };
+		DD656D912B19E8E10067E6F9 /* DLNetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DLNetworkManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +115,7 @@
 		DD656D742B1986E80067E6F9 /* Learn */ = {
 			isa = PBXGroup;
 			children = (
+				DD656D8C2B19E78D0067E6F9 /* DI */,
 				DD656D792B199AC30067E6F9 /* CombineData */,
 			);
 			path = Learn;
@@ -161,6 +168,16 @@
 				DD656D772B198ED80067E6F9 /* NetworkingManager.swift */,
 			);
 			path = Utilities;
+			sourceTree = "<group>";
+		};
+		DD656D8C2B19E78D0067E6F9 /* DI */ = {
+			isa = PBXGroup;
+			children = (
+				DD656D912B19E8E10067E6F9 /* DLNetworkManager.swift */,
+				DD656D8D2B19E7AA0067E6F9 /* DIHomeView.swift */,
+				DD656D8F2B19E8070067E6F9 /* DLView.swift */,
+			);
+			path = DI;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -245,10 +262,13 @@
 				DD2F49B12B1876C300E8C7FE /* ScrollTransition.swift in Sources */,
 				DD2F49B32B1876DF00E8C7FE /* Animation.swift in Sources */,
 				DD656D872B19D9680067E6F9 /* CoinModel.swift in Sources */,
+				DD656D902B19E8070067E6F9 /* DLView.swift in Sources */,
 				DD656D762B1986FA0067E6F9 /* CombineSearch.swift in Sources */,
+				DD656D8E2B19E7AA0067E6F9 /* DIHomeView.swift in Sources */,
 				DD2F49A22B18769900E8C7FE /* IOS17_SwiftApp.swift in Sources */,
 				DD656D822B19C66A0067E6F9 /* ParallaxCarouselScrollViewModel.swift in Sources */,
 				DD656D7F2B19BA440067E6F9 /* TripCard.swift in Sources */,
+				DD656D922B19E8E10067E6F9 /* DLNetworkManager.swift in Sources */,
 				DD2F49B52B18773E00E8C7FE /* AnimatedSFSymbol.swift in Sources */,
 				DD656D782B198ED80067E6F9 /* NetworkingManager.swift in Sources */,
 			);
