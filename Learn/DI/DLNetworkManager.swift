@@ -8,7 +8,8 @@
 import SwiftUI
 import Combine
 
-class NetworkingManager: ObservableObject, NetworkingManagerProtocol{
+// for DI
+class DLNetworkingManager: ObservableObject, NetworkingManagerProtocol{
     
     enum NetworkingError: LocalizedError{
         case badURLResponse(url: URL)
