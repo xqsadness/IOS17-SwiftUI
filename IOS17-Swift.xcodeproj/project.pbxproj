@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DD0FF0592B1ECCC9007B4F10 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD0FF0582B1ECCC9007B4F10 /* Color.swift */; };
 		DD2F49A22B18769900E8C7FE /* IOS17_SwiftApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2F49A12B18769900E8C7FE /* IOS17_SwiftApp.swift */; };
 		DD2F49A42B18769900E8C7FE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2F49A32B18769900E8C7FE /* ContentView.swift */; };
 		DD2F49A62B18769B00E8C7FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD2F49A52B18769B00E8C7FE /* Assets.xcassets */; };
@@ -25,9 +26,11 @@
 		DD656D8E2B19E7AA0067E6F9 /* DIHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD656D8D2B19E7AA0067E6F9 /* DIHomeView.swift */; };
 		DD656D902B19E8070067E6F9 /* DLView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD656D8F2B19E8070067E6F9 /* DLView.swift */; };
 		DD656D922B19E8E10067E6F9 /* DLNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD656D912B19E8E10067E6F9 /* DLNetworkManager.swift */; };
+		DD6AFAF02B1D6AF5005E94F8 /* DarkLightModeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD6AFAEF2B1D6AF5005E94F8 /* DarkLightModeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DD0FF0582B1ECCC9007B4F10 /* Color.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 		DD2F499E2B18769900E8C7FE /* IOS17-Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "IOS17-Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD2F49A12B18769900E8C7FE /* IOS17_SwiftApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOS17_SwiftApp.swift; sourceTree = "<group>"; };
 		DD2F49A32B18769900E8C7FE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -46,6 +49,7 @@
 		DD656D8D2B19E7AA0067E6F9 /* DIHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DIHomeView.swift; sourceTree = "<group>"; };
 		DD656D8F2B19E8070067E6F9 /* DLView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DLView.swift; sourceTree = "<group>"; };
 		DD656D912B19E8E10067E6F9 /* DLNetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DLNetworkManager.swift; sourceTree = "<group>"; };
+		DD6AFAEF2B1D6AF5005E94F8 /* DarkLightModeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DarkLightModeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +108,7 @@
 		DD2F49AF2B1876B200E8C7FE /* View */ = {
 			isa = PBXGroup;
 			children = (
+				DD6AFAEE2B1D6AD4005E94F8 /* DarkLightMode */,
 				DD656D7A2B19B9E70067E6F9 /* ParallaxCarouselScroll */,
 				DD2F49B02B1876C300E8C7FE /* ScrollTransition.swift */,
 				DD2F49B22B1876DF00E8C7FE /* Animation.swift */,
@@ -165,6 +170,7 @@
 		DD656D8B2B19D9E80067E6F9 /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
+				DD0FF0582B1ECCC9007B4F10 /* Color.swift */,
 				DD656D772B198ED80067E6F9 /* NetworkingManager.swift */,
 			);
 			path = Utilities;
@@ -178,6 +184,14 @@
 				DD656D8F2B19E8070067E6F9 /* DLView.swift */,
 			);
 			path = DI;
+			sourceTree = "<group>";
+		};
+		DD6AFAEE2B1D6AD4005E94F8 /* DarkLightMode */ = {
+			isa = PBXGroup;
+			children = (
+				DD6AFAEF2B1D6AF5005E94F8 /* DarkLightModeView.swift */,
+			);
+			path = DarkLightMode;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,6 +274,7 @@
 				DD656D7C2B19BA070067E6F9 /* ParallaxCarouselScrollView.swift in Sources */,
 				DD2F49A42B18769900E8C7FE /* ContentView.swift in Sources */,
 				DD2F49B12B1876C300E8C7FE /* ScrollTransition.swift in Sources */,
+				DD0FF0592B1ECCC9007B4F10 /* Color.swift in Sources */,
 				DD2F49B32B1876DF00E8C7FE /* Animation.swift in Sources */,
 				DD656D872B19D9680067E6F9 /* CoinModel.swift in Sources */,
 				DD656D902B19E8070067E6F9 /* DLView.swift in Sources */,
@@ -268,6 +283,7 @@
 				DD2F49A22B18769900E8C7FE /* IOS17_SwiftApp.swift in Sources */,
 				DD656D822B19C66A0067E6F9 /* ParallaxCarouselScrollViewModel.swift in Sources */,
 				DD656D7F2B19BA440067E6F9 /* TripCard.swift in Sources */,
+				DD6AFAF02B1D6AF5005E94F8 /* DarkLightModeView.swift in Sources */,
 				DD656D922B19E8E10067E6F9 /* DLNetworkManager.swift in Sources */,
 				DD2F49B52B18773E00E8C7FE /* AnimatedSFSymbol.swift in Sources */,
 				DD656D782B198ED80067E6F9 /* NetworkingManager.swift in Sources */,
@@ -404,6 +420,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"IOS17-Swift/Preview Content\"";
+				DEVELOPMENT_TEAM = PD5C78B8LS;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -432,6 +449,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"IOS17-Swift/Preview Content\"";
+				DEVELOPMENT_TEAM = PD5C78B8LS;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
