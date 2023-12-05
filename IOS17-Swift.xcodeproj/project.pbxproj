@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		DD0FF0592B1ECCC9007B4F10 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD0FF0582B1ECCC9007B4F10 /* Color.swift */; };
+		DD0FF05C2B1F0C14007B4F10 /* FactoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD0FF05B2B1F0C14007B4F10 /* FactoryView.swift */; };
 		DD2F49A22B18769900E8C7FE /* IOS17_SwiftApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2F49A12B18769900E8C7FE /* IOS17_SwiftApp.swift */; };
 		DD2F49A42B18769900E8C7FE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2F49A32B18769900E8C7FE /* ContentView.swift */; };
 		DD2F49A62B18769B00E8C7FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD2F49A52B18769B00E8C7FE /* Assets.xcassets */; };
@@ -31,6 +32,7 @@
 
 /* Begin PBXFileReference section */
 		DD0FF0582B1ECCC9007B4F10 /* Color.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		DD0FF05B2B1F0C14007B4F10 /* FactoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactoryView.swift; sourceTree = "<group>"; };
 		DD2F499E2B18769900E8C7FE /* IOS17-Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "IOS17-Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD2F49A12B18769900E8C7FE /* IOS17_SwiftApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOS17_SwiftApp.swift; sourceTree = "<group>"; };
 		DD2F49A32B18769900E8C7FE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -64,6 +66,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DD0FF05A2B1F0BE4007B4F10 /* Factory */ = {
+			isa = PBXGroup;
+			children = (
+				DD0FF05B2B1F0C14007B4F10 /* FactoryView.swift */,
+			);
+			path = Factory;
+			sourceTree = "<group>";
+		};
 		DD2F49952B18769900E8C7FE = {
 			isa = PBXGroup;
 			children = (
@@ -120,6 +130,7 @@
 		DD656D742B1986E80067E6F9 /* Learn */ = {
 			isa = PBXGroup;
 			children = (
+				DD0FF05A2B1F0BE4007B4F10 /* Factory */,
 				DD656D8C2B19E78D0067E6F9 /* DI */,
 				DD656D792B199AC30067E6F9 /* CombineData */,
 			);
@@ -281,6 +292,7 @@
 				DD656D762B1986FA0067E6F9 /* CombineSearch.swift in Sources */,
 				DD656D8E2B19E7AA0067E6F9 /* DIHomeView.swift in Sources */,
 				DD2F49A22B18769900E8C7FE /* IOS17_SwiftApp.swift in Sources */,
+				DD0FF05C2B1F0C14007B4F10 /* FactoryView.swift in Sources */,
 				DD656D822B19C66A0067E6F9 /* ParallaxCarouselScrollViewModel.swift in Sources */,
 				DD656D7F2B19BA440067E6F9 /* TripCard.swift in Sources */,
 				DD6AFAF02B1D6AF5005E94F8 /* DarkLightModeView.swift in Sources */,
