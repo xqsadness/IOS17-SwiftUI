@@ -22,7 +22,7 @@ struct ContentView: View {
                 .tint(.text2)
             }
             
-            DarkLightModeView(show: $show)
+            DataFlowView()
         }
         .preferredColorScheme(getColorScheme())
     }

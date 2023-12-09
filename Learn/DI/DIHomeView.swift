@@ -34,7 +34,6 @@ struct DIHomeView: View {
     }
 }
 
-
 #Preview {
     DIHomeView()
 }

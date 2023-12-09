@@ -16,6 +16,8 @@
 		DD2F49B12B1876C300E8C7FE /* ScrollTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2F49B02B1876C300E8C7FE /* ScrollTransition.swift */; };
 		DD2F49B32B1876DF00E8C7FE /* Animation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2F49B22B1876DF00E8C7FE /* Animation.swift */; };
 		DD2F49B52B18773E00E8C7FE /* AnimatedSFSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2F49B42B18773E00E8C7FE /* AnimatedSFSymbol.swift */; };
+		DD3AEB022B22B54600AFAD25 /* DataFlowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD3AEB012B22B54600AFAD25 /* DataFlowView.swift */; };
+		DD3AEB042B22C17200AFAD25 /* PalettePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD3AEB032B22C17200AFAD25 /* PalettePickerView.swift */; };
 		DD656D762B1986FA0067E6F9 /* CombineSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD656D752B1986FA0067E6F9 /* CombineSearch.swift */; };
 		DD656D782B198ED80067E6F9 /* NetworkingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD656D772B198ED80067E6F9 /* NetworkingManager.swift */; };
 		DD656D7C2B19BA070067E6F9 /* ParallaxCarouselScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD656D7B2B19BA070067E6F9 /* ParallaxCarouselScrollView.swift */; };
@@ -25,8 +27,8 @@
 		DD656D872B19D9680067E6F9 /* CoinModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD656D862B19D9680067E6F9 /* CoinModel.swift */; };
 		DD656D8A2B19D9900067E6F9 /* CoinDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD656D892B19D9900067E6F9 /* CoinDataService.swift */; };
 		DD656D8E2B19E7AA0067E6F9 /* DIHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD656D8D2B19E7AA0067E6F9 /* DIHomeView.swift */; };
-		DD656D902B19E8070067E6F9 /* DLView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD656D8F2B19E8070067E6F9 /* DLView.swift */; };
-		DD656D922B19E8E10067E6F9 /* DLNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD656D912B19E8E10067E6F9 /* DLNetworkManager.swift */; };
+		DD656D902B19E8070067E6F9 /* DIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD656D8F2B19E8070067E6F9 /* DIView.swift */; };
+		DD656D922B19E8E10067E6F9 /* DINetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD656D912B19E8E10067E6F9 /* DINetworkManager.swift */; };
 		DD6AFAF02B1D6AF5005E94F8 /* DarkLightModeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD6AFAEF2B1D6AF5005E94F8 /* DarkLightModeView.swift */; };
 /* End PBXBuildFile section */
 
@@ -41,6 +43,8 @@
 		DD2F49B02B1876C300E8C7FE /* ScrollTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollTransition.swift; sourceTree = "<group>"; };
 		DD2F49B22B1876DF00E8C7FE /* Animation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animation.swift; sourceTree = "<group>"; };
 		DD2F49B42B18773E00E8C7FE /* AnimatedSFSymbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedSFSymbol.swift; sourceTree = "<group>"; };
+		DD3AEB012B22B54600AFAD25 /* DataFlowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataFlowView.swift; sourceTree = "<group>"; };
+		DD3AEB032B22C17200AFAD25 /* PalettePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PalettePickerView.swift; sourceTree = "<group>"; };
 		DD656D752B1986FA0067E6F9 /* CombineSearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombineSearch.swift; sourceTree = "<group>"; };
 		DD656D772B198ED80067E6F9 /* NetworkingManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkingManager.swift; sourceTree = "<group>"; };
 		DD656D7B2B19BA070067E6F9 /* ParallaxCarouselScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParallaxCarouselScrollView.swift; sourceTree = "<group>"; };
@@ -49,8 +53,8 @@
 		DD656D862B19D9680067E6F9 /* CoinModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinModel.swift; sourceTree = "<group>"; };
 		DD656D892B19D9900067E6F9 /* CoinDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinDataService.swift; sourceTree = "<group>"; };
 		DD656D8D2B19E7AA0067E6F9 /* DIHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DIHomeView.swift; sourceTree = "<group>"; };
-		DD656D8F2B19E8070067E6F9 /* DLView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DLView.swift; sourceTree = "<group>"; };
-		DD656D912B19E8E10067E6F9 /* DLNetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DLNetworkManager.swift; sourceTree = "<group>"; };
+		DD656D8F2B19E8070067E6F9 /* DIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DIView.swift; sourceTree = "<group>"; };
+		DD656D912B19E8E10067E6F9 /* DINetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DINetworkManager.swift; sourceTree = "<group>"; };
 		DD6AFAEF2B1D6AF5005E94F8 /* DarkLightModeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DarkLightModeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -123,13 +127,23 @@
 				DD2F49B02B1876C300E8C7FE /* ScrollTransition.swift */,
 				DD2F49B22B1876DF00E8C7FE /* Animation.swift */,
 				DD2F49B42B18773E00E8C7FE /* AnimatedSFSymbol.swift */,
+				DD3AEB032B22C17200AFAD25 /* PalettePickerView.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		DD3AEB002B22B4D800AFAD25 /* SwiftDataFlow */ = {
+			isa = PBXGroup;
+			children = (
+				DD3AEB012B22B54600AFAD25 /* DataFlowView.swift */,
+			);
+			path = SwiftDataFlow;
 			sourceTree = "<group>";
 		};
 		DD656D742B1986E80067E6F9 /* Learn */ = {
 			isa = PBXGroup;
 			children = (
+				DD3AEB002B22B4D800AFAD25 /* SwiftDataFlow */,
 				DD0FF05A2B1F0BE4007B4F10 /* Factory */,
 				DD656D8C2B19E78D0067E6F9 /* DI */,
 				DD656D792B199AC30067E6F9 /* CombineData */,
@@ -190,9 +204,9 @@
 		DD656D8C2B19E78D0067E6F9 /* DI */ = {
 			isa = PBXGroup;
 			children = (
-				DD656D912B19E8E10067E6F9 /* DLNetworkManager.swift */,
+				DD656D912B19E8E10067E6F9 /* DINetworkManager.swift */,
 				DD656D8D2B19E7AA0067E6F9 /* DIHomeView.swift */,
-				DD656D8F2B19E8070067E6F9 /* DLView.swift */,
+				DD656D8F2B19E8070067E6F9 /* DIView.swift */,
 			);
 			path = DI;
 			sourceTree = "<group>";
@@ -288,7 +302,8 @@
 				DD0FF0592B1ECCC9007B4F10 /* Color.swift in Sources */,
 				DD2F49B32B1876DF00E8C7FE /* Animation.swift in Sources */,
 				DD656D872B19D9680067E6F9 /* CoinModel.swift in Sources */,
-				DD656D902B19E8070067E6F9 /* DLView.swift in Sources */,
+				DD3AEB022B22B54600AFAD25 /* DataFlowView.swift in Sources */,
+				DD656D902B19E8070067E6F9 /* DIView.swift in Sources */,
 				DD656D762B1986FA0067E6F9 /* CombineSearch.swift in Sources */,
 				DD656D8E2B19E7AA0067E6F9 /* DIHomeView.swift in Sources */,
 				DD2F49A22B18769900E8C7FE /* IOS17_SwiftApp.swift in Sources */,
@@ -296,8 +311,9 @@
 				DD656D822B19C66A0067E6F9 /* ParallaxCarouselScrollViewModel.swift in Sources */,
 				DD656D7F2B19BA440067E6F9 /* TripCard.swift in Sources */,
 				DD6AFAF02B1D6AF5005E94F8 /* DarkLightModeView.swift in Sources */,
-				DD656D922B19E8E10067E6F9 /* DLNetworkManager.swift in Sources */,
+				DD656D922B19E8E10067E6F9 /* DINetworkManager.swift in Sources */,
 				DD2F49B52B18773E00E8C7FE /* AnimatedSFSymbol.swift in Sources */,
+				DD3AEB042B22C17200AFAD25 /* PalettePickerView.swift in Sources */,
 				DD656D782B198ED80067E6F9 /* NetworkingManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
