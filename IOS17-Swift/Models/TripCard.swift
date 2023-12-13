@@ -2,7 +2,7 @@
 //  TripCard.swift
 //  IOS17-Swift
 //
-//  Created by darktech4 on 01/12/2023.
+//  Created by xqsadness on 01/12/2023.
 //
 
 import SwiftUI

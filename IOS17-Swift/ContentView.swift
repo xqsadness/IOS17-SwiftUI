@@ -22,7 +22,6 @@ struct ContentView: View {
                 .tint(.text2)
             }
             
-            DataFlowView()
         }
         .preferredColorScheme(getColorScheme())
     }

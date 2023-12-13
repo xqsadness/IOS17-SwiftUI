@@ -2,14 +2,14 @@
 //  Network.swift
 //  L-Swift
 //
-//  Created by darktech4 on 28/11/2023.
+//  Created by xqsadness on 28/11/2023.
 //
 
 import SwiftUI
 import Combine
 
 // for DI
-class DLNetworkingManager: ObservableObject, NetworkingManagerProtocol{
+class NetworkingManagerService: ObservableObject, NetworkingManagerProtocol{
     
     enum NetworkingError: LocalizedError{
         case badURLResponse(url: URL)
