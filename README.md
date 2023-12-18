@@ -11,3 +11,7 @@ https://github.com/xqsadness/IOS17-SwiftUI/assets/81242756/10cbfaaa-cf4c-48d2-ae
 
 https://github.com/xqsadness/IOS17-SwiftUI/assets/81242756/45ff9a1f-1ab2-4341-afee-63a83773f2fc
 
+<a href="https://github.com/xqsadness/IOS17-SwiftUI/blob/main/IOS17-Swift/Helpers/Toast.swift" > Toast View </a>
+
+https://github.com/xqsadness/IOS17-SwiftUI/assets/81242756/c93377ce-bc95-4db5-858f-e605888eb1aa
+
