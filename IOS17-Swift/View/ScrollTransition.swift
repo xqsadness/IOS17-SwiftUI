@@ -7,8 +7,6 @@
 
 import SwiftUI
 
-import SwiftUI
-
 struct ScrollTransitionsView: View {
     var body: some View {
         ScrollView(.vertical){
@@ -19,6 +17,8 @@ struct ScrollTransitionsView: View {
                         .frame(height: 145)
                         .scrollTransition(topLeading: .interactive, bottomTrailing: .interactive) { view, phase in view
                                 .opacity(1 - ( phase.value < 0 ? -phase.value : phase.value))
+                                .scaleEffect(phase.isIdentity ? 1 : 0.75)
+                                .blur(radius: phase.isIdentity ? 0 : 10)
                         }
                 }
             }

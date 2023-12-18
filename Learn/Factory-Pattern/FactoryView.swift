@@ -82,7 +82,6 @@ struct FactoryView: View {
         VStack{
             ForEach(systems, id: \.type.hashValue){ system in
                 let factory = ComputerFactory.makeComputer(system: system)
-                
                 Text(factory.aboutDevice())
             }
             

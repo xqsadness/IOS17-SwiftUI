@@ -7,19 +7,32 @@ struct ContentView: View {
     
     var body: some View {
         VStack {
-            VStack {
-                Text("Hello, world!")
-                    .foregroundStyle (.primary)
-                Button (action: {
-                    withAnimation {
-                        show.toggle()
-                    }
-                }, label: {
-                    Text("Appearance").bold().font (.title2)
-                        .frame(width: 200, height: 60)
-                        .background (.text, in: RoundedRectangle (cornerRadius: 20))
-                })
-                .tint(.text2)
+            //MARK: - DarkLightModeView
+            //            VStack {
+            //                Text("Hello, world!")
+            //                    .foregroundStyle (.primary)
+            //                Button (action: {
+            //                    withAnimation {
+            //                        show.toggle()
+            //                    }
+            //                }, label: {
+            //                    Text("Appearance").bold().font (.title2)
+            //                        .frame(width: 200, height: 60)
+            //                        .background (.text, in: RoundedRectangle (cornerRadius: 20))
+            //                })
+            //                .tint(.text2)
+            //            }
+            //            DarkLightModeView(show: $show)
+            //                .opacity(show ? 0 : 1)
+            
+            //MARK: - Toast
+            Button("Present Toast"){
+                Toast.shared.present(
+                    title: "Hello world",
+                    symbol: "globe",
+                    isUserInteractionEnabled: true,
+                    timing: .long
+                )
             }
             
         }
@@ -37,5 +50,7 @@ struct ContentView: View {
     }
 }
 #Preview {
-    ContentView()
+    RootView{
+        ContentView()
+    }
 }

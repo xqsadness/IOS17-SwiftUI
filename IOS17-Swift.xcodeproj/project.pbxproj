@@ -28,6 +28,7 @@
 		DD656D8E2B19E7AA0067E6F9 /* DIHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD656D8D2B19E7AA0067E6F9 /* DIHomeView.swift */; };
 		DD656D922B19E8E10067E6F9 /* NetworkingManagerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD656D912B19E8E10067E6F9 /* NetworkingManagerService.swift */; };
 		DD6AFAF02B1D6AF5005E94F8 /* DarkLightModeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD6AFAEF2B1D6AF5005E94F8 /* DarkLightModeView.swift */; };
+		DDB148AE2B2FE08700080396 /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDB148AD2B2FE08700080396 /* Toast.swift */; };
 		DDC7284A2B299FB800B068E6 /* ProtocolManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC728492B299FB800B068E6 /* ProtocolManager.swift */; };
 		DDC7284C2B29A00A00B068E6 /* NumberGeneratorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC7284B2B29A00A00B068E6 /* NumberGeneratorView.swift */; };
 		DDC7284E2B29A04600B068E6 /* NumberGeneratorService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC7284D2B29A04600B068E6 /* NumberGeneratorService.swift */; };
@@ -59,6 +60,7 @@
 		DD656D8D2B19E7AA0067E6F9 /* DIHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DIHomeView.swift; sourceTree = "<group>"; };
 		DD656D912B19E8E10067E6F9 /* NetworkingManagerService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkingManagerService.swift; sourceTree = "<group>"; };
 		DD6AFAEF2B1D6AF5005E94F8 /* DarkLightModeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DarkLightModeView.swift; sourceTree = "<group>"; };
+		DDB148AD2B2FE08700080396 /* Toast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Toast.swift; sourceTree = "<group>"; };
 		DDC728492B299FB800B068E6 /* ProtocolManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtocolManager.swift; sourceTree = "<group>"; };
 		DDC7284B2B29A00A00B068E6 /* NumberGeneratorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberGeneratorView.swift; sourceTree = "<group>"; };
 		DDC7284D2B29A04600B068E6 /* NumberGeneratorService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberGeneratorService.swift; sourceTree = "<group>"; };
@@ -80,12 +82,12 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		DD0FF05A2B1F0BE4007B4F10 /* Factory */ = {
+		DD0FF05A2B1F0BE4007B4F10 /* Factory-Pattern */ = {
 			isa = PBXGroup;
 			children = (
 				DD0FF05B2B1F0C14007B4F10 /* FactoryView.swift */,
 			);
-			path = Factory;
+			path = "Factory-Pattern";
 			sourceTree = "<group>";
 		};
 		DD2F49952B18769900E8C7FE = {
@@ -108,6 +110,7 @@
 		DD2F49A02B18769900E8C7FE /* IOS17-Swift */ = {
 			isa = PBXGroup;
 			children = (
+				DDB148AC2B2FE03D00080396 /* Helpers */,
 				DD656D8B2B19D9E80067E6F9 /* Utilities */,
 				DD656D882B19D97D0067E6F9 /* Services */,
 				DD656D802B19C6560067E6F9 /* ViewModels */,
@@ -145,8 +148,8 @@
 		DD656D742B1986E80067E6F9 /* Learn */ = {
 			isa = PBXGroup;
 			children = (
-				DD0FF05A2B1F0BE4007B4F10 /* Factory */,
-				DD656D8C2B19E78D0067E6F9 /* DI */,
+				DD0FF05A2B1F0BE4007B4F10 /* Factory-Pattern */,
+				DD656D8C2B19E78D0067E6F9 /* Dependency-Injection */,
 				DD656D792B199AC30067E6F9 /* CombineData */,
 			);
 			path = Learn;
@@ -202,7 +205,7 @@
 			path = Utilities;
 			sourceTree = "<group>";
 		};
-		DD656D8C2B19E78D0067E6F9 /* DI */ = {
+		DD656D8C2B19E78D0067E6F9 /* Dependency-Injection */ = {
 			isa = PBXGroup;
 			children = (
 				DD656D8D2B19E7AA0067E6F9 /* DIHomeView.swift */,
@@ -212,7 +215,7 @@
 				DDC728452B299F7000B068E6 /* Services */,
 				DDC728482B299F8E00B068E6 /* Protocol */,
 			);
-			path = DI;
+			path = "Dependency-Injection";
 			sourceTree = "<group>";
 		};
 		DD6AFAEE2B1D6AD4005E94F8 /* DarkLightMode */ = {
@@ -221,6 +224,14 @@
 				DD6AFAEF2B1D6AF5005E94F8 /* DarkLightModeView.swift */,
 			);
 			path = DarkLightMode;
+			sourceTree = "<group>";
+		};
+		DDB148AC2B2FE03D00080396 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				DDB148AD2B2FE08700080396 /* Toast.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 		DDC728452B299F7000B068E6 /* Services */ = {
@@ -355,6 +366,7 @@
 				DDC728572B29A17300B068E6 /* CoinViewModel.swift in Sources */,
 				DD656D8E2B19E7AA0067E6F9 /* DIHomeView.swift in Sources */,
 				DD2F49A22B18769900E8C7FE /* IOS17_SwiftApp.swift in Sources */,
+				DDB148AE2B2FE08700080396 /* Toast.swift in Sources */,
 				DD0FF05C2B1F0C14007B4F10 /* FactoryView.swift in Sources */,
 				DDC728502B29A05700B068E6 /* NumberGeneratorViewModel.swift in Sources */,
 				DD656D822B19C66A0067E6F9 /* ParallaxCarouselScrollViewModel.swift in Sources */,
