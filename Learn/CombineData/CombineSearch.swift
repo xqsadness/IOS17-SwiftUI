@@ -75,6 +75,11 @@ class CombineVM: ObservableObject {
                 self?.data = filteredCoins
             }
             .store(in: &cancellables)
+        
+     
+        
+        
+        
     }
 }
   

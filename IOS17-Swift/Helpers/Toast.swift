@@ -48,8 +48,10 @@ fileprivate class PassthroughWindow: UIWindow {
 class Toast {
     static let shared = Toast()
     fileprivate var toasts: [ToastItem] = []
+    var position: Position = .bottom
     
-    func present(title: String, symbol: String?, tint: Color = .primary, isUserInteractionEnabled: Bool = false, timing: ToastTime = .medium){
+    func present(title: String, symbol: String?, tint: Color = .primary, isUserInteractionEnabled: Bool = false, timing: ToastTime = .medium, position: Position){
+        self.position = position
         withAnimation(.snappy) {
             toasts.append(ToastItem(title: title, symbol: symbol, tint: tint, isUserInteractionEnabled: isUserInteractionEnabled, timing: timing))
         }
@@ -89,8 +91,8 @@ fileprivate struct ToastGroup: View {
                         .zIndex(Double(model.toasts.firstIndex(where: { $0.id == toast.id }) ?? 0))
                 }
             }
-            .padding(.bottom, safeArea.top == .zero ? 15 : 10)
-            .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .bottom)
+            .padding(model.position == .bottom ? .bottom : .top, safeArea.top == .zero ? 15 : 10)
+            .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: model.position == .bottom ? .bottom : .top)
         }
     }
     
@@ -110,6 +112,7 @@ fileprivate struct ToastGroup: View {
 fileprivate struct ToastView: View {
     var size: CGSize
     var item: ToastItem
+    var model = Toast.shared
     //View props
     @State private var delayTask: DispatchWorkItem?
     
@@ -140,10 +143,18 @@ fileprivate struct ToastView: View {
                     let endY = value.translation.height
                     let velocityY = value.velocity.height
                     
-                    if (endY + velocityY) > 100{
-                        // Removing toast
-                        removeToast()
+                    if model.position == .bottom{
+                        if (endY + velocityY) > 100{
+                            // Removing toast
+                            removeToast()
+                        }
+                    }else{
+                        if (endY + velocityY) < 100{
+                            // Removing toast
+                            removeToast()
+                        }
                     }
+                 
                 })
         )
         .onAppear{
@@ -159,7 +170,7 @@ fileprivate struct ToastView: View {
         }
         //Limiting size
         .frame(maxWidth: size.width * 0.7)
-        .transition(.offset(y: 150))
+        .transition(.offset(y: model.position == .bottom ? 150 : -150))
     }
     
     func removeToast(){
@@ -177,4 +188,9 @@ fileprivate struct ToastView: View {
     RootView{
         ContentView()
     }
+}
+
+enum Position{
+    case top
+    case bottom
 }

@@ -27,14 +27,15 @@ struct ContentView: View {
             
             //MARK: - Toast
             Button("Present Toast"){
+//                Toast.shared.position = .top
                 Toast.shared.present(
                     title: "Hello world",
                     symbol: "globe",
                     isUserInteractionEnabled: true,
-                    timing: .long
+                    timing: .long,
+                    position: .bottom
                 )
             }
-            
         }
         .preferredColorScheme(getColorScheme())
     }
