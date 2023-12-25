@@ -36,6 +36,7 @@
 		DDC728522B29A06900B068E6 /* CoinView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC728512B29A06900B068E6 /* CoinView.swift */; };
 		DDC728552B29A09000B068E6 /* CoinDIModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC728542B29A09000B068E6 /* CoinDIModel.swift */; };
 		DDC728572B29A17300B068E6 /* CoinViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC728562B29A17300B068E6 /* CoinViewModel.swift */; };
+		DDE9AA422B390F8400713B39 /* ThemeChangeSwitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE9AA412B390F8400713B39 /* ThemeChangeSwitch.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -68,6 +69,7 @@
 		DDC728512B29A06900B068E6 /* CoinView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinView.swift; sourceTree = "<group>"; };
 		DDC728542B29A09000B068E6 /* CoinDIModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinDIModel.swift; sourceTree = "<group>"; };
 		DDC728562B29A17300B068E6 /* CoinViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinViewModel.swift; sourceTree = "<group>"; };
+		DDE9AA412B390F8400713B39 /* ThemeChangeSwitch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeChangeSwitch.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,6 +137,7 @@
 		DD2F49AF2B1876B200E8C7FE /* View */ = {
 			isa = PBXGroup;
 			children = (
+				DDE9AA402B390D0C00713B39 /* DarkModeSwitch */,
 				DD6AFAEE2B1D6AD4005E94F8 /* DarkLightMode */,
 				DD656D7A2B19B9E70067E6F9 /* ParallaxCarouselScroll */,
 				DD2F49B02B1876C300E8C7FE /* ScrollTransition.swift */,
@@ -277,6 +280,14 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
+		DDE9AA402B390D0C00713B39 /* DarkModeSwitch */ = {
+			isa = PBXGroup;
+			children = (
+				DDE9AA412B390F8400713B39 /* ThemeChangeSwitch.swift */,
+			);
+			path = DarkModeSwitch;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -365,6 +376,7 @@
 				DDC728552B29A09000B068E6 /* CoinDIModel.swift in Sources */,
 				DDC728572B29A17300B068E6 /* CoinViewModel.swift in Sources */,
 				DD656D8E2B19E7AA0067E6F9 /* DIHomeView.swift in Sources */,
+				DDE9AA422B390F8400713B39 /* ThemeChangeSwitch.swift in Sources */,
 				DD2F49A22B18769900E8C7FE /* IOS17_SwiftApp.swift in Sources */,
 				DDB148AE2B2FE08700080396 /* Toast.swift in Sources */,
 				DD0FF05C2B1F0C14007B4F10 /* FactoryView.swift in Sources */,
