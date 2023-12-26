@@ -28,6 +28,7 @@
 		DD656D8E2B19E7AA0067E6F9 /* DIHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD656D8D2B19E7AA0067E6F9 /* DIHomeView.swift */; };
 		DD656D922B19E8E10067E6F9 /* NetworkingManagerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD656D912B19E8E10067E6F9 /* NetworkingManagerService.swift */; };
 		DD6AFAF02B1D6AF5005E94F8 /* DarkLightModeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD6AFAEF2B1D6AF5005E94F8 /* DarkLightModeView.swift */; };
+		DD969CD92B3A690D00400FB2 /* Adapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD969CD82B3A690D00400FB2 /* Adapter.swift */; };
 		DDB148AE2B2FE08700080396 /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDB148AD2B2FE08700080396 /* Toast.swift */; };
 		DDC7284A2B299FB800B068E6 /* ProtocolManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC728492B299FB800B068E6 /* ProtocolManager.swift */; };
 		DDC7284C2B29A00A00B068E6 /* NumberGeneratorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC7284B2B29A00A00B068E6 /* NumberGeneratorView.swift */; };
@@ -61,6 +62,7 @@
 		DD656D8D2B19E7AA0067E6F9 /* DIHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DIHomeView.swift; sourceTree = "<group>"; };
 		DD656D912B19E8E10067E6F9 /* NetworkingManagerService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkingManagerService.swift; sourceTree = "<group>"; };
 		DD6AFAEF2B1D6AF5005E94F8 /* DarkLightModeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DarkLightModeView.swift; sourceTree = "<group>"; };
+		DD969CD82B3A690D00400FB2 /* Adapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Adapter.swift; sourceTree = "<group>"; };
 		DDB148AD2B2FE08700080396 /* Toast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Toast.swift; sourceTree = "<group>"; };
 		DDC728492B299FB800B068E6 /* ProtocolManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtocolManager.swift; sourceTree = "<group>"; };
 		DDC7284B2B29A00A00B068E6 /* NumberGeneratorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberGeneratorView.swift; sourceTree = "<group>"; };
@@ -95,7 +97,7 @@
 		DD2F49952B18769900E8C7FE = {
 			isa = PBXGroup;
 			children = (
-				DD656D742B1986E80067E6F9 /* Learn */,
+				DD656D742B1986E80067E6F9 /* Patterns */,
 				DD2F49A02B18769900E8C7FE /* IOS17-Swift */,
 				DD2F499F2B18769900E8C7FE /* Products */,
 			);
@@ -148,14 +150,15 @@
 			path = View;
 			sourceTree = "<group>";
 		};
-		DD656D742B1986E80067E6F9 /* Learn */ = {
+		DD656D742B1986E80067E6F9 /* Patterns */ = {
 			isa = PBXGroup;
 			children = (
+				DD969CD72B3A68FB00400FB2 /* Adapter */,
 				DD0FF05A2B1F0BE4007B4F10 /* Factory-Pattern */,
 				DD656D8C2B19E78D0067E6F9 /* Dependency-Injection */,
 				DD656D792B199AC30067E6F9 /* CombineData */,
 			);
-			path = Learn;
+			path = Patterns;
 			sourceTree = "<group>";
 		};
 		DD656D792B199AC30067E6F9 /* CombineData */ = {
@@ -227,6 +230,14 @@
 				DD6AFAEF2B1D6AF5005E94F8 /* DarkLightModeView.swift */,
 			);
 			path = DarkLightMode;
+			sourceTree = "<group>";
+		};
+		DD969CD72B3A68FB00400FB2 /* Adapter */ = {
+			isa = PBXGroup;
+			children = (
+				DD969CD82B3A690D00400FB2 /* Adapter.swift */,
+			);
+			path = Adapter;
 			sourceTree = "<group>";
 		};
 		DDB148AC2B2FE03D00080396 /* Helpers */ = {
@@ -377,6 +388,7 @@
 				DDC728572B29A17300B068E6 /* CoinViewModel.swift in Sources */,
 				DD656D8E2B19E7AA0067E6F9 /* DIHomeView.swift in Sources */,
 				DDE9AA422B390F8400713B39 /* ThemeChangeSwitch.swift in Sources */,
+				DD969CD92B3A690D00400FB2 /* Adapter.swift in Sources */,
 				DD2F49A22B18769900E8C7FE /* IOS17_SwiftApp.swift in Sources */,
 				DDB148AE2B2FE08700080396 /* Toast.swift in Sources */,
 				DD0FF05C2B1F0C14007B4F10 /* FactoryView.swift in Sources */,
