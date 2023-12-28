@@ -37,7 +37,13 @@
 		DDC728522B29A06900B068E6 /* CoinView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC728512B29A06900B068E6 /* CoinView.swift */; };
 		DDC728552B29A09000B068E6 /* CoinDIModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC728542B29A09000B068E6 /* CoinDIModel.swift */; };
 		DDC728572B29A17300B068E6 /* CoinViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC728562B29A17300B068E6 /* CoinViewModel.swift */; };
+		DDCCC6672B3D566100535673 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDCCC6662B3D566100535673 /* Event.swift */; };
+		DDCCC6692B3D57B800535673 /* EditEventView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDCCC6682B3D57B800535673 /* EditEventView.swift */; };
 		DDE9AA422B390F8400713B39 /* ThemeChangeSwitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE9AA412B390F8400713B39 /* ThemeChangeSwitch.swift */; };
+		DDFA8A202B3D1AF2009F29E6 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDFA8A1F2B3D1AF2009F29E6 /* Person.swift */; };
+		DDFA8A232B3D1B9E009F29E6 /* FaceFactsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDFA8A222B3D1B9E009F29E6 /* FaceFactsView.swift */; };
+		DDFA8A282B3D1D13009F29E6 /* EditPersonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDFA8A272B3D1D13009F29E6 /* EditPersonView.swift */; };
+		DDFA8A2A2B3D249A009F29E6 /* PeopleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDFA8A292B3D249A009F29E6 /* PeopleView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -71,7 +77,13 @@
 		DDC728512B29A06900B068E6 /* CoinView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinView.swift; sourceTree = "<group>"; };
 		DDC728542B29A09000B068E6 /* CoinDIModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinDIModel.swift; sourceTree = "<group>"; };
 		DDC728562B29A17300B068E6 /* CoinViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinViewModel.swift; sourceTree = "<group>"; };
+		DDCCC6662B3D566100535673 /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		DDCCC6682B3D57B800535673 /* EditEventView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditEventView.swift; sourceTree = "<group>"; };
 		DDE9AA412B390F8400713B39 /* ThemeChangeSwitch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeChangeSwitch.swift; sourceTree = "<group>"; };
+		DDFA8A1F2B3D1AF2009F29E6 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		DDFA8A222B3D1B9E009F29E6 /* FaceFactsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceFactsView.swift; sourceTree = "<group>"; };
+		DDFA8A272B3D1D13009F29E6 /* EditPersonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditPersonView.swift; sourceTree = "<group>"; };
+		DDFA8A292B3D249A009F29E6 /* PeopleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -153,6 +165,7 @@
 		DD656D742B1986E80067E6F9 /* Patterns */ = {
 			isa = PBXGroup;
 			children = (
+				DDFA8A1D2B3D1ADE009F29E6 /* Swift-Data */,
 				DD969CD72B3A68FB00400FB2 /* Adapter */,
 				DD0FF05A2B1F0BE4007B4F10 /* Factory-Pattern */,
 				DD656D8C2B19E78D0067E6F9 /* Dependency-Injection */,
@@ -299,6 +312,35 @@
 			path = DarkModeSwitch;
 			sourceTree = "<group>";
 		};
+		DDFA8A1D2B3D1ADE009F29E6 /* Swift-Data */ = {
+			isa = PBXGroup;
+			children = (
+				DDFA8A1E2B3D1AE9009F29E6 /* Model */,
+				DDFA8A212B3D1B8A009F29E6 /* Views */,
+			);
+			path = "Swift-Data";
+			sourceTree = "<group>";
+		};
+		DDFA8A1E2B3D1AE9009F29E6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DDFA8A1F2B3D1AF2009F29E6 /* Person.swift */,
+				DDCCC6662B3D566100535673 /* Event.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DDFA8A212B3D1B8A009F29E6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DDFA8A222B3D1B9E009F29E6 /* FaceFactsView.swift */,
+				DDFA8A272B3D1D13009F29E6 /* EditPersonView.swift */,
+				DDFA8A292B3D249A009F29E6 /* PeopleView.swift */,
+				DDCCC6682B3D57B800535673 /* EditEventView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -382,8 +424,12 @@
 				DD2F49B12B1876C300E8C7FE /* ScrollTransition.swift in Sources */,
 				DD0FF0592B1ECCC9007B4F10 /* Color.swift in Sources */,
 				DD2F49B32B1876DF00E8C7FE /* Animation.swift in Sources */,
+				DDFA8A282B3D1D13009F29E6 /* EditPersonView.swift in Sources */,
+				DDCCC6672B3D566100535673 /* Event.swift in Sources */,
 				DD656D872B19D9680067E6F9 /* CoinModel.swift in Sources */,
 				DD656D762B1986FA0067E6F9 /* CombineSearch.swift in Sources */,
+				DDFA8A202B3D1AF2009F29E6 /* Person.swift in Sources */,
+				DDCCC6692B3D57B800535673 /* EditEventView.swift in Sources */,
 				DDC728552B29A09000B068E6 /* CoinDIModel.swift in Sources */,
 				DDC728572B29A17300B068E6 /* CoinViewModel.swift in Sources */,
 				DD656D8E2B19E7AA0067E6F9 /* DIHomeView.swift in Sources */,
@@ -395,11 +441,13 @@
 				DDC728502B29A05700B068E6 /* NumberGeneratorViewModel.swift in Sources */,
 				DD656D822B19C66A0067E6F9 /* ParallaxCarouselScrollViewModel.swift in Sources */,
 				DD656D7F2B19BA440067E6F9 /* TripCard.swift in Sources */,
+				DDFA8A232B3D1B9E009F29E6 /* FaceFactsView.swift in Sources */,
 				DD6AFAF02B1D6AF5005E94F8 /* DarkLightModeView.swift in Sources */,
 				DD656D922B19E8E10067E6F9 /* NetworkingManagerService.swift in Sources */,
 				DD2F49B52B18773E00E8C7FE /* AnimatedSFSymbol.swift in Sources */,
 				DDC7284E2B29A04600B068E6 /* NumberGeneratorService.swift in Sources */,
 				DD3AEB042B22C17200AFAD25 /* PalettePickerView.swift in Sources */,
+				DDFA8A2A2B3D249A009F29E6 /* PeopleView.swift in Sources */,
 				DDC728522B29A06900B068E6 /* CoinView.swift in Sources */,
 				DD656D782B198ED80067E6F9 /* NetworkingManager.swift in Sources */,
 				DDC7284A2B299FB800B068E6 /* ProtocolManager.swift in Sources */,
