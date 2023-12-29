@@ -19,3 +19,7 @@ https://github.com/xqsadness/IOS17-SwiftUI/assets/81242756/c93377ce-bc95-4db5-85
 
 https://github.com/xqsadness/IOS17-SwiftUI/assets/81242756/4960329d-59bf-4a23-8321-1ff1688eb246
 
+<a href="https://github.com/xqsadness/IOS17-SwiftUI/tree/main/IOS17-Swift/View/ParallaxScrollEffect" > Parallax Scroll Effect </a>
+
+https://github.com/xqsadness/IOS17-SwiftUI/assets/81242756/229bf873-0ec9-41a1-bfe0-b02d902ee8d7
+
