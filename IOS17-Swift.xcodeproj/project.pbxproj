@@ -28,6 +28,7 @@
 		DD656D8E2B19E7AA0067E6F9 /* DIHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD656D8D2B19E7AA0067E6F9 /* DIHomeView.swift */; };
 		DD656D922B19E8E10067E6F9 /* NetworkingManagerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD656D912B19E8E10067E6F9 /* NetworkingManagerService.swift */; };
 		DD6AFAF02B1D6AF5005E94F8 /* DarkLightModeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD6AFAEF2B1D6AF5005E94F8 /* DarkLightModeView.swift */; };
+		DD91BCE62B3E677C00E68492 /* ParallaxScrollEffectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD91BCE52B3E677C00E68492 /* ParallaxScrollEffectView.swift */; };
 		DD969CD92B3A690D00400FB2 /* Adapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD969CD82B3A690D00400FB2 /* Adapter.swift */; };
 		DDB148AE2B2FE08700080396 /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDB148AD2B2FE08700080396 /* Toast.swift */; };
 		DDC7284A2B299FB800B068E6 /* ProtocolManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC728492B299FB800B068E6 /* ProtocolManager.swift */; };
@@ -68,6 +69,7 @@
 		DD656D8D2B19E7AA0067E6F9 /* DIHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DIHomeView.swift; sourceTree = "<group>"; };
 		DD656D912B19E8E10067E6F9 /* NetworkingManagerService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkingManagerService.swift; sourceTree = "<group>"; };
 		DD6AFAEF2B1D6AF5005E94F8 /* DarkLightModeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DarkLightModeView.swift; sourceTree = "<group>"; };
+		DD91BCE52B3E677C00E68492 /* ParallaxScrollEffectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParallaxScrollEffectView.swift; sourceTree = "<group>"; };
 		DD969CD82B3A690D00400FB2 /* Adapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Adapter.swift; sourceTree = "<group>"; };
 		DDB148AD2B2FE08700080396 /* Toast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Toast.swift; sourceTree = "<group>"; };
 		DDC728492B299FB800B068E6 /* ProtocolManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtocolManager.swift; sourceTree = "<group>"; };
@@ -151,6 +153,7 @@
 		DD2F49AF2B1876B200E8C7FE /* View */ = {
 			isa = PBXGroup;
 			children = (
+				DD91BCE42B3E676A00E68492 /* ParallaxScrollEffect */,
 				DDE9AA402B390D0C00713B39 /* DarkModeSwitch */,
 				DD6AFAEE2B1D6AD4005E94F8 /* DarkLightMode */,
 				DD656D7A2B19B9E70067E6F9 /* ParallaxCarouselScroll */,
@@ -243,6 +246,14 @@
 				DD6AFAEF2B1D6AF5005E94F8 /* DarkLightModeView.swift */,
 			);
 			path = DarkLightMode;
+			sourceTree = "<group>";
+		};
+		DD91BCE42B3E676A00E68492 /* ParallaxScrollEffect */ = {
+			isa = PBXGroup;
+			children = (
+				DD91BCE52B3E677C00E68492 /* ParallaxScrollEffectView.swift */,
+			);
+			path = ParallaxScrollEffect;
 			sourceTree = "<group>";
 		};
 		DD969CD72B3A68FB00400FB2 /* Adapter */ = {
@@ -420,6 +431,7 @@
 				DD656D8A2B19D9900067E6F9 /* CoinDataService.swift in Sources */,
 				DD656D7C2B19BA070067E6F9 /* ParallaxCarouselScrollView.swift in Sources */,
 				DDC7284C2B29A00A00B068E6 /* NumberGeneratorView.swift in Sources */,
+				DD91BCE62B3E677C00E68492 /* ParallaxScrollEffectView.swift in Sources */,
 				DD2F49A42B18769900E8C7FE /* ContentView.swift in Sources */,
 				DD2F49B12B1876C300E8C7FE /* ScrollTransition.swift in Sources */,
 				DD0FF0592B1ECCC9007B4F10 /* Color.swift in Sources */,
