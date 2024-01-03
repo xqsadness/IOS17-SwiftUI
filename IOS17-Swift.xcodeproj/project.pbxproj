@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DD0887292B44F2E00054C453 /* ScrollProgressTrackerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD0887282B44F2E00054C453 /* ScrollProgressTrackerView.swift */; };
 		DD0FF0592B1ECCC9007B4F10 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD0FF0582B1ECCC9007B4F10 /* Color.swift */; };
 		DD0FF05C2B1F0C14007B4F10 /* FactoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD0FF05B2B1F0C14007B4F10 /* FactoryView.swift */; };
 		DD2F49A22B18769900E8C7FE /* IOS17_SwiftApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2F49A12B18769900E8C7FE /* IOS17_SwiftApp.swift */; };
@@ -48,6 +49,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DD0887282B44F2E00054C453 /* ScrollProgressTrackerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollProgressTrackerView.swift; sourceTree = "<group>"; };
 		DD0FF0582B1ECCC9007B4F10 /* Color.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 		DD0FF05B2B1F0C14007B4F10 /* FactoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactoryView.swift; sourceTree = "<group>"; };
 		DD2F499E2B18769900E8C7FE /* IOS17-Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "IOS17-Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -100,6 +102,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DD0887272B44F2320054C453 /* ScrollProgressTracker */ = {
+			isa = PBXGroup;
+			children = (
+				DD0887282B44F2E00054C453 /* ScrollProgressTrackerView.swift */,
+			);
+			path = ScrollProgressTracker;
+			sourceTree = "<group>";
+		};
 		DD0FF05A2B1F0BE4007B4F10 /* Factory-Pattern */ = {
 			isa = PBXGroup;
 			children = (
@@ -153,6 +163,7 @@
 		DD2F49AF2B1876B200E8C7FE /* View */ = {
 			isa = PBXGroup;
 			children = (
+				DD0887272B44F2320054C453 /* ScrollProgressTracker */,
 				DD91BCE42B3E676A00E68492 /* ParallaxScrollEffect */,
 				DDE9AA402B390D0C00713B39 /* DarkModeSwitch */,
 				DD6AFAEE2B1D6AD4005E94F8 /* DarkLightMode */,
@@ -457,6 +468,7 @@
 				DD6AFAF02B1D6AF5005E94F8 /* DarkLightModeView.swift in Sources */,
 				DD656D922B19E8E10067E6F9 /* NetworkingManagerService.swift in Sources */,
 				DD2F49B52B18773E00E8C7FE /* AnimatedSFSymbol.swift in Sources */,
+				DD0887292B44F2E00054C453 /* ScrollProgressTrackerView.swift in Sources */,
 				DDC7284E2B29A04600B068E6 /* NumberGeneratorService.swift in Sources */,
 				DD3AEB042B22C17200AFAD25 /* PalettePickerView.swift in Sources */,
 				DDFA8A2A2B3D249A009F29E6 /* PeopleView.swift in Sources */,
