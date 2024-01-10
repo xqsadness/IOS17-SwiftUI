@@ -27,3 +27,8 @@ https://github.com/xqsadness/IOS17-SwiftUI/assets/81242756/229bf873-0ec9-41a1-bf
 
 https://github.com/xqsadness/IOS17-SwiftUI/assets/81242756/07a43562-7c86-4e4b-8df0-d53773c4437d 
 
+<a href="https://github.com/xqsadness/IOS17-SwiftUI/blob/main/IOS17-Swift/View/ImageParalax/ImageParalaxView.swift" > Image Parallax </a>
+
+https://github.com/xqsadness/IOS17-SwiftUI/assets/81242756/74c62ffb-4f57-4d08-a88c-f94ba05e3a2a
+
+
