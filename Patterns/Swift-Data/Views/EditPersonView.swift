@@ -36,14 +36,31 @@ struct EditPersonView: View {
                 }
             }
             
-            Section{
-                TextField("Name", text: $person.name)
+            Section("Name and email"){
+                TextField("Name", text: $person.fullName)
                     .textContentType(.name)
                     .foregroundStyle(.text)
                 
                 TextField("Email address", text: $person.emailAddress)
                     .textContentType(.emailAddress)
                     .textInputAutocapitalization(.never)
+            }
+            
+            Section("Jobs"){
+                if !person.jobs.isEmpty{
+                    ForEach(person.jobs){ job in
+                        Text(job.name)
+                            .frame(maxWidth: .infinity, alignment: .leading)
+                            .contentShape(Rectangle())
+                            .onTapGesture {
+                                navigationPath.append(job)
+                            }
+                    }
+                }
+                
+                Button("Add a new job") {
+                    addJob()
+                }
             }
             
             Section("Where did you meet them?"){
@@ -75,6 +92,9 @@ struct EditPersonView: View {
         .navigationDestination(for: Event.self) { evt in
             EditEventView(event: evt)
         }
+        .navigationDestination(for: Job.self) { job in
+            EditJobView(job: job)
+        }
         .onChange(of: selectedItem, loadPhoto)
     }
     
@@ -82,6 +102,13 @@ struct EditPersonView: View {
         let evt = Event(name: "", location: "")
         modelContext.insert(evt)
         navigationPath.append(evt)
+    }
+    
+    func addJob(){
+        let job = Job(name: "", jobDescription: "", salary: "", people: [])
+        
+        person.jobs.append(job)
+        navigationPath.append(job)
     }
     
     func loadPhoto(){

@@ -17,7 +17,7 @@ struct PeopleView: View {
             if searchString.isEmpty{
                 true
             }else{
-                person.name.localizedStandardContains(searchString)
+                person.fullName.localizedStandardContains(searchString)
                 ||  person.emailAddress.localizedStandardContains(searchString)
                 || person.details.localizedStandardContains(searchString)
             }
@@ -28,7 +28,7 @@ struct PeopleView: View {
         List{
             ForEach(people){ person in
                 NavigationLink(value: person){
-                    Text(person.name)
+                    Text(person.fullName)
                 }
             }
             .onDelete(perform: deletePeople)

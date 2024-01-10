@@ -28,6 +28,7 @@
 		DD656D8A2B19D9900067E6F9 /* CoinDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD656D892B19D9900067E6F9 /* CoinDataService.swift */; };
 		DD656D8E2B19E7AA0067E6F9 /* DIHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD656D8D2B19E7AA0067E6F9 /* DIHomeView.swift */; };
 		DD656D922B19E8E10067E6F9 /* NetworkingManagerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD656D912B19E8E10067E6F9 /* NetworkingManagerService.swift */; };
+		DD68AA3B2B4E94A900A1CF95 /* ImageParalaxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD68AA3A2B4E94A900A1CF95 /* ImageParalaxView.swift */; };
 		DD6AFAF02B1D6AF5005E94F8 /* DarkLightModeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD6AFAEF2B1D6AF5005E94F8 /* DarkLightModeView.swift */; };
 		DD91BCE62B3E677C00E68492 /* ParallaxScrollEffectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD91BCE52B3E677C00E68492 /* ParallaxScrollEffectView.swift */; };
 		DD969CD92B3A690D00400FB2 /* Adapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD969CD82B3A690D00400FB2 /* Adapter.swift */; };
@@ -39,6 +40,7 @@
 		DDC728522B29A06900B068E6 /* CoinView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC728512B29A06900B068E6 /* CoinView.swift */; };
 		DDC728552B29A09000B068E6 /* CoinDIModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC728542B29A09000B068E6 /* CoinDIModel.swift */; };
 		DDC728572B29A17300B068E6 /* CoinViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC728562B29A17300B068E6 /* CoinViewModel.swift */; };
+		DDC85E132B465A6C00267615 /* EditJobView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC85E122B465A6C00267615 /* EditJobView.swift */; };
 		DDCCC6672B3D566100535673 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDCCC6662B3D566100535673 /* Event.swift */; };
 		DDCCC6692B3D57B800535673 /* EditEventView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDCCC6682B3D57B800535673 /* EditEventView.swift */; };
 		DDE9AA422B390F8400713B39 /* ThemeChangeSwitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE9AA412B390F8400713B39 /* ThemeChangeSwitch.swift */; };
@@ -70,6 +72,7 @@
 		DD656D892B19D9900067E6F9 /* CoinDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinDataService.swift; sourceTree = "<group>"; };
 		DD656D8D2B19E7AA0067E6F9 /* DIHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DIHomeView.swift; sourceTree = "<group>"; };
 		DD656D912B19E8E10067E6F9 /* NetworkingManagerService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkingManagerService.swift; sourceTree = "<group>"; };
+		DD68AA3A2B4E94A900A1CF95 /* ImageParalaxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageParalaxView.swift; sourceTree = "<group>"; };
 		DD6AFAEF2B1D6AF5005E94F8 /* DarkLightModeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DarkLightModeView.swift; sourceTree = "<group>"; };
 		DD91BCE52B3E677C00E68492 /* ParallaxScrollEffectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParallaxScrollEffectView.swift; sourceTree = "<group>"; };
 		DD969CD82B3A690D00400FB2 /* Adapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Adapter.swift; sourceTree = "<group>"; };
@@ -81,6 +84,7 @@
 		DDC728512B29A06900B068E6 /* CoinView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinView.swift; sourceTree = "<group>"; };
 		DDC728542B29A09000B068E6 /* CoinDIModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinDIModel.swift; sourceTree = "<group>"; };
 		DDC728562B29A17300B068E6 /* CoinViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinViewModel.swift; sourceTree = "<group>"; };
+		DDC85E122B465A6C00267615 /* EditJobView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditJobView.swift; sourceTree = "<group>"; };
 		DDCCC6662B3D566100535673 /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
 		DDCCC6682B3D57B800535673 /* EditEventView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditEventView.swift; sourceTree = "<group>"; };
 		DDE9AA412B390F8400713B39 /* ThemeChangeSwitch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeChangeSwitch.swift; sourceTree = "<group>"; };
@@ -163,6 +167,7 @@
 		DD2F49AF2B1876B200E8C7FE /* View */ = {
 			isa = PBXGroup;
 			children = (
+				DD68AA392B4E948900A1CF95 /* ImageParalax */,
 				DD0887272B44F2320054C453 /* ScrollProgressTracker */,
 				DD91BCE42B3E676A00E68492 /* ParallaxScrollEffect */,
 				DDE9AA402B390D0C00713B39 /* DarkModeSwitch */,
@@ -249,6 +254,14 @@
 				DDC728482B299F8E00B068E6 /* Protocol */,
 			);
 			path = "Dependency-Injection";
+			sourceTree = "<group>";
+		};
+		DD68AA392B4E948900A1CF95 /* ImageParalax */ = {
+			isa = PBXGroup;
+			children = (
+				DD68AA3A2B4E94A900A1CF95 /* ImageParalaxView.swift */,
+			);
+			path = ImageParalax;
 			sourceTree = "<group>";
 		};
 		DD6AFAEE2B1D6AD4005E94F8 /* DarkLightMode */ = {
@@ -359,6 +372,7 @@
 				DDFA8A272B3D1D13009F29E6 /* EditPersonView.swift */,
 				DDFA8A292B3D249A009F29E6 /* PeopleView.swift */,
 				DDCCC6682B3D57B800535673 /* EditEventView.swift */,
+				DDC85E122B465A6C00267615 /* EditJobView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -447,7 +461,9 @@
 				DD2F49B12B1876C300E8C7FE /* ScrollTransition.swift in Sources */,
 				DD0FF0592B1ECCC9007B4F10 /* Color.swift in Sources */,
 				DD2F49B32B1876DF00E8C7FE /* Animation.swift in Sources */,
+				DD68AA3B2B4E94A900A1CF95 /* ImageParalaxView.swift in Sources */,
 				DDFA8A282B3D1D13009F29E6 /* EditPersonView.swift in Sources */,
+				DDC85E132B465A6C00267615 /* EditJobView.swift in Sources */,
 				DDCCC6672B3D566100535673 /* Event.swift in Sources */,
 				DD656D872B19D9680067E6F9 /* CoinModel.swift in Sources */,
 				DD656D762B1986FA0067E6F9 /* CombineSearch.swift in Sources */,

@@ -13,7 +13,7 @@ struct FaceFactsView: View {
     @Environment(\.modelContext) var modelContext
     @State private var path = NavigationPath()
     
-    @State private var sortOrder = [SortDescriptor(\Person.name)]
+    @State private var sortOrder = [SortDescriptor(\Person.fullName)]
     @State private var searchText = ""
     
     var body: some View {
@@ -27,10 +27,10 @@ struct FaceFactsView: View {
                     Menu("Sort", systemImage: "arrow.up.arrow.down"){
                         Picker("Sort", selection: $sortOrder){
                             Text("Name (A-Z)")
-                                .tag([SortDescriptor(\Person.name)])
+                                .tag([SortDescriptor(\Person.fullName)])
                             
                             Text("Name (Z-A)")
-                                .tag([SortDescriptor(\Person.name, order: .reverse)])
+                                .tag([SortDescriptor(\Person.fullName, order: .reverse)])
                         }
                     }
                     
@@ -43,7 +43,7 @@ struct FaceFactsView: View {
     }
     
     func addPerson(){
-        let person = Person(name: "", emailAddress: "", details: "")
+        let person = Person(name: "", emailAddress: "", details: "", jobs: [])
         
         modelContext.insert(person)
         path.append(person)
