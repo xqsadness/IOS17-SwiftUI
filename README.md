@@ -31,4 +31,7 @@ https://github.com/xqsadness/IOS17-SwiftUI/assets/81242756/07a43562-7c86-4e4b-8d
 
 https://github.com/xqsadness/IOS17-SwiftUI/assets/81242756/74c62ffb-4f57-4d08-a88c-f94ba05e3a2a
 
+<a href="https://github.com/xqsadness/IOS17-SwiftUI/tree/main/IOS17-Swift/View/CoverFlow" > Cover Flow </a>
+
+https://github.com/xqsadness/IOS17-SwiftUI/assets/81242756/6e9c5d12-45a7-4d28-bf34-c1cbd5a1e73c
 
