@@ -18,6 +18,8 @@
 		DD2F49B32B1876DF00E8C7FE /* Animation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2F49B22B1876DF00E8C7FE /* Animation.swift */; };
 		DD2F49B52B18773E00E8C7FE /* AnimatedSFSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2F49B42B18773E00E8C7FE /* AnimatedSFSymbol.swift */; };
 		DD3AEB042B22C17200AFAD25 /* PalettePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD3AEB032B22C17200AFAD25 /* PalettePickerView.swift */; };
+		DD3B6A942B58B98800E78429 /* CoverFlowShowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD3B6A932B58B98800E78429 /* CoverFlowShowView.swift */; };
+		DD3B6A962B58B9C800E78429 /* CoverFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD3B6A952B58B9C800E78429 /* CoverFlow.swift */; };
 		DD656D762B1986FA0067E6F9 /* CombineSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD656D752B1986FA0067E6F9 /* CombineSearch.swift */; };
 		DD656D782B198ED80067E6F9 /* NetworkingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD656D772B198ED80067E6F9 /* NetworkingManager.swift */; };
 		DD656D7C2B19BA070067E6F9 /* ParallaxCarouselScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD656D7B2B19BA070067E6F9 /* ParallaxCarouselScrollView.swift */; };
@@ -63,6 +65,8 @@
 		DD2F49B22B1876DF00E8C7FE /* Animation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animation.swift; sourceTree = "<group>"; };
 		DD2F49B42B18773E00E8C7FE /* AnimatedSFSymbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedSFSymbol.swift; sourceTree = "<group>"; };
 		DD3AEB032B22C17200AFAD25 /* PalettePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PalettePickerView.swift; sourceTree = "<group>"; };
+		DD3B6A932B58B98800E78429 /* CoverFlowShowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoverFlowShowView.swift; sourceTree = "<group>"; };
+		DD3B6A952B58B9C800E78429 /* CoverFlow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoverFlow.swift; sourceTree = "<group>"; };
 		DD656D752B1986FA0067E6F9 /* CombineSearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombineSearch.swift; sourceTree = "<group>"; };
 		DD656D772B198ED80067E6F9 /* NetworkingManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkingManager.swift; sourceTree = "<group>"; };
 		DD656D7B2B19BA070067E6F9 /* ParallaxCarouselScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParallaxCarouselScrollView.swift; sourceTree = "<group>"; };
@@ -167,6 +171,7 @@
 		DD2F49AF2B1876B200E8C7FE /* View */ = {
 			isa = PBXGroup;
 			children = (
+				DD3B6A922B58B96D00E78429 /* CoverFlow */,
 				DD68AA392B4E948900A1CF95 /* ImageParalax */,
 				DD0887272B44F2320054C453 /* ScrollProgressTracker */,
 				DD91BCE42B3E676A00E68492 /* ParallaxScrollEffect */,
@@ -179,6 +184,14 @@
 				DD3AEB032B22C17200AFAD25 /* PalettePickerView.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		DD3B6A922B58B96D00E78429 /* CoverFlow */ = {
+			isa = PBXGroup;
+			children = (
+				DD3B6A932B58B98800E78429 /* CoverFlowShowView.swift */,
+			);
+			path = CoverFlow;
 			sourceTree = "<group>";
 		};
 		DD656D742B1986E80067E6F9 /* Patterns */ = {
@@ -292,6 +305,7 @@
 			isa = PBXGroup;
 			children = (
 				DDB148AD2B2FE08700080396 /* Toast.swift */,
+				DD3B6A952B58B9C800E78429 /* CoverFlow.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -470,6 +484,7 @@
 				DDFA8A202B3D1AF2009F29E6 /* Person.swift in Sources */,
 				DDCCC6692B3D57B800535673 /* EditEventView.swift in Sources */,
 				DDC728552B29A09000B068E6 /* CoinDIModel.swift in Sources */,
+				DD3B6A942B58B98800E78429 /* CoverFlowShowView.swift in Sources */,
 				DDC728572B29A17300B068E6 /* CoinViewModel.swift in Sources */,
 				DD656D8E2B19E7AA0067E6F9 /* DIHomeView.swift in Sources */,
 				DDE9AA422B390F8400713B39 /* ThemeChangeSwitch.swift in Sources */,
@@ -485,6 +500,7 @@
 				DD656D922B19E8E10067E6F9 /* NetworkingManagerService.swift in Sources */,
 				DD2F49B52B18773E00E8C7FE /* AnimatedSFSymbol.swift in Sources */,
 				DD0887292B44F2E00054C453 /* ScrollProgressTrackerView.swift in Sources */,
+				DD3B6A962B58B9C800E78429 /* CoverFlow.swift in Sources */,
 				DDC7284E2B29A04600B068E6 /* NumberGeneratorService.swift in Sources */,
 				DD3AEB042B22C17200AFAD25 /* PalettePickerView.swift in Sources */,
 				DDFA8A2A2B3D249A009F29E6 /* PeopleView.swift in Sources */,
