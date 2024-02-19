@@ -13,7 +13,7 @@ struct IOS17_SwiftApp: App {
     var body: some Scene {
         WindowGroup {
             RootView{
-                FaceFactsView()
+                ContentView()
             }
         }
         .modelContainer(for: Person.self)
