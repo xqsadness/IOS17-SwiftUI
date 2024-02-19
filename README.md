@@ -35,3 +35,7 @@ https://github.com/xqsadness/IOS17-SwiftUI/assets/81242756/74c62ffb-4f57-4d08-a8
 
 https://github.com/xqsadness/IOS17-SwiftUI/assets/81242756/6e9c5d12-45a7-4d28-bf34-c1cbd5a1e73c
 
+<a href="https://github.com/xqsadness/IOS17-SwiftUI/tree/main/IOS17-Swift/View/StretchySlider" > Stretchy Slider </a>
+
+https://github.com/xqsadness/IOS17-SwiftUI/assets/81242756/0ddfa7a3-3df4-4e93-b0eb-a001cedd7c1d
+
