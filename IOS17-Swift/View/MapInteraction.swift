@@ -17,6 +17,9 @@ struct MapInteraction: View {
     //View props
     @State private var updatesCamera: Bool = false
     @State private var displayTitle: Bool = false
+    @State private var tfLocation: String = ""
+    @State private var searchingLocation: Bool = false
+    
     var body: some View {
         MapReader{ proxy in //ios 17
             Map(position: $camera){
@@ -40,12 +43,23 @@ struct MapInteraction: View {
                 mapSpan = ctx.region.span
             }
             .safeAreaInset(edge: .bottom){
-                HStack(spacing: 0){
-                    Toggle("Update Camera", isOn: $updatesCamera)
-                        .frame(width: 180)
-                    Spacer()
-                    Toggle("Display Title", isOn: $displayTitle)
-                        .frame(width: 180)
+                VStack{
+                    HStack{
+                        TextField("Paste the location here", text: $tfLocation)
+                            .textFieldStyle(RoundedBorderTextFieldStyle())
+                        
+                        Button("Search") {
+                            findCoordinateForAddress()
+                        }
+                    }
+                    
+                    HStack(spacing: 0){
+                        Toggle("Update Camera", isOn: $updatesCamera)
+                            .frame(width: 180)
+                        Spacer()
+                        Toggle("Display Title", isOn: $displayTitle)
+                            .frame(width: 180)
+                    }
                 }
                 .textScale(.secondary)
                 .padding(15)
@@ -66,6 +80,26 @@ struct MapInteraction: View {
                 geoDecoder.reverseGeocodeLocation (location).first?.name {
                 annotationTitle = name
             }
+        }
+    }
+    
+    func findCoordinateForAddress() {
+        searchingLocation = true
+        annotationTitle = ""
+        
+        let geoDecoder = CLGeocoder()
+        geoDecoder.geocodeAddressString(tfLocation) { placemarks, error in
+            searchingLocation = false
+            guard let placemark = placemarks?.first, let location = placemark.location else {
+                // Handle error or display message that location not found
+                return
+            }
+            
+            coordinate = location.coordinate
+            withAnimation {
+                camera = .region(MKCoordinateRegion(center: coordinate, span: mapSpan))
+            }
+            findCoordinateName()
         }
     }
 }
@@ -93,7 +127,7 @@ struct DraggblePin: View {
                 .foregroundStyle(tint.gradient)
                 .animation(.snappy, body: { content in
                     content
-                        //Scaling on active
+                    //Scaling on active
                         .scaleEffect(isActive ? 1.3 : 1, anchor: .bottom)
                 })
                 .frame(width: frame.width, height: frame.height)
