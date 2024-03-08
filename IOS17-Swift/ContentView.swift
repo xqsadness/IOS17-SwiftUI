@@ -10,7 +10,7 @@ struct ContentView: View {
     @State private var changeTheme: Bool = false
     @Environment(\.colorScheme) private var scheme
     @AppStorage("userTheme") private var userTheme: Theme = .systemDedault
-        
+    
     var body: some View {
         VStack {
             //MARK: - DarkLightModeView
@@ -32,30 +32,33 @@ struct ContentView: View {
             //                .opacity(show ? 0 : 1)
             
             //MARK: - Toast
-            Button("Present Toast"){
-                Toast.shared.present(
-                    title: "Hello world",
-                    symbol: "globe",
-                    isUserInteractionEnabled: true,
-                    timing: .long,
-                    position: .bottom
-                )
-            }
+            //            Button("Present Toast"){
+            //                Toast.shared.present(
+            //                    title: "Hello world",
+            //                    symbol: "globe",
+            //                    isUserInteractionEnabled: true,
+            //                    timing: .long,
+            //                    position: .bottom
+            //                )
+            //            }
+            //
+            //            //MARK: - Dark Mode Switch
+            //            Button("Change Theme"){
+            //                changeTheme.toggle()
+            //            }
             
-            //MARK: - Dark Mode Switch
-            Button("Change Theme"){
-                changeTheme.toggle()
-            }
+            //MARK: - YouTube MiniPlayer Animation
+            YouTubeMiniPlayerView()
             
         }
-        .sheet(isPresented: $changeTheme, content: {
-            ThemeChangeSwitch(scheme: scheme)
-            //Since max height is 410
-                .presentationDetents([.height(410)])
-                .presentationBackground(.clear)
-        })
+        //        .sheet(isPresented: $changeTheme, content: {
+        //            ThemeChangeSwitch(scheme: scheme)
+        //            //Since max height is 410
+        //                .presentationDetents([.height(410)])
+        //                .presentationBackground(.clear)
+        //        })
         //For DarkLightModeView
-//        .preferredColorScheme(getColorScheme())
+        //        .preferredColorScheme(getColorScheme())
         
         //For Dark Mode Switch
         .preferredColorScheme(userTheme.colorScheme)
