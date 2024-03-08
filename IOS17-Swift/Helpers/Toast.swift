@@ -32,7 +32,6 @@ struct RootView<Content: View>: View {
                     overlayWindow = window
                 }
             }
-        
     }
 }
 
@@ -154,7 +153,7 @@ fileprivate struct ToastView: View {
                             removeToast()
                         }
                     }
-                 
+                    
                 })
         )
         .onAppear{

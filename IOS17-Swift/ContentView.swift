@@ -2,75 +2,56 @@
 import SwiftUI
 
 struct ContentView: View {
-    //Props for DarkLightModeView
-    @AppStorage("colorScheme") var colorScheme = "dark"
-    @State var show = true
-    
-    //Props for Dark Mode Switch
-    @State private var changeTheme: Bool = false
-    @Environment(\.colorScheme) private var scheme
-    @AppStorage("userTheme") private var userTheme: Theme = .systemDedault
-    
     var body: some View {
         VStack {
-            //MARK: - DarkLightModeView
-            //            VStack {
-            //                Text("Hello, world!")
-            //                    .foregroundStyle (.primary)
-            //                Button (action: {
-            //                    withAnimation {
-            //                        show.toggle()
-            //                    }
-            //                }, label: {
-            //                    Text("Appearance").bold().font (.title2)
-            //                        .frame(width: 200, height: 60)
-            //                        .background (.text, in: RoundedRectangle (cornerRadius: 20))
-            //                })
-            //                .tint(.text2)
-            //            }
-            //            DarkLightModeView(show: $show)
-            //                .opacity(show ? 0 : 1)
-            
-            //MARK: - Toast
-            //            Button("Present Toast"){
-            //                Toast.shared.present(
-            //                    title: "Hello world",
-            //                    symbol: "globe",
-            //                    isUserInteractionEnabled: true,
-            //                    timing: .long,
-            //                    position: .bottom
-            //                )
-            //            }
-            //
-            //            //MARK: - Dark Mode Switch
-            //            Button("Change Theme"){
-            //                changeTheme.toggle()
-            //            }
-            
-            //MARK: - YouTube MiniPlayer Animation
-            YouTubeMiniPlayerView()
-            
+            NavigationStack {
+                ScrollView(.vertical, showsIndicators: false){
+                    LazyVStack(spacing: 13){
+                        navigationScreen("Parallax Carousel Scroll") { ParallaxCarouselScrollView() }
+                        navigationScreen("Dark Light Mode") { TestDarkLightModeView() }
+                        navigationScreen("Theme Change Switch") { TestThemeChangeSwitch() }
+                        navigationScreen("Toast Group") { VStack{
+                            Button("Present Toast"){
+                                Toast.shared.present(
+                                    title: "Hello world",
+                                    symbol: "globe",
+                                    isUserInteractionEnabled: true,
+                                    timing: .long,
+                                    position: .bottom
+                                )
+                            }}}
+                        navigationScreen("Parallax Scroll Effect") { ParallaxScrollEffectView() }
+                        navigationScreen("Scroll Progress Tracker") { ScrollProgressTrackerView() }
+                        navigationScreen("Image Paralax") { ImageParalaxView() }
+                        navigationScreen("Cover Flow Show View") { CoverFlowShowView() }
+                        navigationScreen("Stretchy Slider") { StretchySliderView() }
+                        navigationScreen("MapInteraction") { MapInteraction() }
+                        navigationScreen("YouTube Mini Player") { YouTubeMiniPlayerView() }
+                    }
+                }
+                .frame(maxWidth: .infinity, alignment: .leading)
+                .padding()
+                .navigationTitle("All screens")
+            }
         }
-        //        .sheet(isPresented: $changeTheme, content: {
-        //            ThemeChangeSwitch(scheme: scheme)
-        //            //Since max height is 410
-        //                .presentationDetents([.height(410)])
-        //                .presentationBackground(.clear)
-        //        })
-        //For DarkLightModeView
-        //        .preferredColorScheme(getColorScheme())
-        
-        //For Dark Mode Switch
-        .preferredColorScheme(userTheme.colorScheme)
     }
     
-    func getColorScheme() -> ColorScheme?{
-        if colorScheme == "dark"{
-            return .dark
-        }else if colorScheme == "light"{
-            return .light
-        }else{
-            return nil
+    @ViewBuilder
+    func navigationScreen<Content: View>(_ title: String, @ViewBuilder content: @escaping () -> Content) -> some View {
+        NavigationLink {
+            content()
+        } label: {
+            HStack {
+                Text("\(title)")
+                    .font(.title3)
+                    .foregroundStyle(.text)
+                
+                Spacer()
+                
+                Image(systemName: "chevron.right")
+                    .imageScale(.large)
+                    .foregroundStyle(.text)
+            }
         }
     }
 }

@@ -7,6 +7,33 @@
 
 import SwiftUI
 
+//MARK: This view is for testing purposes only, do not use it !!!
+struct TestThemeChangeSwitch: View {
+    
+    //Props for Dark Mode Switch
+    @State private var changeTheme: Bool = false
+    @Environment(\.colorScheme) private var scheme
+    @AppStorage("userTheme") private var userTheme: Theme = .systemDedault
+    
+    var body: some View {
+        //MARK: - Dark Mode Switch
+        VStack{
+            Button("Change Theme"){
+                changeTheme.toggle()
+            }
+            
+        }
+        .sheet(isPresented: $changeTheme, content: {
+            ThemeChangeSwitch(scheme: scheme)
+            //Since max height is 410
+                .presentationDetents([.height(410)])
+                .presentationBackground(.clear)
+        })
+        //For Dark Mode Switch
+        .preferredColorScheme(userTheme.colorScheme)
+    }
+}
+
 struct ThemeChangeSwitch: View {
     var scheme: ColorScheme
     @AppStorage("userTheme") private var userTheme: Theme = .systemDedault
