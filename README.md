@@ -46,3 +46,9 @@ https://github.com/xqsadness/IOS17-SwiftUI/assets/81242756/b1be6711-733a-4c77-b8
 <a href="https://github.com/xqsadness/IOS17-SwiftUI/tree/main/IOS17-Swift/View/YouTubeMiniPlayer" > Youtube Mini Player Animation </a>
 
 https://github.com/xqsadness/IOS17-SwiftUI/assets/81242756/33b55662-a1b6-4987-bde1-aef9633767e1
+
+<a href="https://github.com/xqsadness/IOS17-SwiftUI/tree/main/IOS17-Swift/View/SideMenu" > Animated side menu </a>
+
+https://github.com/xqsadness/IOS17-SwiftUI/assets/81242756/33b61e3e-8a15-44b0-9493-736e3fc37d37
+
+
