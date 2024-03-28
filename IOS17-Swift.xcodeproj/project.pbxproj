@@ -34,6 +34,8 @@
 		DD6AFAF02B1D6AF5005E94F8 /* DarkLightModeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD6AFAEF2B1D6AF5005E94F8 /* DarkLightModeView.swift */; };
 		DD91BCE62B3E677C00E68492 /* ParallaxScrollEffectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD91BCE52B3E677C00E68492 /* ParallaxScrollEffectView.swift */; };
 		DD969CD92B3A690D00400FB2 /* Adapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD969CD82B3A690D00400FB2 /* Adapter.swift */; };
+		DDA8E7632BB57C3D0040D974 /* AnimatedSideBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA8E7622BB57C3D0040D974 /* AnimatedSideBar.swift */; };
+		DDA8E7652BB57CAB0040D974 /* HomeAnimatedSideBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA8E7642BB57CAB0040D974 /* HomeAnimatedSideBarView.swift */; };
 		DDB00EDD2B8446B100929C7D /* MapInteraction.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDB00EDC2B8446B100929C7D /* MapInteraction.swift */; };
 		DDB148AE2B2FE08700080396 /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDB148AD2B2FE08700080396 /* Toast.swift */; };
 		DDC454592B899EA300FC2B8E /* YouTubeMiniPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC454582B899EA300FC2B8E /* YouTubeMiniPlayerView.swift */; };
@@ -87,6 +89,8 @@
 		DD6AFAEF2B1D6AF5005E94F8 /* DarkLightModeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DarkLightModeView.swift; sourceTree = "<group>"; };
 		DD91BCE52B3E677C00E68492 /* ParallaxScrollEffectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParallaxScrollEffectView.swift; sourceTree = "<group>"; };
 		DD969CD82B3A690D00400FB2 /* Adapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Adapter.swift; sourceTree = "<group>"; };
+		DDA8E7622BB57C3D0040D974 /* AnimatedSideBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedSideBar.swift; sourceTree = "<group>"; };
+		DDA8E7642BB57CAB0040D974 /* HomeAnimatedSideBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeAnimatedSideBarView.swift; sourceTree = "<group>"; };
 		DDB00EDC2B8446B100929C7D /* MapInteraction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapInteraction.swift; sourceTree = "<group>"; };
 		DDB148AD2B2FE08700080396 /* Toast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Toast.swift; sourceTree = "<group>"; };
 		DDC454582B899EA300FC2B8E /* YouTubeMiniPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YouTubeMiniPlayerView.swift; sourceTree = "<group>"; };
@@ -185,6 +189,7 @@
 		DD2F49AF2B1876B200E8C7FE /* View */ = {
 			isa = PBXGroup;
 			children = (
+				DDA8E7612BB57C200040D974 /* SideMenu */,
 				DDC454572B899E8600FC2B8E /* YouTubeMiniPlayer */,
 				DDF3F5BD2B82F9FE00A7FEC8 /* StretchySlider */,
 				DD3B6A922B58B96D00E78429 /* CoverFlow */,
@@ -318,6 +323,15 @@
 				DD969CD82B3A690D00400FB2 /* Adapter.swift */,
 			);
 			path = Adapter;
+			sourceTree = "<group>";
+		};
+		DDA8E7612BB57C200040D974 /* SideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				DDA8E7622BB57C3D0040D974 /* AnimatedSideBar.swift */,
+				DDA8E7642BB57CAB0040D974 /* HomeAnimatedSideBarView.swift */,
+			);
+			path = SideMenu;
 			sourceTree = "<group>";
 		};
 		DDB148AC2B2FE03D00080396 /* Helpers */ = {
@@ -505,6 +519,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DD656D8A2B19D9900067E6F9 /* CoinDataService.swift in Sources */,
+				DDA8E7652BB57CAB0040D974 /* HomeAnimatedSideBarView.swift in Sources */,
 				DDB00EDD2B8446B100929C7D /* MapInteraction.swift in Sources */,
 				DD656D7C2B19BA070067E6F9 /* ParallaxCarouselScrollView.swift in Sources */,
 				DDC7284C2B29A00A00B068E6 /* NumberGeneratorView.swift in Sources */,
@@ -522,6 +537,7 @@
 				DD656D762B1986FA0067E6F9 /* CombineSearch.swift in Sources */,
 				DDFA8A202B3D1AF2009F29E6 /* Person.swift in Sources */,
 				DDCCC6692B3D57B800535673 /* EditEventView.swift in Sources */,
+				DDA8E7632BB57C3D0040D974 /* AnimatedSideBar.swift in Sources */,
 				DDF3F5BF2B82FA1000A7FEC8 /* CustomSlider.swift in Sources */,
 				DDC728552B29A09000B068E6 /* CoinDIModel.swift in Sources */,
 				DD3B6A942B58B98800E78429 /* CoverFlowShowView.swift in Sources */,
