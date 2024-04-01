@@ -10,6 +10,7 @@
 		DD0887292B44F2E00054C453 /* ScrollProgressTrackerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD0887282B44F2E00054C453 /* ScrollProgressTrackerView.swift */; };
 		DD0FF0592B1ECCC9007B4F10 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD0FF0582B1ECCC9007B4F10 /* Color.swift */; };
 		DD0FF05C2B1F0C14007B4F10 /* FactoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD0FF05B2B1F0C14007B4F10 /* FactoryView.swift */; };
+		DD2E2B112BB6A66600ACB285 /* SlideToUnlockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2E2B102BB6A66600ACB285 /* SlideToUnlockView.swift */; };
 		DD2F49A22B18769900E8C7FE /* IOS17_SwiftApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2F49A12B18769900E8C7FE /* IOS17_SwiftApp.swift */; };
 		DD2F49A42B18769900E8C7FE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2F49A32B18769900E8C7FE /* ContentView.swift */; };
 		DD2F49A62B18769B00E8C7FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD2F49A52B18769B00E8C7FE /* Assets.xcassets */; };
@@ -38,6 +39,8 @@
 		DDA8E7652BB57CAB0040D974 /* HomeAnimatedSideBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA8E7642BB57CAB0040D974 /* HomeAnimatedSideBarView.swift */; };
 		DDB00EDD2B8446B100929C7D /* MapInteraction.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDB00EDC2B8446B100929C7D /* MapInteraction.swift */; };
 		DDB148AE2B2FE08700080396 /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDB148AD2B2FE08700080396 /* Toast.swift */; };
+		DDC1B1DF2BBA4C4C00520EF9 /* LimitedTextFieldHome .swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC1B1DE2BBA4C4C00520EF9 /* LimitedTextFieldHome .swift */; };
+		DDC1B1E12BBA4C8800520EF9 /* LimitedTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC1B1E02BBA4C8800520EF9 /* LimitedTextField.swift */; };
 		DDC454592B899EA300FC2B8E /* YouTubeMiniPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC454582B899EA300FC2B8E /* YouTubeMiniPlayerView.swift */; };
 		DDC4545B2B899EE500FC2B8E /* Tab.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC4545A2B899EE500FC2B8E /* Tab.swift */; };
 		DDC4545D2B89A3FB00FC2B8E /* PlayerItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC4545C2B89A3FB00FC2B8E /* PlayerItem.swift */; };
@@ -65,6 +68,7 @@
 		DD0887282B44F2E00054C453 /* ScrollProgressTrackerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollProgressTrackerView.swift; sourceTree = "<group>"; };
 		DD0FF0582B1ECCC9007B4F10 /* Color.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 		DD0FF05B2B1F0C14007B4F10 /* FactoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactoryView.swift; sourceTree = "<group>"; };
+		DD2E2B102BB6A66600ACB285 /* SlideToUnlockView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideToUnlockView.swift; sourceTree = "<group>"; };
 		DD2F499E2B18769900E8C7FE /* IOS17-Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "IOS17-Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD2F49A12B18769900E8C7FE /* IOS17_SwiftApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOS17_SwiftApp.swift; sourceTree = "<group>"; };
 		DD2F49A32B18769900E8C7FE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -93,6 +97,8 @@
 		DDA8E7642BB57CAB0040D974 /* HomeAnimatedSideBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeAnimatedSideBarView.swift; sourceTree = "<group>"; };
 		DDB00EDC2B8446B100929C7D /* MapInteraction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapInteraction.swift; sourceTree = "<group>"; };
 		DDB148AD2B2FE08700080396 /* Toast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Toast.swift; sourceTree = "<group>"; };
+		DDC1B1DE2BBA4C4C00520EF9 /* LimitedTextFieldHome .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LimitedTextFieldHome .swift"; sourceTree = "<group>"; };
+		DDC1B1E02BBA4C8800520EF9 /* LimitedTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LimitedTextField.swift; sourceTree = "<group>"; };
 		DDC454582B899EA300FC2B8E /* YouTubeMiniPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YouTubeMiniPlayerView.swift; sourceTree = "<group>"; };
 		DDC4545A2B899EE500FC2B8E /* Tab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tab.swift; sourceTree = "<group>"; };
 		DDC4545C2B89A3FB00FC2B8E /* PlayerItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerItem.swift; sourceTree = "<group>"; };
@@ -144,6 +150,14 @@
 			path = "Factory-Pattern";
 			sourceTree = "<group>";
 		};
+		DD2E2B0F2BB6A65400ACB285 /* SlideToUnlock */ = {
+			isa = PBXGroup;
+			children = (
+				DD2E2B102BB6A66600ACB285 /* SlideToUnlockView.swift */,
+			);
+			path = SlideToUnlock;
+			sourceTree = "<group>";
+		};
 		DD2F49952B18769900E8C7FE = {
 			isa = PBXGroup;
 			children = (
@@ -189,6 +203,8 @@
 		DD2F49AF2B1876B200E8C7FE /* View */ = {
 			isa = PBXGroup;
 			children = (
+				DDC1B1DD2BBA4C4400520EF9 /* LimitedTextField  */,
+				DD2E2B0F2BB6A65400ACB285 /* SlideToUnlock */,
 				DDA8E7612BB57C200040D974 /* SideMenu */,
 				DDC454572B899E8600FC2B8E /* YouTubeMiniPlayer */,
 				DDF3F5BD2B82F9FE00A7FEC8 /* StretchySlider */,
@@ -339,8 +355,17 @@
 			children = (
 				DDB148AD2B2FE08700080396 /* Toast.swift */,
 				DD3B6A952B58B9C800E78429 /* CoverFlow.swift */,
+				DDC1B1E02BBA4C8800520EF9 /* LimitedTextField.swift */,
 			);
 			path = Helpers;
+			sourceTree = "<group>";
+		};
+		DDC1B1DD2BBA4C4400520EF9 /* LimitedTextField  */ = {
+			isa = PBXGroup;
+			children = (
+				DDC1B1DE2BBA4C4C00520EF9 /* LimitedTextFieldHome .swift */,
+			);
+			path = "LimitedTextField ";
 			sourceTree = "<group>";
 		};
 		DDC454572B899E8600FC2B8E /* YouTubeMiniPlayer */ = {
@@ -525,6 +550,7 @@
 				DDC7284C2B29A00A00B068E6 /* NumberGeneratorView.swift in Sources */,
 				DD91BCE62B3E677C00E68492 /* ParallaxScrollEffectView.swift in Sources */,
 				DDC4545D2B89A3FB00FC2B8E /* PlayerItem.swift in Sources */,
+				DD2E2B112BB6A66600ACB285 /* SlideToUnlockView.swift in Sources */,
 				DD2F49A42B18769900E8C7FE /* ContentView.swift in Sources */,
 				DD2F49B12B1876C300E8C7FE /* ScrollTransition.swift in Sources */,
 				DD0FF0592B1ECCC9007B4F10 /* Color.swift in Sources */,
@@ -542,6 +568,7 @@
 				DDC728552B29A09000B068E6 /* CoinDIModel.swift in Sources */,
 				DD3B6A942B58B98800E78429 /* CoverFlowShowView.swift in Sources */,
 				DDC728572B29A17300B068E6 /* CoinViewModel.swift in Sources */,
+				DDC1B1DF2BBA4C4C00520EF9 /* LimitedTextFieldHome .swift in Sources */,
 				DD656D8E2B19E7AA0067E6F9 /* DIHomeView.swift in Sources */,
 				DDE9AA422B390F8400713B39 /* ThemeChangeSwitch.swift in Sources */,
 				DD969CD92B3A690D00400FB2 /* Adapter.swift in Sources */,
@@ -554,6 +581,7 @@
 				DDE7AA382B9B096E00ED77CE /* MiniPlayerView.swift in Sources */,
 				DD656D7F2B19BA440067E6F9 /* TripCard.swift in Sources */,
 				DDFA8A232B3D1B9E009F29E6 /* FaceFactsView.swift in Sources */,
+				DDC1B1E12BBA4C8800520EF9 /* LimitedTextField.swift in Sources */,
 				DD6AFAF02B1D6AF5005E94F8 /* DarkLightModeView.swift in Sources */,
 				DD656D922B19E8E10067E6F9 /* NetworkingManagerService.swift in Sources */,
 				DD2F49B52B18773E00E8C7FE /* AnimatedSFSymbol.swift in Sources */,
@@ -700,7 +728,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"IOS17-Swift/Preview Content\"";
-				DEVELOPMENT_TEAM = PD5C78B8LS;
+				DEVELOPMENT_TEAM = 4BB9BFSL47;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -729,7 +757,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"IOS17-Swift/Preview Content\"";
-				DEVELOPMENT_TEAM = PD5C78B8LS;
+				DEVELOPMENT_TEAM = 4BB9BFSL47;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;

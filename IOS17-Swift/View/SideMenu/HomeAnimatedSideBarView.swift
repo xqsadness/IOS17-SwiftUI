@@ -38,7 +38,8 @@ struct HomeAnimatedSideBarView: View {
                         navigationScreen("Stretchy Slider") { StretchySliderView() }
                         navigationScreen("MapInteraction") { MapInteraction() }
                         navigationScreen("YouTube Mini Player") { YouTubeMiniPlayerView() }
-                        navigationScreen("Animated SideBar View") { HomeAnimatedSideBarView() }
+//                        navigationScreen("Animated SideBar View") { HomeAnimatedSideBarView() }
+                        navigationScreen("Limited TextField") { LimitedTextFieldHome() }
                         
                     }
                     .navigationTitle("Home")
@@ -60,7 +61,6 @@ struct HomeAnimatedSideBarView: View {
                 Rectangle()
                     .fill(.sideMenu)
             }
-        
     }
     
     @ViewBuilder
