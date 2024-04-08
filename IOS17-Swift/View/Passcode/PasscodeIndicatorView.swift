@@ -1,9 +1,3 @@
-//
-//  PasscodeIndicatorView.swift
-//  PasscodeLockScreen
-//
-//  Created by Dhruv Sharma on 05/02/24.
-//
 
 import SwiftUI
 
