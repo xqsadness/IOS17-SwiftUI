@@ -19,6 +19,7 @@ struct HomeAnimatedSideBarView: View {
                 NavigationStack{
                     ScrollView(showsIndicators: false){
                         VStack(spacing: 15) {
+                            //All screen here
                             navigationScreen("Parallax Carousel Scroll") { ParallaxCarouselScrollView() }
                             navigationScreen("Dark Light Mode") { TestDarkLightModeView() }
                             navigationScreen("Theme Change Switch") { TestThemeChangeSwitch() }
@@ -42,6 +43,7 @@ struct HomeAnimatedSideBarView: View {
                             //                        navigationScreen("Animated SideBar View") { HomeAnimatedSideBarView() }
                             navigationScreen("Limited TextField") { LimitedTextFieldHome() }
                             navigationScreen("Passcode") { PasscodeHomeView() }
+                            navigationScreen("Floating Action Button") { FloatingActionButton() }
                         }
                         .padding()
                     }
