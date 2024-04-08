@@ -16,6 +16,5 @@ struct IOS17_SwiftApp: App {
                 ContentView()
             }
         }
-        .modelContainer(for: Person.self)
     }
 }

@@ -17,30 +17,32 @@ struct HomeAnimatedSideBarView: View {
             connerRadius: 25,
             showMenu: $showMenu) { safeArea in
                 NavigationStack{
-                    List {
-                        navigationScreen("Parallax Carousel Scroll") { ParallaxCarouselScrollView() }
-                        navigationScreen("Dark Light Mode") { TestDarkLightModeView() }
-                        navigationScreen("Theme Change Switch") { TestThemeChangeSwitch() }
-                        navigationScreen("Toast Group") { VStack{
-                            Button("Present Toast"){
-                                Toast.shared.present(
-                                    title: "Hello world",
-                                    symbol: "globe",
-                                    isUserInteractionEnabled: true,
-                                    timing: .long,
-                                    position: .bottom
-                                )
-                            }}}
-                        navigationScreen("Parallax Scroll Effect") { ParallaxScrollEffectView() }
-                        navigationScreen("Scroll Progress Tracker") { ScrollProgressTrackerView() }
-                        navigationScreen("Image Paralax") { ImageParalaxView() }
-                        navigationScreen("Cover Flow Show View") { CoverFlowShowView() }
-                        navigationScreen("Stretchy Slider") { StretchySliderView() }
-                        navigationScreen("MapInteraction") { MapInteraction() }
-                        navigationScreen("YouTube Mini Player") { YouTubeMiniPlayerView() }
-//                        navigationScreen("Animated SideBar View") { HomeAnimatedSideBarView() }
-                        navigationScreen("Limited TextField") { LimitedTextFieldHome() }
-                        
+                    ScrollView(showsIndicators: false){
+                        VStack(spacing: 15) {
+                            navigationScreen("Parallax Carousel Scroll") { ParallaxCarouselScrollView() }
+                            navigationScreen("Dark Light Mode") { TestDarkLightModeView() }
+                            navigationScreen("Theme Change Switch") { TestThemeChangeSwitch() }
+                            navigationScreen("Toast Group") { VStack{
+                                Button("Present Toast"){
+                                    Toast.shared.present(
+                                        title: "Hello world",
+                                        symbol: "globe",
+                                        isUserInteractionEnabled: true,
+                                        timing: .long,
+                                        position: .bottom
+                                    )
+                                }}}
+                            navigationScreen("Parallax Scroll Effect") { ParallaxScrollEffectView() }
+                            navigationScreen("Scroll Progress Tracker") { ScrollProgressTrackerView() }
+                            navigationScreen("Image Paralax") { ImageParalaxView() }
+                            navigationScreen("Cover Flow Show View") { CoverFlowShowView() }
+                            navigationScreen("Stretchy Slider") { StretchySliderView() }
+                            navigationScreen("MapInteraction") { MapInteraction() }
+                            navigationScreen("YouTube Mini Player") { YouTubeMiniPlayerView() }
+                            //                        navigationScreen("Animated SideBar View") { HomeAnimatedSideBarView() }
+                            navigationScreen("Limited TextField") { LimitedTextFieldHome() }
+                        }
+                        .padding()
                     }
                     .navigationTitle("Home")
                     .toolbar{
@@ -74,6 +76,10 @@ struct HomeAnimatedSideBarView: View {
                     .foregroundStyle(.text)
                 
                 Spacer()
+                
+                Image(systemName: "chevron.right")
+                    .imageScale(.large)
+                    .foregroundStyle(.text)
             }
         }
     }
