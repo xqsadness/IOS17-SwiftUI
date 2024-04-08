@@ -41,6 +41,7 @@ struct HomeAnimatedSideBarView: View {
                             navigationScreen("YouTube Mini Player") { YouTubeMiniPlayerView() }
                             //                        navigationScreen("Animated SideBar View") { HomeAnimatedSideBarView() }
                             navigationScreen("Limited TextField") { LimitedTextFieldHome() }
+                            navigationScreen("Passcode") { PasscodeHomeView() }
                         }
                         .padding()
                     }

@@ -55,6 +55,9 @@
 		DDCCC6672B3D566100535673 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDCCC6662B3D566100535673 /* Event.swift */; };
 		DDCCC6692B3D57B800535673 /* EditEventView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDCCC6682B3D57B800535673 /* EditEventView.swift */; };
 		DDE7AA382B9B096E00ED77CE /* MiniPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE7AA372B9B096E00ED77CE /* MiniPlayerView.swift */; };
+		DDE889FC2BC41F9C0080D215 /* PasscodeIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE889F92BC41F9C0080D215 /* PasscodeIndicatorView.swift */; };
+		DDE889FD2BC41F9C0080D215 /* NumberPadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE889FA2BC41F9C0080D215 /* NumberPadView.swift */; };
+		DDE889FE2BC41F9C0080D215 /* PasscodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE889FB2BC41F9C0080D215 /* PasscodeView.swift */; };
 		DDE9AA422B390F8400713B39 /* ThemeChangeSwitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE9AA412B390F8400713B39 /* ThemeChangeSwitch.swift */; };
 		DDF3F5BF2B82FA1000A7FEC8 /* CustomSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDF3F5BE2B82FA1000A7FEC8 /* CustomSlider.swift */; };
 		DDF3F5C12B82FA5F00A7FEC8 /* StretchySliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDF3F5C02B82FA5F00A7FEC8 /* StretchySliderView.swift */; };
@@ -113,6 +116,9 @@
 		DDCCC6662B3D566100535673 /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
 		DDCCC6682B3D57B800535673 /* EditEventView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditEventView.swift; sourceTree = "<group>"; };
 		DDE7AA372B9B096E00ED77CE /* MiniPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiniPlayerView.swift; sourceTree = "<group>"; };
+		DDE889F92BC41F9C0080D215 /* PasscodeIndicatorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PasscodeIndicatorView.swift; sourceTree = "<group>"; };
+		DDE889FA2BC41F9C0080D215 /* NumberPadView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NumberPadView.swift; sourceTree = "<group>"; };
+		DDE889FB2BC41F9C0080D215 /* PasscodeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PasscodeView.swift; sourceTree = "<group>"; };
 		DDE9AA412B390F8400713B39 /* ThemeChangeSwitch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeChangeSwitch.swift; sourceTree = "<group>"; };
 		DDF3F5BE2B82FA1000A7FEC8 /* CustomSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSlider.swift; sourceTree = "<group>"; };
 		DDF3F5C02B82FA5F00A7FEC8 /* StretchySliderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StretchySliderView.swift; sourceTree = "<group>"; };
@@ -203,6 +209,8 @@
 		DD2F49AF2B1876B200E8C7FE /* View */ = {
 			isa = PBXGroup;
 			children = (
+				DDE889F82BC41F720080D215 /* Passcode */,
+				DDE889F72BC41F280080D215 /* Other */,
 				DDC1B1DD2BBA4C4400520EF9 /* LimitedTextField  */,
 				DD2E2B0F2BB6A65400ACB285 /* SlideToUnlock */,
 				DDA8E7612BB57C200040D974 /* SideMenu */,
@@ -215,11 +223,6 @@
 				DDE9AA402B390D0C00713B39 /* DarkModeSwitch */,
 				DD6AFAEE2B1D6AD4005E94F8 /* DarkLightMode */,
 				DD656D7A2B19B9E70067E6F9 /* ParallaxCarouselScroll */,
-				DD2F49B02B1876C300E8C7FE /* ScrollTransition.swift */,
-				DD2F49B22B1876DF00E8C7FE /* Animation.swift */,
-				DD2F49B42B18773E00E8C7FE /* AnimatedSFSymbol.swift */,
-				DD3AEB032B22C17200AFAD25 /* PalettePickerView.swift */,
-				DDB00EDC2B8446B100929C7D /* MapInteraction.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -420,6 +423,28 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
+		DDE889F72BC41F280080D215 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				DD2F49B02B1876C300E8C7FE /* ScrollTransition.swift */,
+				DD2F49B22B1876DF00E8C7FE /* Animation.swift */,
+				DD2F49B42B18773E00E8C7FE /* AnimatedSFSymbol.swift */,
+				DD3AEB032B22C17200AFAD25 /* PalettePickerView.swift */,
+				DDB00EDC2B8446B100929C7D /* MapInteraction.swift */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		DDE889F82BC41F720080D215 /* Passcode */ = {
+			isa = PBXGroup;
+			children = (
+				DDE889FA2BC41F9C0080D215 /* NumberPadView.swift */,
+				DDE889F92BC41F9C0080D215 /* PasscodeIndicatorView.swift */,
+				DDE889FB2BC41F9C0080D215 /* PasscodeView.swift */,
+			);
+			path = Passcode;
+			sourceTree = "<group>";
+		};
 		DDE9AA402B390D0C00713B39 /* DarkModeSwitch */ = {
 			isa = PBXGroup;
 			children = (
@@ -546,6 +571,7 @@
 				DD656D8A2B19D9900067E6F9 /* CoinDataService.swift in Sources */,
 				DDA8E7652BB57CAB0040D974 /* HomeAnimatedSideBarView.swift in Sources */,
 				DDB00EDD2B8446B100929C7D /* MapInteraction.swift in Sources */,
+				DDE889FC2BC41F9C0080D215 /* PasscodeIndicatorView.swift in Sources */,
 				DD656D7C2B19BA070067E6F9 /* ParallaxCarouselScrollView.swift in Sources */,
 				DDC7284C2B29A00A00B068E6 /* NumberGeneratorView.swift in Sources */,
 				DD91BCE62B3E677C00E68492 /* ParallaxScrollEffectView.swift in Sources */,
@@ -584,6 +610,7 @@
 				DDC1B1E12BBA4C8800520EF9 /* LimitedTextField.swift in Sources */,
 				DD6AFAF02B1D6AF5005E94F8 /* DarkLightModeView.swift in Sources */,
 				DD656D922B19E8E10067E6F9 /* NetworkingManagerService.swift in Sources */,
+				DDE889FE2BC41F9C0080D215 /* PasscodeView.swift in Sources */,
 				DD2F49B52B18773E00E8C7FE /* AnimatedSFSymbol.swift in Sources */,
 				DD0887292B44F2E00054C453 /* ScrollProgressTrackerView.swift in Sources */,
 				DD3B6A962B58B9C800E78429 /* CoverFlow.swift in Sources */,
@@ -591,6 +618,7 @@
 				DD3AEB042B22C17200AFAD25 /* PalettePickerView.swift in Sources */,
 				DDFA8A2A2B3D249A009F29E6 /* PeopleView.swift in Sources */,
 				DDC728522B29A06900B068E6 /* CoinView.swift in Sources */,
+				DDE889FD2BC41F9C0080D215 /* NumberPadView.swift in Sources */,
 				DDF3F5C12B82FA5F00A7FEC8 /* StretchySliderView.swift in Sources */,
 				DDC4545B2B899EE500FC2B8E /* Tab.swift in Sources */,
 				DD656D782B198ED80067E6F9 /* NetworkingManager.swift in Sources */,
