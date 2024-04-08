@@ -39,7 +39,7 @@ https://github.com/xqsadness/IOS17-SwiftUI/assets/81242756/6e9c5d12-45a7-4d28-bf
 
 https://github.com/xqsadness/IOS17-SwiftUI/assets/81242756/0ddfa7a3-3df4-4e93-b0eb-a001cedd7c1d
 
-<a href="https://github.com/xqsadness/IOS17-SwiftUI/blob/main/IOS17-Swift/View/MapInteraction.swift" > Map Interaction </a>
+<a href="https://github.com/xqsadness/IOS17-SwiftUI/blob/main/IOS17-Swift/View/Other/MapInteraction.swift" > Map Interaction </a>
 
 https://github.com/xqsadness/IOS17-SwiftUI/assets/81242756/b1be6711-733a-4c77-b8c8-f9abb6b300ab
 
@@ -51,4 +51,5 @@ https://github.com/xqsadness/IOS17-SwiftUI/assets/81242756/33b55662-a1b6-4987-bd
 
 https://github.com/xqsadness/IOS17-SwiftUI/assets/81242756/33b61e3e-8a15-44b0-9493-736e3fc37d37
 
+<a href="https://github.com/xqsadness/IOS17-SwiftUI/tree/main/IOS17-Swift/View/Passcode" > Passcode </a>
 
