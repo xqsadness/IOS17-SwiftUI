@@ -1,6 +1,10 @@
 # IOS17-SwiftUI
 This archive contains technical information about iOS 17 and things I've learned.
 
+- [Open an issue](https://github.com/xqsadness/IOS17-SwiftUI/issues) for issues with the existing codebase.
+------------------------
+
+
 <a href="https://github.com/xqsadness/IOS17-SwiftUI/tree/main/IOS17-Swift/View/ParallaxCarouselScroll" > ParallaxCarouselScrollView </a>
 
 <span> <p> Image API from Unsplash </p>  <a href="" >  https://unsplash.com/developers </a> </span>
@@ -62,5 +66,3 @@ https://github.com/xqsadness/IOS17-SwiftUI/assets/81242756/c6622e16-4e63-4da2-b7
 <a href="https://github.com/xqsadness/IOS17-SwiftUI/tree/main/IOS17-Swift/View/FloatingActionButton" > Floating Action Button </a>
 
 https://github.com/xqsadness/IOS17-SwiftUI/assets/81242756/f10962bd-3125-4b71-b6ef-a002e4d6755a
-
-
