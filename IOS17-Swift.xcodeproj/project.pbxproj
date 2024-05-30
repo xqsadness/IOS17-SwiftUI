@@ -39,6 +39,7 @@
 		DDA8E7652BB57CAB0040D974 /* HomeAnimatedSideBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA8E7642BB57CAB0040D974 /* HomeAnimatedSideBarView.swift */; };
 		DDB00EDD2B8446B100929C7D /* MapInteraction.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDB00EDC2B8446B100929C7D /* MapInteraction.swift */; };
 		DDB148AE2B2FE08700080396 /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDB148AD2B2FE08700080396 /* Toast.swift */; };
+		DDB840B62C0813BB00A31EAD /* HackerTextEffectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDB840B52C0813BB00A31EAD /* HackerTextEffectView.swift */; };
 		DDC1B1DF2BBA4C4C00520EF9 /* LimitedTextFieldHome .swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC1B1DE2BBA4C4C00520EF9 /* LimitedTextFieldHome .swift */; };
 		DDC1B1E12BBA4C8800520EF9 /* LimitedTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC1B1E02BBA4C8800520EF9 /* LimitedTextField.swift */; };
 		DDC454592B899EA300FC2B8E /* YouTubeMiniPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC454582B899EA300FC2B8E /* YouTubeMiniPlayerView.swift */; };
@@ -102,6 +103,7 @@
 		DDA8E7642BB57CAB0040D974 /* HomeAnimatedSideBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeAnimatedSideBarView.swift; sourceTree = "<group>"; };
 		DDB00EDC2B8446B100929C7D /* MapInteraction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapInteraction.swift; sourceTree = "<group>"; };
 		DDB148AD2B2FE08700080396 /* Toast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Toast.swift; sourceTree = "<group>"; };
+		DDB840B52C0813BB00A31EAD /* HackerTextEffectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HackerTextEffectView.swift; sourceTree = "<group>"; };
 		DDC1B1DE2BBA4C4C00520EF9 /* LimitedTextFieldHome .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LimitedTextFieldHome .swift"; sourceTree = "<group>"; };
 		DDC1B1E02BBA4C8800520EF9 /* LimitedTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LimitedTextField.swift; sourceTree = "<group>"; };
 		DDC454582B899EA300FC2B8E /* YouTubeMiniPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YouTubeMiniPlayerView.swift; sourceTree = "<group>"; };
@@ -213,6 +215,7 @@
 		DD2F49AF2B1876B200E8C7FE /* View */ = {
 			isa = PBXGroup;
 			children = (
+				DDB840B42C0813A300A31EAD /* HackerTextEffect */,
 				DDEF4D6C2BC43D31006F2AB2 /* FloatingActionButton */,
 				DDE889F82BC41F720080D215 /* Passcode */,
 				DDE889F72BC41F280080D215 /* Other */,
@@ -367,6 +370,14 @@
 				DDEF4D6F2BC43D88006F2AB2 /* FloatingButton.swift */,
 			);
 			path = Helpers;
+			sourceTree = "<group>";
+		};
+		DDB840B42C0813A300A31EAD /* HackerTextEffect */ = {
+			isa = PBXGroup;
+			children = (
+				DDB840B52C0813BB00A31EAD /* HackerTextEffectView.swift */,
+			);
+			path = HackerTextEffect;
 			sourceTree = "<group>";
 		};
 		DDC1B1DD2BBA4C4400520EF9 /* LimitedTextField  */ = {
@@ -588,6 +599,7 @@
 				DDE889FC2BC41F9C0080D215 /* PasscodeIndicatorView.swift in Sources */,
 				DD656D7C2B19BA070067E6F9 /* ParallaxCarouselScrollView.swift in Sources */,
 				DDC7284C2B29A00A00B068E6 /* NumberGeneratorView.swift in Sources */,
+				DDB840B62C0813BB00A31EAD /* HackerTextEffectView.swift in Sources */,
 				DD91BCE62B3E677C00E68492 /* ParallaxScrollEffectView.swift in Sources */,
 				DDC4545D2B89A3FB00FC2B8E /* PlayerItem.swift in Sources */,
 				DD2E2B112BB6A66600ACB285 /* SlideToUnlockView.swift in Sources */,
