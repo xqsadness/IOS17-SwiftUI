@@ -66,3 +66,9 @@ https://github.com/xqsadness/IOS17-SwiftUI/assets/81242756/c6622e16-4e63-4da2-b7
 <a href="https://github.com/xqsadness/IOS17-SwiftUI/tree/main/IOS17-Swift/View/FloatingActionButton" > Floating Action Button </a>
 
 https://github.com/xqsadness/IOS17-SwiftUI/assets/81242756/f10962bd-3125-4b71-b6ef-a002e4d6755a
+
+<a href="https://github.com/xqsadness/IOS17-SwiftUI/tree/main/IOS17-Swift/View/HackerTextEffect" > Hacker text effect (IOS 16+) </a>
+
+https://github.com/xqsadness/IOS17-SwiftUI/assets/81242756/ad38a635-cfe6-48e5-aae4-ac288a23aa67
+
+
