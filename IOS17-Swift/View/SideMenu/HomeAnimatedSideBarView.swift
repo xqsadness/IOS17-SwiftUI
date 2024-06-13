@@ -44,6 +44,8 @@ struct HomeAnimatedSideBarView: View {
                             navigationScreen("Limited TextField") { LimitedTextFieldHome() }
                             navigationScreen("Passcode") { PasscodeHomeView() }
                             navigationScreen("Floating Action Button") { FloatingActionButton() }
+                            navigationScreen("Hacker Text Effect") { HomeHackerTextEffectView() }
+                            navigationScreen("Glitch Text Effect") { GlitchTextEffectView() }
                         }
                         .padding()
                     }
