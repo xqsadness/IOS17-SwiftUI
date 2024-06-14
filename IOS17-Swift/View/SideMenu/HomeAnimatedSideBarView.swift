@@ -8,7 +8,11 @@
 import SwiftUI
 
 struct HomeAnimatedSideBarView: View {
+    
+    //view props
     @State private var showMenu = false
+    @State private var theValue: Double = 0.0
+    
     var body: some View {
         AnimatedSideBar(
             rotationsWhenExpands: true,
@@ -46,6 +50,7 @@ struct HomeAnimatedSideBarView: View {
                             navigationScreen("Floating Action Button") { FloatingActionButton() }
                             navigationScreen("Hacker Text Effect") { HomeHackerTextEffectView() }
                             navigationScreen("Glitch Text Effect") { GlitchTextEffectView() }
+                            navigationScreen("Custom Slider") { CustomSlider2(width: 10, height: 500, axis: .vertical, thevalue: $theValue) }
                         }
                         .padding()
                     }

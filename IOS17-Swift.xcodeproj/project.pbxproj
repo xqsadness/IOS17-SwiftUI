@@ -22,6 +22,7 @@
 		DD3B6A942B58B98800E78429 /* CoverFlowShowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD3B6A932B58B98800E78429 /* CoverFlowShowView.swift */; };
 		DD3B6A962B58B9C800E78429 /* CoverFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD3B6A952B58B9C800E78429 /* CoverFlow.swift */; };
 		DD3DCD2A2C1A8362006F767E /* GlitchTextEffectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD3DCD292C1A8362006F767E /* GlitchTextEffectView.swift */; };
+		DD3DCD2D2C1A9B86006F767E /* CustomSlider2.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD3DCD2C2C1A9B86006F767E /* CustomSlider2.swift */; };
 		DD656D762B1986FA0067E6F9 /* CombineSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD656D752B1986FA0067E6F9 /* CombineSearch.swift */; };
 		DD656D782B198ED80067E6F9 /* NetworkingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD656D772B198ED80067E6F9 /* NetworkingManager.swift */; };
 		DD656D7C2B19BA070067E6F9 /* ParallaxCarouselScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD656D7B2B19BA070067E6F9 /* ParallaxCarouselScrollView.swift */; };
@@ -88,6 +89,7 @@
 		DD3B6A932B58B98800E78429 /* CoverFlowShowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoverFlowShowView.swift; sourceTree = "<group>"; };
 		DD3B6A952B58B9C800E78429 /* CoverFlow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoverFlow.swift; sourceTree = "<group>"; };
 		DD3DCD292C1A8362006F767E /* GlitchTextEffectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlitchTextEffectView.swift; sourceTree = "<group>"; };
+		DD3DCD2C2C1A9B86006F767E /* CustomSlider2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSlider2.swift; sourceTree = "<group>"; };
 		DD656D752B1986FA0067E6F9 /* CombineSearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombineSearch.swift; sourceTree = "<group>"; };
 		DD656D772B198ED80067E6F9 /* NetworkingManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkingManager.swift; sourceTree = "<group>"; };
 		DD656D7B2B19BA070067E6F9 /* ParallaxCarouselScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParallaxCarouselScrollView.swift; sourceTree = "<group>"; };
@@ -217,6 +219,7 @@
 		DD2F49AF2B1876B200E8C7FE /* View */ = {
 			isa = PBXGroup;
 			children = (
+				DD3DCD2B2C1A9B67006F767E /* DynamicSlider */,
 				DDB840B42C0813A300A31EAD /* HackerGlitchTextEffect */,
 				DDEF4D6C2BC43D31006F2AB2 /* FloatingActionButton */,
 				DDE889F82BC41F720080D215 /* Passcode */,
@@ -243,6 +246,14 @@
 				DD3B6A932B58B98800E78429 /* CoverFlowShowView.swift */,
 			);
 			path = CoverFlow;
+			sourceTree = "<group>";
+		};
+		DD3DCD2B2C1A9B67006F767E /* DynamicSlider */ = {
+			isa = PBXGroup;
+			children = (
+				DD3DCD2C2C1A9B86006F767E /* CustomSlider2.swift */,
+			);
+			path = DynamicSlider;
 			sourceTree = "<group>";
 		};
 		DD656D742B1986E80067E6F9 /* Patterns */ = {
@@ -627,6 +638,7 @@
 				DDC728572B29A17300B068E6 /* CoinViewModel.swift in Sources */,
 				DDC1B1DF2BBA4C4C00520EF9 /* LimitedTextFieldHome .swift in Sources */,
 				DD656D8E2B19E7AA0067E6F9 /* DIHomeView.swift in Sources */,
+				DD3DCD2D2C1A9B86006F767E /* CustomSlider2.swift in Sources */,
 				DDE9AA422B390F8400713B39 /* ThemeChangeSwitch.swift in Sources */,
 				DD969CD92B3A690D00400FB2 /* Adapter.swift in Sources */,
 				DD2F49A22B18769900E8C7FE /* IOS17_SwiftApp.swift in Sources */,
