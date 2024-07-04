@@ -42,6 +42,10 @@
 		DDB00EDD2B8446B100929C7D /* MapInteraction.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDB00EDC2B8446B100929C7D /* MapInteraction.swift */; };
 		DDB148AE2B2FE08700080396 /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDB148AD2B2FE08700080396 /* Toast.swift */; };
 		DDB840B62C0813BB00A31EAD /* HackerTextEffectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDB840B52C0813BB00A31EAD /* HackerTextEffectView.swift */; };
+		DDBD569D2C363CFF001FDECA /* Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDBD569C2C363CFF001FDECA /* Intro.swift */; };
+		DDBD569F2C363DB4001FDECA /* ViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDBD569E2C363DB4001FDECA /* ViewExtension.swift */; };
+		DDBD56A12C363E6E001FDECA /* OnBoardingScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDBD56A02C363E6E001FDECA /* OnBoardingScreen.swift */; };
+		DDBD56A32C363F1D001FDECA /* LiquidShapeAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDBD56A22C363F1D001FDECA /* LiquidShapeAnimation.swift */; };
 		DDC1B1DF2BBA4C4C00520EF9 /* LimitedTextFieldHome .swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC1B1DE2BBA4C4C00520EF9 /* LimitedTextFieldHome .swift */; };
 		DDC1B1E12BBA4C8800520EF9 /* LimitedTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC1B1E02BBA4C8800520EF9 /* LimitedTextField.swift */; };
 		DDC454592B899EA300FC2B8E /* YouTubeMiniPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC454582B899EA300FC2B8E /* YouTubeMiniPlayerView.swift */; };
@@ -109,6 +113,10 @@
 		DDB00EDC2B8446B100929C7D /* MapInteraction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapInteraction.swift; sourceTree = "<group>"; };
 		DDB148AD2B2FE08700080396 /* Toast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Toast.swift; sourceTree = "<group>"; };
 		DDB840B52C0813BB00A31EAD /* HackerTextEffectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HackerTextEffectView.swift; sourceTree = "<group>"; };
+		DDBD569C2C363CFF001FDECA /* Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Intro.swift; sourceTree = "<group>"; };
+		DDBD569E2C363DB4001FDECA /* ViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewExtension.swift; sourceTree = "<group>"; };
+		DDBD56A02C363E6E001FDECA /* OnBoardingScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingScreen.swift; sourceTree = "<group>"; };
+		DDBD56A22C363F1D001FDECA /* LiquidShapeAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiquidShapeAnimation.swift; sourceTree = "<group>"; };
 		DDC1B1DE2BBA4C4C00520EF9 /* LimitedTextFieldHome .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LimitedTextFieldHome .swift"; sourceTree = "<group>"; };
 		DDC1B1E02BBA4C8800520EF9 /* LimitedTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LimitedTextField.swift; sourceTree = "<group>"; };
 		DDC454582B899EA300FC2B8E /* YouTubeMiniPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YouTubeMiniPlayerView.swift; sourceTree = "<group>"; };
@@ -221,6 +229,7 @@
 		DD2F49AF2B1876B200E8C7FE /* View */ = {
 			isa = PBXGroup;
 			children = (
+				DDBD569B2C363CDD001FDECA /* OnBoardingAnimation */,
 				DDDD11CE2C1FCB4A004503AE /* FlipClockTextEffect */,
 				DD3DCD2B2C1A9B67006F767E /* DynamicSlider */,
 				DDB840B42C0813A300A31EAD /* HackerGlitchTextEffect */,
@@ -395,6 +404,17 @@
 				DD3DCD292C1A8362006F767E /* GlitchTextEffectView.swift */,
 			);
 			path = HackerGlitchTextEffect;
+			sourceTree = "<group>";
+		};
+		DDBD569B2C363CDD001FDECA /* OnBoardingAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				DDBD569C2C363CFF001FDECA /* Intro.swift */,
+				DDBD569E2C363DB4001FDECA /* ViewExtension.swift */,
+				DDBD56A02C363E6E001FDECA /* OnBoardingScreen.swift */,
+				DDBD56A22C363F1D001FDECA /* LiquidShapeAnimation.swift */,
+			);
+			path = OnBoardingAnimation;
 			sourceTree = "<group>";
 		};
 		DDC1B1DD2BBA4C4400520EF9 /* LimitedTextField  */ = {
@@ -638,6 +658,7 @@
 				DDC85E132B465A6C00267615 /* EditJobView.swift in Sources */,
 				DDCCC6672B3D566100535673 /* Event.swift in Sources */,
 				DD656D872B19D9680067E6F9 /* CoinModel.swift in Sources */,
+				DDBD56A12C363E6E001FDECA /* OnBoardingScreen.swift in Sources */,
 				DD656D762B1986FA0067E6F9 /* CombineSearch.swift in Sources */,
 				DDFA8A202B3D1AF2009F29E6 /* Person.swift in Sources */,
 				DDCCC6692B3D57B800535673 /* EditEventView.swift in Sources */,
@@ -656,12 +677,15 @@
 				DD2F49A22B18769900E8C7FE /* IOS17_SwiftApp.swift in Sources */,
 				DDB148AE2B2FE08700080396 /* Toast.swift in Sources */,
 				DD0FF05C2B1F0C14007B4F10 /* FactoryView.swift in Sources */,
+				DDBD56A32C363F1D001FDECA /* LiquidShapeAnimation.swift in Sources */,
 				DDC728502B29A05700B068E6 /* NumberGeneratorViewModel.swift in Sources */,
 				DDC454592B899EA300FC2B8E /* YouTubeMiniPlayerView.swift in Sources */,
+				DDBD569D2C363CFF001FDECA /* Intro.swift in Sources */,
 				DD656D822B19C66A0067E6F9 /* ParallaxCarouselScrollViewModel.swift in Sources */,
 				DDE7AA382B9B096E00ED77CE /* MiniPlayerView.swift in Sources */,
 				DD656D7F2B19BA440067E6F9 /* TripCard.swift in Sources */,
 				DDFA8A232B3D1B9E009F29E6 /* FaceFactsView.swift in Sources */,
+				DDBD569F2C363DB4001FDECA /* ViewExtension.swift in Sources */,
 				DDC1B1E12BBA4C8800520EF9 /* LimitedTextField.swift in Sources */,
 				DD6AFAF02B1D6AF5005E94F8 /* DarkLightModeView.swift in Sources */,
 				DD656D922B19E8E10067E6F9 /* NetworkingManagerService.swift in Sources */,

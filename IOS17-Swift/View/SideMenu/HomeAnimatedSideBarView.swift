@@ -52,6 +52,7 @@ struct HomeAnimatedSideBarView: View {
                             navigationScreen("Glitch Text Effect") { GlitchTextEffectView() }
                             navigationScreen("Custom Slider") { CustomSlider2(width: 10, height: 500, axis: .vertical, thevalue: $theValue) }
                             navigationScreen("Flip Clock Text Effect") { FlipClockTextEffectView() }
+                            navigationScreen("OnBoarding") { OnBoardingScreen() }
                         }
                         .padding()
                     }
