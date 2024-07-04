@@ -57,6 +57,7 @@
 		DDC85E132B465A6C00267615 /* EditJobView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC85E122B465A6C00267615 /* EditJobView.swift */; };
 		DDCCC6672B3D566100535673 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDCCC6662B3D566100535673 /* Event.swift */; };
 		DDCCC6692B3D57B800535673 /* EditEventView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDCCC6682B3D57B800535673 /* EditEventView.swift */; };
+		DDDD11D02C1FCB6D004503AE /* FlipClockTextEffectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDDD11CF2C1FCB6D004503AE /* FlipClockTextEffectView.swift */; };
 		DDE7AA382B9B096E00ED77CE /* MiniPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE7AA372B9B096E00ED77CE /* MiniPlayerView.swift */; };
 		DDE889FC2BC41F9C0080D215 /* PasscodeIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE889F92BC41F9C0080D215 /* PasscodeIndicatorView.swift */; };
 		DDE889FD2BC41F9C0080D215 /* NumberPadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE889FA2BC41F9C0080D215 /* NumberPadView.swift */; };
@@ -123,6 +124,7 @@
 		DDC85E122B465A6C00267615 /* EditJobView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditJobView.swift; sourceTree = "<group>"; };
 		DDCCC6662B3D566100535673 /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
 		DDCCC6682B3D57B800535673 /* EditEventView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditEventView.swift; sourceTree = "<group>"; };
+		DDDD11CF2C1FCB6D004503AE /* FlipClockTextEffectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlipClockTextEffectView.swift; sourceTree = "<group>"; };
 		DDE7AA372B9B096E00ED77CE /* MiniPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiniPlayerView.swift; sourceTree = "<group>"; };
 		DDE889F92BC41F9C0080D215 /* PasscodeIndicatorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PasscodeIndicatorView.swift; sourceTree = "<group>"; };
 		DDE889FA2BC41F9C0080D215 /* NumberPadView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NumberPadView.swift; sourceTree = "<group>"; };
@@ -219,6 +221,7 @@
 		DD2F49AF2B1876B200E8C7FE /* View */ = {
 			isa = PBXGroup;
 			children = (
+				DDDD11CE2C1FCB4A004503AE /* FlipClockTextEffect */,
 				DD3DCD2B2C1A9B67006F767E /* DynamicSlider */,
 				DDB840B42C0813A300A31EAD /* HackerGlitchTextEffect */,
 				DDEF4D6C2BC43D31006F2AB2 /* FloatingActionButton */,
@@ -454,6 +457,14 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
+		DDDD11CE2C1FCB4A004503AE /* FlipClockTextEffect */ = {
+			isa = PBXGroup;
+			children = (
+				DDDD11CF2C1FCB6D004503AE /* FlipClockTextEffectView.swift */,
+			);
+			path = FlipClockTextEffect;
+			sourceTree = "<group>";
+		};
 		DDE889F72BC41F280080D215 /* Other */ = {
 			isa = PBXGroup;
 			children = (
@@ -640,6 +651,7 @@
 				DD656D8E2B19E7AA0067E6F9 /* DIHomeView.swift in Sources */,
 				DD3DCD2D2C1A9B86006F767E /* CustomSlider2.swift in Sources */,
 				DDE9AA422B390F8400713B39 /* ThemeChangeSwitch.swift in Sources */,
+				DDDD11D02C1FCB6D004503AE /* FlipClockTextEffectView.swift in Sources */,
 				DD969CD92B3A690D00400FB2 /* Adapter.swift in Sources */,
 				DD2F49A22B18769900E8C7FE /* IOS17_SwiftApp.swift in Sources */,
 				DDB148AE2B2FE08700080396 /* Toast.swift in Sources */,
