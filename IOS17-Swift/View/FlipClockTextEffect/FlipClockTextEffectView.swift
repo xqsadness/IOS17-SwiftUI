@@ -8,8 +8,8 @@
 import SwiftUI
 
 struct FlipClockTextEffectView: View {
-    @State private var timer: CGFloat = 60
-    @State private var count: Int = 60
+    @State private var timer: CGFloat = 60 // or 0
+    @State private var count: Int = 60 // or 0
     @State private var timerRunning: Bool = true
     
     var body: some View {
@@ -42,6 +42,10 @@ struct FlipClockTextEffectView: View {
                         timer = 0
                         timerRunning = false
                     }
+                    //                    timer += 0.01
+                    //                    if timer >= 60 {
+                    //                        timer = 0
+                    //                    }
                     count = Int(timer)
                 }
             }
