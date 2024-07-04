@@ -41,6 +41,7 @@
 		DDA8E7652BB57CAB0040D974 /* HomeAnimatedSideBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA8E7642BB57CAB0040D974 /* HomeAnimatedSideBarView.swift */; };
 		DDB00EDD2B8446B100929C7D /* MapInteraction.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDB00EDC2B8446B100929C7D /* MapInteraction.swift */; };
 		DDB148AE2B2FE08700080396 /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDB148AD2B2FE08700080396 /* Toast.swift */; };
+		DDB67DBA2C367FE20006AA5E /* CustomLayoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDB67DB92C367FE20006AA5E /* CustomLayoutView.swift */; };
 		DDB840B62C0813BB00A31EAD /* HackerTextEffectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDB840B52C0813BB00A31EAD /* HackerTextEffectView.swift */; };
 		DDBD569D2C363CFF001FDECA /* Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDBD569C2C363CFF001FDECA /* Intro.swift */; };
 		DDBD569F2C363DB4001FDECA /* ViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDBD569E2C363DB4001FDECA /* ViewExtension.swift */; };
@@ -112,6 +113,7 @@
 		DDA8E7642BB57CAB0040D974 /* HomeAnimatedSideBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeAnimatedSideBarView.swift; sourceTree = "<group>"; };
 		DDB00EDC2B8446B100929C7D /* MapInteraction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapInteraction.swift; sourceTree = "<group>"; };
 		DDB148AD2B2FE08700080396 /* Toast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Toast.swift; sourceTree = "<group>"; };
+		DDB67DB92C367FE20006AA5E /* CustomLayoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomLayoutView.swift; sourceTree = "<group>"; };
 		DDB840B52C0813BB00A31EAD /* HackerTextEffectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HackerTextEffectView.swift; sourceTree = "<group>"; };
 		DDBD569C2C363CFF001FDECA /* Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Intro.swift; sourceTree = "<group>"; };
 		DDBD569E2C363DB4001FDECA /* ViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewExtension.swift; sourceTree = "<group>"; };
@@ -229,6 +231,7 @@
 		DD2F49AF2B1876B200E8C7FE /* View */ = {
 			isa = PBXGroup;
 			children = (
+				DDB67DB82C367C460006AA5E /* CustomLayout */,
 				DDBD569B2C363CDD001FDECA /* OnBoardingAnimation */,
 				DDDD11CE2C1FCB4A004503AE /* FlipClockTextEffect */,
 				DD3DCD2B2C1A9B67006F767E /* DynamicSlider */,
@@ -395,6 +398,14 @@
 				DDEF4D6F2BC43D88006F2AB2 /* FloatingButton.swift */,
 			);
 			path = Helpers;
+			sourceTree = "<group>";
+		};
+		DDB67DB82C367C460006AA5E /* CustomLayout */ = {
+			isa = PBXGroup;
+			children = (
+				DDB67DB92C367FE20006AA5E /* CustomLayoutView.swift */,
+			);
+			path = CustomLayout;
 			sourceTree = "<group>";
 		};
 		DDB840B42C0813A300A31EAD /* HackerGlitchTextEffect */ = {
@@ -683,6 +694,7 @@
 				DDBD569D2C363CFF001FDECA /* Intro.swift in Sources */,
 				DD656D822B19C66A0067E6F9 /* ParallaxCarouselScrollViewModel.swift in Sources */,
 				DDE7AA382B9B096E00ED77CE /* MiniPlayerView.swift in Sources */,
+				DDB67DBA2C367FE20006AA5E /* CustomLayoutView.swift in Sources */,
 				DD656D7F2B19BA440067E6F9 /* TripCard.swift in Sources */,
 				DDFA8A232B3D1B9E009F29E6 /* FaceFactsView.swift in Sources */,
 				DDBD569F2C363DB4001FDECA /* ViewExtension.swift in Sources */,
