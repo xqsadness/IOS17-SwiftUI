@@ -75,6 +75,6 @@ https://github.com/xqsadness/IOS17-SwiftUI/assets/81242756/ad38a635-cfe6-48e5-aa
 
 https://github.com/xqsadness/IOS17-SwiftUI/assets/81242756/e57a4bfd-0e9f-448d-8524-abd0102d1e12
 
-<a href="https://github.com/xqsadness/IOS17-SwiftUI/tree/main/IOS17-Swift/View/OnBoardingAnimation" > Flip Clock Text Effect (IOS 16+ XCode 15+) </a>
+<a href="https://github.com/xqsadness/IOS17-SwiftUI/tree/main/IOS17-Swift/View/OnBoardingAnimation" > Onboarding Animation (IOS 16+ XCode 15+) </a>
 
 https://github.com/xqsadness/IOS17-SwiftUI/assets/81242756/21841c5b-23ee-4641-98e6-73b14b894947
