@@ -141,6 +141,7 @@ struct OnBoardingScreen: View {
             
             fakeIndex = 1
         }
+        .navigationBarBackButtonHidden()
     }
     
     // IntroView Builder
