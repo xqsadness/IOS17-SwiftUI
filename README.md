@@ -71,4 +71,7 @@ https://github.com/xqsadness/IOS17-SwiftUI/assets/81242756/f10962bd-3125-4b71-b6
 
 https://github.com/xqsadness/IOS17-SwiftUI/assets/81242756/ad38a635-cfe6-48e5-aae4-ac288a23aa67
 
+<a href="https://github.com/xqsadness/IOS17-SwiftUI/tree/main/IOS17-Swift/View/FlipClockTextEffect" > Flip Clock Text Effect (IOS 16+) </a>
+
+https://github.com/xqsadness/IOS17-SwiftUI/assets/81242756/e57a4bfd-0e9f-448d-8524-abd0102d1e12
 
