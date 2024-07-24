@@ -99,7 +99,9 @@ extension LayoutCaching {
                     .cacheMemoryOnly()
                     .fade(duration: 0.25)
                     .resizable()
-                //                    .frame(maxWidth: size.width, maxHeight: size.height)
+//                    .aspectRatio(contentMode: .fill)
+                    .scaledToFill()
+//                    .frame(maxWidth: size.width, maxHeight: size.height)
                 //                    .aspectRatio(contentMode: .fill)
                 
                 //                                RoundedRectangle(cornerRadius: 10)
@@ -109,7 +111,7 @@ extension LayoutCaching {
                     .foregroundStyle(.white)
                     .font(.headline)
             }
-            .aspectRatio(size, contentMode: .fill)
+//            .aspectRatio(size, contentMode: .fill)
         }
     }
 }
