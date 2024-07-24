@@ -18,6 +18,7 @@
 		DD2F49B12B1876C300E8C7FE /* ScrollTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2F49B02B1876C300E8C7FE /* ScrollTransition.swift */; };
 		DD2F49B32B1876DF00E8C7FE /* Animation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2F49B22B1876DF00E8C7FE /* Animation.swift */; };
 		DD2F49B52B18773E00E8C7FE /* AnimatedSFSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2F49B42B18773E00E8C7FE /* AnimatedSFSymbol.swift */; };
+		DD3A1F7F2C508F32008A8317 /* DeleteAccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD3A1F7E2C508F32008A8317 /* DeleteAccountView.swift */; };
 		DD3AEB042B22C17200AFAD25 /* PalettePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD3AEB032B22C17200AFAD25 /* PalettePickerView.swift */; };
 		DD3B6A942B58B98800E78429 /* CoverFlowShowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD3B6A932B58B98800E78429 /* CoverFlowShowView.swift */; };
 		DD3B6A962B58B9C800E78429 /* CoverFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD3B6A952B58B9C800E78429 /* CoverFlow.swift */; };
@@ -91,6 +92,7 @@
 		DD2F49B02B1876C300E8C7FE /* ScrollTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollTransition.swift; sourceTree = "<group>"; };
 		DD2F49B22B1876DF00E8C7FE /* Animation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animation.swift; sourceTree = "<group>"; };
 		DD2F49B42B18773E00E8C7FE /* AnimatedSFSymbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedSFSymbol.swift; sourceTree = "<group>"; };
+		DD3A1F7E2C508F32008A8317 /* DeleteAccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeleteAccountView.swift; sourceTree = "<group>"; };
 		DD3AEB032B22C17200AFAD25 /* PalettePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PalettePickerView.swift; sourceTree = "<group>"; };
 		DD3B6A932B58B98800E78429 /* CoverFlowShowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoverFlowShowView.swift; sourceTree = "<group>"; };
 		DD3B6A952B58B9C800E78429 /* CoverFlow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoverFlow.swift; sourceTree = "<group>"; };
@@ -231,6 +233,7 @@
 		DD2F49AF2B1876B200E8C7FE /* View */ = {
 			isa = PBXGroup;
 			children = (
+				DD3A1F7D2C508F21008A8317 /* DeleteAccountView */,
 				DDB67DB82C367C460006AA5E /* CustomLayout */,
 				DDBD569B2C363CDD001FDECA /* OnBoardingAnimation */,
 				DDDD11CE2C1FCB4A004503AE /* FlipClockTextEffect */,
@@ -253,6 +256,14 @@
 				DD656D7A2B19B9E70067E6F9 /* ParallaxCarouselScroll */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		DD3A1F7D2C508F21008A8317 /* DeleteAccountView */ = {
+			isa = PBXGroup;
+			children = (
+				DD3A1F7E2C508F32008A8317 /* DeleteAccountView.swift */,
+			);
+			path = DeleteAccountView;
 			sourceTree = "<group>";
 		};
 		DD3B6A922B58B96D00E78429 /* CoverFlow */ = {
@@ -707,6 +718,7 @@
 				DD3B6A962B58B9C800E78429 /* CoverFlow.swift in Sources */,
 				DDC7284E2B29A04600B068E6 /* NumberGeneratorService.swift in Sources */,
 				DD3AEB042B22C17200AFAD25 /* PalettePickerView.swift in Sources */,
+				DD3A1F7F2C508F32008A8317 /* DeleteAccountView.swift in Sources */,
 				DDFA8A2A2B3D249A009F29E6 /* PeopleView.swift in Sources */,
 				DDC728522B29A06900B068E6 /* CoinView.swift in Sources */,
 				DDE889FD2BC41F9C0080D215 /* NumberPadView.swift in Sources */,

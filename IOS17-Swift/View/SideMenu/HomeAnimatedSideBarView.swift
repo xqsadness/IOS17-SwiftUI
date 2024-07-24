@@ -54,6 +54,7 @@ struct HomeAnimatedSideBarView: View {
                             navigationScreen("Flip Clock Text Effect") { FlipClockTextEffectView() }
                             navigationScreen("OnBoarding") { OnBoardingScreen() }
                             navigationScreen("Layout Caching") { LayoutCaching() }
+                            navigationScreen("Delete account view") { DeleteAccountView() }
                         }
                         .padding()
                     }
