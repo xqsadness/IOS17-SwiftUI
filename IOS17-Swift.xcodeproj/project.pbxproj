@@ -64,6 +64,7 @@
 		DDCCC6672B3D566100535673 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDCCC6662B3D566100535673 /* Event.swift */; };
 		DDCCC6692B3D57B800535673 /* EditEventView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDCCC6682B3D57B800535673 /* EditEventView.swift */; };
 		DDDD11D02C1FCB6D004503AE /* FlipClockTextEffectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDDD11CF2C1FCB6D004503AE /* FlipClockTextEffectView.swift */; };
+		DDDE39ED2C60AAF600382E56 /* HomeSwipeActions .swift in Sources */ = {isa = PBXBuildFile; fileRef = DDDE39EC2C60AAF600382E56 /* HomeSwipeActions .swift */; };
 		DDE7AA382B9B096E00ED77CE /* MiniPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE7AA372B9B096E00ED77CE /* MiniPlayerView.swift */; };
 		DDE889FC2BC41F9C0080D215 /* PasscodeIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE889F92BC41F9C0080D215 /* PasscodeIndicatorView.swift */; };
 		DDE889FD2BC41F9C0080D215 /* NumberPadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE889FA2BC41F9C0080D215 /* NumberPadView.swift */; };
@@ -137,6 +138,7 @@
 		DDCCC6662B3D566100535673 /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
 		DDCCC6682B3D57B800535673 /* EditEventView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditEventView.swift; sourceTree = "<group>"; };
 		DDDD11CF2C1FCB6D004503AE /* FlipClockTextEffectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlipClockTextEffectView.swift; sourceTree = "<group>"; };
+		DDDE39EC2C60AAF600382E56 /* HomeSwipeActions .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HomeSwipeActions .swift"; sourceTree = "<group>"; };
 		DDE7AA372B9B096E00ED77CE /* MiniPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiniPlayerView.swift; sourceTree = "<group>"; };
 		DDE889F92BC41F9C0080D215 /* PasscodeIndicatorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PasscodeIndicatorView.swift; sourceTree = "<group>"; };
 		DDE889FA2BC41F9C0080D215 /* NumberPadView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NumberPadView.swift; sourceTree = "<group>"; };
@@ -233,6 +235,7 @@
 		DD2F49AF2B1876B200E8C7FE /* View */ = {
 			isa = PBXGroup;
 			children = (
+				DDDE39EB2C60AAB500382E56 /* SwipeActionsScrollView  */,
 				DD3A1F7D2C508F21008A8317 /* DeleteAccountView */,
 				DDB67DB82C367C460006AA5E /* CustomLayout */,
 				DDBD569B2C363CDD001FDECA /* OnBoardingAnimation */,
@@ -507,6 +510,14 @@
 			path = FlipClockTextEffect;
 			sourceTree = "<group>";
 		};
+		DDDE39EB2C60AAB500382E56 /* SwipeActionsScrollView  */ = {
+			isa = PBXGroup;
+			children = (
+				DDDE39EC2C60AAF600382E56 /* HomeSwipeActions .swift */,
+			);
+			path = "SwipeActionsScrollView ";
+			sourceTree = "<group>";
+		};
 		DDE889F72BC41F280080D215 /* Other */ = {
 			isa = PBXGroup;
 			children = (
@@ -692,6 +703,7 @@
 				DDC728572B29A17300B068E6 /* CoinViewModel.swift in Sources */,
 				DDC1B1DF2BBA4C4C00520EF9 /* LimitedTextFieldHome .swift in Sources */,
 				DD656D8E2B19E7AA0067E6F9 /* DIHomeView.swift in Sources */,
+				DDDE39ED2C60AAF600382E56 /* HomeSwipeActions .swift in Sources */,
 				DD3DCD2D2C1A9B86006F767E /* CustomSlider2.swift in Sources */,
 				DDE9AA422B390F8400713B39 /* ThemeChangeSwitch.swift in Sources */,
 				DDDD11D02C1FCB6D004503AE /* FlipClockTextEffectView.swift in Sources */,

@@ -55,6 +55,7 @@ struct HomeAnimatedSideBarView: View {
                             navigationScreen("OnBoarding") { OnBoardingScreen() }
                             navigationScreen("Layout Caching") { LayoutCaching() }
                             navigationScreen("Delete account view") { DeleteAccountView() }
+                            navigationScreen("Home Swipe Actions For Scrollview") { HomeSwipeActions_() }
                         }
                         .padding()
                     }
