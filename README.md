@@ -86,3 +86,9 @@ https://github.com/user-attachments/assets/5982e6b6-a760-4f89-8d08-15fc5ff5078e
 <a href="https://github.com/xqsadness/IOS17-SwiftUI/tree/main/IOS17-Swift/View/DeleteAccountView" > Delete Account View (IOS 16+) </a>
 
 https://github.com/user-attachments/assets/668a8b20-9a39-43d5-93fd-17205d2fc7ce
+
+<a href="https://github.com/xqsadness/IOS17-SwiftUI/tree/main/IOS17-Swift/View/SwipeActionsScrollView%20" > Swipe action for scrollview (IOS 17+) </a>
+
+https://github.com/user-attachments/assets/a84f3f87-77d6-449b-addb-83d5b40c09ef
+
+
