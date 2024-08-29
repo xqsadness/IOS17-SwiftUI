@@ -38,6 +38,11 @@
 		DD6AFAF02B1D6AF5005E94F8 /* DarkLightModeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD6AFAEF2B1D6AF5005E94F8 /* DarkLightModeView.swift */; };
 		DD91BCE62B3E677C00E68492 /* ParallaxScrollEffectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD91BCE52B3E677C00E68492 /* ParallaxScrollEffectView.swift */; };
 		DD969CD92B3A690D00400FB2 /* Adapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD969CD82B3A690D00400FB2 /* Adapter.swift */; };
+		DDA1D97D2C80164C0002E583 /* FloatingBottomSheetsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA1D97C2C80164C0002E583 /* FloatingBottomSheetsView.swift */; };
+		DDA1D9802C8016770002E583 /* FloatingSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA1D97F2C8016770002E583 /* FloatingSheet.swift */; };
+		DDA1D9832C801CFF0002E583 /* FloatingTabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA1D9822C801CFF0002E583 /* FloatingTabBarView.swift */; };
+		DDA1D9862C801D1A0002E583 /* TabFloating.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA1D9852C801D1A0002E583 /* TabFloating.swift */; };
+		DDA1D9892C8022FC0002E583 /* CustomTabbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA1D9882C8022FC0002E583 /* CustomTabbar.swift */; };
 		DDA8E7632BB57C3D0040D974 /* AnimatedSideBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA8E7622BB57C3D0040D974 /* AnimatedSideBar.swift */; };
 		DDA8E7652BB57CAB0040D974 /* HomeAnimatedSideBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA8E7642BB57CAB0040D974 /* HomeAnimatedSideBarView.swift */; };
 		DDB00EDD2B8446B100929C7D /* MapInteraction.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDB00EDC2B8446B100929C7D /* MapInteraction.swift */; };
@@ -112,6 +117,11 @@
 		DD6AFAEF2B1D6AF5005E94F8 /* DarkLightModeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DarkLightModeView.swift; sourceTree = "<group>"; };
 		DD91BCE52B3E677C00E68492 /* ParallaxScrollEffectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParallaxScrollEffectView.swift; sourceTree = "<group>"; };
 		DD969CD82B3A690D00400FB2 /* Adapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Adapter.swift; sourceTree = "<group>"; };
+		DDA1D97C2C80164C0002E583 /* FloatingBottomSheetsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingBottomSheetsView.swift; sourceTree = "<group>"; };
+		DDA1D97F2C8016770002E583 /* FloatingSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingSheet.swift; sourceTree = "<group>"; };
+		DDA1D9822C801CFF0002E583 /* FloatingTabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingTabBarView.swift; sourceTree = "<group>"; };
+		DDA1D9852C801D1A0002E583 /* TabFloating.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabFloating.swift; sourceTree = "<group>"; };
+		DDA1D9882C8022FC0002E583 /* CustomTabbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabbar.swift; sourceTree = "<group>"; };
 		DDA8E7622BB57C3D0040D974 /* AnimatedSideBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedSideBar.swift; sourceTree = "<group>"; };
 		DDA8E7642BB57CAB0040D974 /* HomeAnimatedSideBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeAnimatedSideBarView.swift; sourceTree = "<group>"; };
 		DDB00EDC2B8446B100929C7D /* MapInteraction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapInteraction.swift; sourceTree = "<group>"; };
@@ -235,6 +245,8 @@
 		DD2F49AF2B1876B200E8C7FE /* View */ = {
 			isa = PBXGroup;
 			children = (
+				DDA1D9812C801CE10002E583 /* FloatingTabBar */,
+				DDA1D97B2C8016340002E583 /* FloatingBottomSheets */,
 				DDDE39EB2C60AAB500382E56 /* SwipeActionsScrollView  */,
 				DD3A1F7D2C508F21008A8317 /* DeleteAccountView */,
 				DDB67DB82C367C460006AA5E /* CustomLayout */,
@@ -392,6 +404,49 @@
 				DD969CD82B3A690D00400FB2 /* Adapter.swift */,
 			);
 			path = Adapter;
+			sourceTree = "<group>";
+		};
+		DDA1D97B2C8016340002E583 /* FloatingBottomSheets */ = {
+			isa = PBXGroup;
+			children = (
+				DDA1D97E2C8016640002E583 /* Helper */,
+				DDA1D97C2C80164C0002E583 /* FloatingBottomSheetsView.swift */,
+			);
+			path = FloatingBottomSheets;
+			sourceTree = "<group>";
+		};
+		DDA1D97E2C8016640002E583 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				DDA1D97F2C8016770002E583 /* FloatingSheet.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		DDA1D9812C801CE10002E583 /* FloatingTabBar */ = {
+			isa = PBXGroup;
+			children = (
+				DDA1D9842C801D060002E583 /* Model */,
+				DDA1D9872C801DEF0002E583 /* View */,
+			);
+			path = FloatingTabBar;
+			sourceTree = "<group>";
+		};
+		DDA1D9842C801D060002E583 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DDA1D9852C801D1A0002E583 /* TabFloating.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DDA1D9872C801DEF0002E583 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DDA1D9822C801CFF0002E583 /* FloatingTabBarView.swift */,
+				DDA1D9882C8022FC0002E583 /* CustomTabbar.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		DDA8E7612BB57C200040D974 /* SideMenu */ = {
@@ -702,6 +757,7 @@
 				DD3B6A942B58B98800E78429 /* CoverFlowShowView.swift in Sources */,
 				DDC728572B29A17300B068E6 /* CoinViewModel.swift in Sources */,
 				DDC1B1DF2BBA4C4C00520EF9 /* LimitedTextFieldHome .swift in Sources */,
+				DDA1D9892C8022FC0002E583 /* CustomTabbar.swift in Sources */,
 				DD656D8E2B19E7AA0067E6F9 /* DIHomeView.swift in Sources */,
 				DDDE39ED2C60AAF600382E56 /* HomeSwipeActions .swift in Sources */,
 				DD3DCD2D2C1A9B86006F767E /* CustomSlider2.swift in Sources */,
@@ -710,6 +766,7 @@
 				DD969CD92B3A690D00400FB2 /* Adapter.swift in Sources */,
 				DD2F49A22B18769900E8C7FE /* IOS17_SwiftApp.swift in Sources */,
 				DDB148AE2B2FE08700080396 /* Toast.swift in Sources */,
+				DDA1D9862C801D1A0002E583 /* TabFloating.swift in Sources */,
 				DD0FF05C2B1F0C14007B4F10 /* FactoryView.swift in Sources */,
 				DDBD56A32C363F1D001FDECA /* LiquidShapeAnimation.swift in Sources */,
 				DDC728502B29A05700B068E6 /* NumberGeneratorViewModel.swift in Sources */,
@@ -726,8 +783,10 @@
 				DD656D922B19E8E10067E6F9 /* NetworkingManagerService.swift in Sources */,
 				DDE889FE2BC41F9C0080D215 /* PasscodeView.swift in Sources */,
 				DD2F49B52B18773E00E8C7FE /* AnimatedSFSymbol.swift in Sources */,
+				DDA1D97D2C80164C0002E583 /* FloatingBottomSheetsView.swift in Sources */,
 				DD0887292B44F2E00054C453 /* ScrollProgressTrackerView.swift in Sources */,
 				DD3B6A962B58B9C800E78429 /* CoverFlow.swift in Sources */,
+				DDA1D9832C801CFF0002E583 /* FloatingTabBarView.swift in Sources */,
 				DDC7284E2B29A04600B068E6 /* NumberGeneratorService.swift in Sources */,
 				DD3AEB042B22C17200AFAD25 /* PalettePickerView.swift in Sources */,
 				DD3A1F7F2C508F32008A8317 /* DeleteAccountView.swift in Sources */,
@@ -739,6 +798,7 @@
 				DDC4545B2B899EE500FC2B8E /* Tab.swift in Sources */,
 				DD656D782B198ED80067E6F9 /* NetworkingManager.swift in Sources */,
 				DDC7284A2B299FB800B068E6 /* ProtocolManager.swift in Sources */,
+				DDA1D9802C8016770002E583 /* FloatingSheet.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
