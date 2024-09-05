@@ -54,28 +54,36 @@ struct FloatingTabBarView: View {
                     .tag(TabFloating.settings)
             }
             
-            CustomTabbar(activeTab: $activeTab)
+            //MARK: Available in xcode 16
+//            CustomTabbar(activeTab: $activeTab)
         }
     }
 }
 
 struct HideTabBar: UIViewRepresentable {
+    init(result: @escaping () -> Void) {
+        UITabBar.appearance().isHidden = true
+        self.result = result
+    }
+    
     var result: () -> ()
     
-    func makeUIView (context: Context) -> UIView {
+    func makeUIView(context: Context) -> UIView {
         let view = UIView(frame: .zero)
         view.backgroundColor = .clear
+        
         DispatchQueue.main.async {
-            if let tabController = view.tabController{
+            if let tabController = view.tabController {
+                UITabBar.appearance().isHidden = false
                 tabController.tabBar.isHidden = true
                 result()
             }
         }
+        
         return view
     }
     
-    func updateUIView(_ uiView: UIView, context: Context) {
-    }
+    func updateUIView(_ uiView: UIView, context: Context) {}
 }
 
 extension UIView {

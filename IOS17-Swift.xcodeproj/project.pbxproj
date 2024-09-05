@@ -36,6 +36,7 @@
 		DD656D922B19E8E10067E6F9 /* NetworkingManagerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD656D912B19E8E10067E6F9 /* NetworkingManagerService.swift */; };
 		DD68AA3B2B4E94A900A1CF95 /* ImageParalaxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD68AA3A2B4E94A900A1CF95 /* ImageParalaxView.swift */; };
 		DD6AFAF02B1D6AF5005E94F8 /* DarkLightModeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD6AFAEF2B1D6AF5005E94F8 /* DarkLightModeView.swift */; };
+		DD6CCD4B2C88150300D4C83F /* CustomViewTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD6CCD4A2C88150300D4C83F /* CustomViewTransition.swift */; };
 		DD91BCE62B3E677C00E68492 /* ParallaxScrollEffectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD91BCE52B3E677C00E68492 /* ParallaxScrollEffectView.swift */; };
 		DD969CD92B3A690D00400FB2 /* Adapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD969CD82B3A690D00400FB2 /* Adapter.swift */; };
 		DDA1D97D2C80164C0002E583 /* FloatingBottomSheetsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA1D97C2C80164C0002E583 /* FloatingBottomSheetsView.swift */; };
@@ -115,6 +116,7 @@
 		DD656D912B19E8E10067E6F9 /* NetworkingManagerService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkingManagerService.swift; sourceTree = "<group>"; };
 		DD68AA3A2B4E94A900A1CF95 /* ImageParalaxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageParalaxView.swift; sourceTree = "<group>"; };
 		DD6AFAEF2B1D6AF5005E94F8 /* DarkLightModeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DarkLightModeView.swift; sourceTree = "<group>"; };
+		DD6CCD4A2C88150300D4C83F /* CustomViewTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomViewTransition.swift; sourceTree = "<group>"; };
 		DD91BCE52B3E677C00E68492 /* ParallaxScrollEffectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParallaxScrollEffectView.swift; sourceTree = "<group>"; };
 		DD969CD82B3A690D00400FB2 /* Adapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Adapter.swift; sourceTree = "<group>"; };
 		DDA1D97C2C80164C0002E583 /* FloatingBottomSheetsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingBottomSheetsView.swift; sourceTree = "<group>"; };
@@ -245,6 +247,7 @@
 		DD2F49AF2B1876B200E8C7FE /* View */ = {
 			isa = PBXGroup;
 			children = (
+				DD6CCD492C8814F200D4C83F /*  CustomViewTransition */,
 				DDA1D9812C801CE10002E583 /* FloatingTabBar */,
 				DDA1D97B2C8016340002E583 /* FloatingBottomSheets */,
 				DDDE39EB2C60AAB500382E56 /* SwipeActionsScrollView  */,
@@ -388,6 +391,14 @@
 				DD6AFAEF2B1D6AF5005E94F8 /* DarkLightModeView.swift */,
 			);
 			path = DarkLightMode;
+			sourceTree = "<group>";
+		};
+		DD6CCD492C8814F200D4C83F /*  CustomViewTransition */ = {
+			isa = PBXGroup;
+			children = (
+				DD6CCD4A2C88150300D4C83F /* CustomViewTransition.swift */,
+			);
+			path = " CustomViewTransition";
 			sourceTree = "<group>";
 		};
 		DD91BCE42B3E676A00E68492 /* ParallaxScrollEffect */ = {
@@ -786,6 +797,7 @@
 				DDA1D97D2C80164C0002E583 /* FloatingBottomSheetsView.swift in Sources */,
 				DD0887292B44F2E00054C453 /* ScrollProgressTrackerView.swift in Sources */,
 				DD3B6A962B58B9C800E78429 /* CoverFlow.swift in Sources */,
+				DD6CCD4B2C88150300D4C83F /* CustomViewTransition.swift in Sources */,
 				DDA1D9832C801CFF0002E583 /* FloatingTabBarView.swift in Sources */,
 				DDC7284E2B29A04600B068E6 /* NumberGeneratorService.swift in Sources */,
 				DD3AEB042B22C17200AFAD25 /* PalettePickerView.swift in Sources */,
@@ -935,6 +947,7 @@
 				DEVELOPMENT_TEAM = 4BB9BFSL47;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -964,6 +977,7 @@
 				DEVELOPMENT_TEAM = 4BB9BFSL47;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
