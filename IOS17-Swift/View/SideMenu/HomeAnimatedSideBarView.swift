@@ -58,6 +58,7 @@ struct HomeAnimatedSideBarView: View {
                             navigationScreen("Home Swipe Actions For Scrollview") { HomeSwipeActions_() }
                             //MARK: Available in xcode 16 - navigationScreen("Floating TabBar") { FloatingTabBarView() }
                             navigationScreen("Onboarding with transition") { HomeCustomTransition() }
+                            navigationScreen("Custom field") { CustomTextField() }
                         }
                         .padding()
                     }

@@ -22,6 +22,7 @@
 		DD3AEB042B22C17200AFAD25 /* PalettePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD3AEB032B22C17200AFAD25 /* PalettePickerView.swift */; };
 		DD3B6A942B58B98800E78429 /* CoverFlowShowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD3B6A932B58B98800E78429 /* CoverFlowShowView.swift */; };
 		DD3B6A962B58B9C800E78429 /* CoverFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD3B6A952B58B9C800E78429 /* CoverFlow.swift */; };
+		DD3B7EC42C8E93320087AF05 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD3B7EC32C8E93320087AF05 /* CustomTextField.swift */; };
 		DD3DCD2A2C1A8362006F767E /* GlitchTextEffectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD3DCD292C1A8362006F767E /* GlitchTextEffectView.swift */; };
 		DD3DCD2D2C1A9B86006F767E /* CustomSlider2.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD3DCD2C2C1A9B86006F767E /* CustomSlider2.swift */; };
 		DD656D762B1986FA0067E6F9 /* CombineSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD656D752B1986FA0067E6F9 /* CombineSearch.swift */; };
@@ -103,6 +104,7 @@
 		DD3AEB032B22C17200AFAD25 /* PalettePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PalettePickerView.swift; sourceTree = "<group>"; };
 		DD3B6A932B58B98800E78429 /* CoverFlowShowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoverFlowShowView.swift; sourceTree = "<group>"; };
 		DD3B6A952B58B9C800E78429 /* CoverFlow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoverFlow.swift; sourceTree = "<group>"; };
+		DD3B7EC32C8E93320087AF05 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
 		DD3DCD292C1A8362006F767E /* GlitchTextEffectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlitchTextEffectView.swift; sourceTree = "<group>"; };
 		DD3DCD2C2C1A9B86006F767E /* CustomSlider2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSlider2.swift; sourceTree = "<group>"; };
 		DD656D752B1986FA0067E6F9 /* CombineSearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombineSearch.swift; sourceTree = "<group>"; };
@@ -592,6 +594,7 @@
 				DD2F49B42B18773E00E8C7FE /* AnimatedSFSymbol.swift */,
 				DD3AEB032B22C17200AFAD25 /* PalettePickerView.swift */,
 				DDB00EDC2B8446B100929C7D /* MapInteraction.swift */,
+				DD3B7EC32C8E93320087AF05 /* CustomTextField.swift */,
 			);
 			path = Other;
 			sourceTree = "<group>";
@@ -796,6 +799,7 @@
 				DD2F49B52B18773E00E8C7FE /* AnimatedSFSymbol.swift in Sources */,
 				DDA1D97D2C80164C0002E583 /* FloatingBottomSheetsView.swift in Sources */,
 				DD0887292B44F2E00054C453 /* ScrollProgressTrackerView.swift in Sources */,
+				DD3B7EC42C8E93320087AF05 /* CustomTextField.swift in Sources */,
 				DD3B6A962B58B9C800E78429 /* CoverFlow.swift in Sources */,
 				DD6CCD4B2C88150300D4C83F /* CustomViewTransition.swift in Sources */,
 				DDA1D9832C801CFF0002E583 /* FloatingTabBarView.swift in Sources */,
