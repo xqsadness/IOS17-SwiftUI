@@ -99,3 +99,12 @@ https://github.com/user-attachments/assets/368332bb-f083-40a5-b63c-59743ecdb8e2
 
 https://github.com/user-attachments/assets/76ffffcc-75ca-4f12-a0ba-3907caf42801
 
+<p align="left">
+ <a href="https://github.com/xqsadness/IOS17-SwiftUI/tree/main/IOS17-Swift/View/StackAnimation" > Stack view </a>
+ |
+ <a href="https://github.com/xqsadness/IOS17-SwiftUI/tree/main/IOS17-Swift/View/DropDownView" > Dropdown </a>
+</p>
+
+https://github.com/user-attachments/assets/e532f004-2445-4104-b1fe-c4e92b3b5688
+
+
