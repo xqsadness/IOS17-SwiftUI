@@ -60,6 +60,7 @@ struct HomeAnimatedSideBarView: View {
                             navigationScreen("Onboarding with transition") { HomeCustomTransition() }
                             navigationScreen("Custom field") { CustomTextField() }
                             navigationScreen("Stack Animation") { StackAnimation() }
+                            navigationScreen("DropDown") { DropDown() }
                         }
                         .padding()
                     }

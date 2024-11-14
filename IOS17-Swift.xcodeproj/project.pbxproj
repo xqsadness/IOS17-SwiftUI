@@ -47,6 +47,7 @@
 		DDA1D9892C8022FC0002E583 /* CustomTabbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA1D9882C8022FC0002E583 /* CustomTabbar.swift */; };
 		DDA8E7632BB57C3D0040D974 /* AnimatedSideBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA8E7622BB57C3D0040D974 /* AnimatedSideBar.swift */; };
 		DDA8E7652BB57CAB0040D974 /* HomeAnimatedSideBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA8E7642BB57CAB0040D974 /* HomeAnimatedSideBarView.swift */; };
+		DDAF58C22CE596E20099A0A5 /* DropDownView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDAF58C12CE596E20099A0A5 /* DropDownView.swift */; };
 		DDB00EDD2B8446B100929C7D /* MapInteraction.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDB00EDC2B8446B100929C7D /* MapInteraction.swift */; };
 		DDB148AE2B2FE08700080396 /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDB148AD2B2FE08700080396 /* Toast.swift */; };
 		DDB67DBA2C367FE20006AA5E /* CustomLayoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDB67DB92C367FE20006AA5E /* CustomLayoutView.swift */; };
@@ -130,6 +131,7 @@
 		DDA1D9882C8022FC0002E583 /* CustomTabbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabbar.swift; sourceTree = "<group>"; };
 		DDA8E7622BB57C3D0040D974 /* AnimatedSideBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedSideBar.swift; sourceTree = "<group>"; };
 		DDA8E7642BB57CAB0040D974 /* HomeAnimatedSideBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeAnimatedSideBarView.swift; sourceTree = "<group>"; };
+		DDAF58C12CE596E20099A0A5 /* DropDownView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropDownView.swift; sourceTree = "<group>"; };
 		DDB00EDC2B8446B100929C7D /* MapInteraction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapInteraction.swift; sourceTree = "<group>"; };
 		DDB148AD2B2FE08700080396 /* Toast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Toast.swift; sourceTree = "<group>"; };
 		DDB67DB92C367FE20006AA5E /* CustomLayoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomLayoutView.swift; sourceTree = "<group>"; };
@@ -253,6 +255,7 @@
 		DD2F49AF2B1876B200E8C7FE /* View */ = {
 			isa = PBXGroup;
 			children = (
+				DDAF58C02CE596D60099A0A5 /* DropDownView */,
 				DDE648E22CAB8ED900F4BFB6 /* StackAnimation */,
 				DD6CCD492C8814F200D4C83F /*  CustomViewTransition */,
 				DDA1D9812C801CE10002E583 /* FloatingTabBar */,
@@ -474,6 +477,14 @@
 				DDA8E7642BB57CAB0040D974 /* HomeAnimatedSideBarView.swift */,
 			);
 			path = SideMenu;
+			sourceTree = "<group>";
+		};
+		DDAF58C02CE596D60099A0A5 /* DropDownView */ = {
+			isa = PBXGroup;
+			children = (
+				DDAF58C12CE596E20099A0A5 /* DropDownView.swift */,
+			);
+			path = DropDownView;
 			sourceTree = "<group>";
 		};
 		DDB148AC2B2FE03D00080396 /* Helpers */ = {
@@ -807,6 +818,7 @@
 				DD656D7F2B19BA440067E6F9 /* TripCard.swift in Sources */,
 				DDFA8A232B3D1B9E009F29E6 /* FaceFactsView.swift in Sources */,
 				DDBD569F2C363DB4001FDECA /* ViewExtension.swift in Sources */,
+				DDAF58C22CE596E20099A0A5 /* DropDownView.swift in Sources */,
 				DDC1B1E12BBA4C8800520EF9 /* LimitedTextField.swift in Sources */,
 				DD6AFAF02B1D6AF5005E94F8 /* DarkLightModeView.swift in Sources */,
 				DD656D922B19E8E10067E6F9 /* NetworkingManagerService.swift in Sources */,
