@@ -59,6 +59,7 @@ struct HomeAnimatedSideBarView: View {
                             //MARK: Available in xcode 16 - navigationScreen("Floating TabBar") { FloatingTabBarView() }
                             navigationScreen("Onboarding with transition") { HomeCustomTransition() }
                             navigationScreen("Custom field") { CustomTextField() }
+                            navigationScreen("Stack Animation") { StackAnimation() }
                         }
                         .padding()
                     }

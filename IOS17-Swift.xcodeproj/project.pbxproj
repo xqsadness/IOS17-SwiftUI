@@ -72,6 +72,8 @@
 		DDCCC6692B3D57B800535673 /* EditEventView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDCCC6682B3D57B800535673 /* EditEventView.swift */; };
 		DDDD11D02C1FCB6D004503AE /* FlipClockTextEffectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDDD11CF2C1FCB6D004503AE /* FlipClockTextEffectView.swift */; };
 		DDDE39ED2C60AAF600382E56 /* HomeSwipeActions .swift in Sources */ = {isa = PBXBuildFile; fileRef = DDDE39EC2C60AAF600382E56 /* HomeSwipeActions .swift */; };
+		DDE648E42CAB8F3000F4BFB6 /* StackAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE648E32CAB8F3000F4BFB6 /* StackAnimation.swift */; };
+		DDE648E62CAB8F7000F4BFB6 /* StackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE648E52CAB8F7000F4BFB6 /* StackView.swift */; };
 		DDE7AA382B9B096E00ED77CE /* MiniPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE7AA372B9B096E00ED77CE /* MiniPlayerView.swift */; };
 		DDE889FC2BC41F9C0080D215 /* PasscodeIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE889F92BC41F9C0080D215 /* PasscodeIndicatorView.swift */; };
 		DDE889FD2BC41F9C0080D215 /* NumberPadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE889FA2BC41F9C0080D215 /* NumberPadView.swift */; };
@@ -153,6 +155,8 @@
 		DDCCC6682B3D57B800535673 /* EditEventView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditEventView.swift; sourceTree = "<group>"; };
 		DDDD11CF2C1FCB6D004503AE /* FlipClockTextEffectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlipClockTextEffectView.swift; sourceTree = "<group>"; };
 		DDDE39EC2C60AAF600382E56 /* HomeSwipeActions .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HomeSwipeActions .swift"; sourceTree = "<group>"; };
+		DDE648E32CAB8F3000F4BFB6 /* StackAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackAnimation.swift; sourceTree = "<group>"; };
+		DDE648E52CAB8F7000F4BFB6 /* StackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackView.swift; sourceTree = "<group>"; };
 		DDE7AA372B9B096E00ED77CE /* MiniPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiniPlayerView.swift; sourceTree = "<group>"; };
 		DDE889F92BC41F9C0080D215 /* PasscodeIndicatorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PasscodeIndicatorView.swift; sourceTree = "<group>"; };
 		DDE889FA2BC41F9C0080D215 /* NumberPadView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NumberPadView.swift; sourceTree = "<group>"; };
@@ -249,6 +253,7 @@
 		DD2F49AF2B1876B200E8C7FE /* View */ = {
 			isa = PBXGroup;
 			children = (
+				DDE648E22CAB8ED900F4BFB6 /* StackAnimation */,
 				DD6CCD492C8814F200D4C83F /*  CustomViewTransition */,
 				DDA1D9812C801CE10002E583 /* FloatingTabBar */,
 				DDA1D97B2C8016340002E583 /* FloatingBottomSheets */,
@@ -586,6 +591,15 @@
 			path = "SwipeActionsScrollView ";
 			sourceTree = "<group>";
 		};
+		DDE648E22CAB8ED900F4BFB6 /* StackAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				DDE648E32CAB8F3000F4BFB6 /* StackAnimation.swift */,
+				DDE648E52CAB8F7000F4BFB6 /* StackView.swift */,
+			);
+			path = StackAnimation;
+			sourceTree = "<group>";
+		};
 		DDE889F72BC41F280080D215 /* Other */ = {
 			isa = PBXGroup;
 			children = (
@@ -741,6 +755,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DD656D8A2B19D9900067E6F9 /* CoinDataService.swift in Sources */,
+				DDE648E62CAB8F7000F4BFB6 /* StackView.swift in Sources */,
 				DDA8E7652BB57CAB0040D974 /* HomeAnimatedSideBarView.swift in Sources */,
 				DDB00EDD2B8446B100929C7D /* MapInteraction.swift in Sources */,
 				DDE889FC2BC41F9C0080D215 /* PasscodeIndicatorView.swift in Sources */,
@@ -813,6 +828,7 @@
 				DDF3F5C12B82FA5F00A7FEC8 /* StretchySliderView.swift in Sources */,
 				DDC4545B2B899EE500FC2B8E /* Tab.swift in Sources */,
 				DD656D782B198ED80067E6F9 /* NetworkingManager.swift in Sources */,
+				DDE648E42CAB8F3000F4BFB6 /* StackAnimation.swift in Sources */,
 				DDC7284A2B299FB800B068E6 /* ProtocolManager.swift in Sources */,
 				DDA1D9802C8016770002E583 /* FloatingSheet.swift in Sources */,
 			);
@@ -955,8 +971,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -985,8 +1000,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
