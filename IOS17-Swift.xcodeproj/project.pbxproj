@@ -18,6 +18,7 @@
 		DD2F49B12B1876C300E8C7FE /* ScrollTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2F49B02B1876C300E8C7FE /* ScrollTransition.swift */; };
 		DD2F49B32B1876DF00E8C7FE /* Animation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2F49B22B1876DF00E8C7FE /* Animation.swift */; };
 		DD2F49B52B18773E00E8C7FE /* AnimatedSFSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2F49B42B18773E00E8C7FE /* AnimatedSFSymbol.swift */; };
+		DD3272392D06A7EC006237C4 /* PatternLockScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD3272382D06A7EC006237C4 /* PatternLockScreen.swift */; };
 		DD3A1F7F2C508F32008A8317 /* DeleteAccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD3A1F7E2C508F32008A8317 /* DeleteAccountView.swift */; };
 		DD3AEB042B22C17200AFAD25 /* PalettePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD3AEB032B22C17200AFAD25 /* PalettePickerView.swift */; };
 		DD3B6A942B58B98800E78429 /* CoverFlowShowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD3B6A932B58B98800E78429 /* CoverFlowShowView.swift */; };
@@ -71,6 +72,7 @@
 		DDC85E132B465A6C00267615 /* EditJobView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC85E122B465A6C00267615 /* EditJobView.swift */; };
 		DDCCC6672B3D566100535673 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDCCC6662B3D566100535673 /* Event.swift */; };
 		DDCCC6692B3D57B800535673 /* EditEventView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDCCC6682B3D57B800535673 /* EditEventView.swift */; };
+		DDD4FB332CEC6F9D00FCB1FC /* DynamicTabbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDD4FB322CEC6F9D00FCB1FC /* DynamicTabbar.swift */; };
 		DDDD11D02C1FCB6D004503AE /* FlipClockTextEffectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDDD11CF2C1FCB6D004503AE /* FlipClockTextEffectView.swift */; };
 		DDDE39ED2C60AAF600382E56 /* HomeSwipeActions .swift in Sources */ = {isa = PBXBuildFile; fileRef = DDDE39EC2C60AAF600382E56 /* HomeSwipeActions .swift */; };
 		DDE648E42CAB8F3000F4BFB6 /* StackAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE648E32CAB8F3000F4BFB6 /* StackAnimation.swift */; };
@@ -103,6 +105,7 @@
 		DD2F49B02B1876C300E8C7FE /* ScrollTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollTransition.swift; sourceTree = "<group>"; };
 		DD2F49B22B1876DF00E8C7FE /* Animation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animation.swift; sourceTree = "<group>"; };
 		DD2F49B42B18773E00E8C7FE /* AnimatedSFSymbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedSFSymbol.swift; sourceTree = "<group>"; };
+		DD3272382D06A7EC006237C4 /* PatternLockScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatternLockScreen.swift; sourceTree = "<group>"; };
 		DD3A1F7E2C508F32008A8317 /* DeleteAccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeleteAccountView.swift; sourceTree = "<group>"; };
 		DD3AEB032B22C17200AFAD25 /* PalettePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PalettePickerView.swift; sourceTree = "<group>"; };
 		DD3B6A932B58B98800E78429 /* CoverFlowShowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoverFlowShowView.swift; sourceTree = "<group>"; };
@@ -155,6 +158,7 @@
 		DDC85E122B465A6C00267615 /* EditJobView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditJobView.swift; sourceTree = "<group>"; };
 		DDCCC6662B3D566100535673 /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
 		DDCCC6682B3D57B800535673 /* EditEventView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditEventView.swift; sourceTree = "<group>"; };
+		DDD4FB322CEC6F9D00FCB1FC /* DynamicTabbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicTabbar.swift; sourceTree = "<group>"; };
 		DDDD11CF2C1FCB6D004503AE /* FlipClockTextEffectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlipClockTextEffectView.swift; sourceTree = "<group>"; };
 		DDDE39EC2C60AAF600382E56 /* HomeSwipeActions .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HomeSwipeActions .swift"; sourceTree = "<group>"; };
 		DDE648E32CAB8F3000F4BFB6 /* StackAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackAnimation.swift; sourceTree = "<group>"; };
@@ -255,6 +259,8 @@
 		DD2F49AF2B1876B200E8C7FE /* View */ = {
 			isa = PBXGroup;
 			children = (
+				DD3272372D06A7D9006237C4 /* PatternLock */,
+				DDD4FB2F2CEC6F8500FCB1FC /* DynamicTabbar */,
 				DDAF58C02CE596D60099A0A5 /* DropDownView */,
 				DDE648E22CAB8ED900F4BFB6 /* StackAnimation */,
 				DD6CCD492C8814F200D4C83F /*  CustomViewTransition */,
@@ -284,6 +290,14 @@
 				DD656D7A2B19B9E70067E6F9 /* ParallaxCarouselScroll */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		DD3272372D06A7D9006237C4 /* PatternLock */ = {
+			isa = PBXGroup;
+			children = (
+				DD3272382D06A7EC006237C4 /* PatternLockScreen.swift */,
+			);
+			path = PatternLock;
 			sourceTree = "<group>";
 		};
 		DD3A1F7D2C508F21008A8317 /* DeleteAccountView */ = {
@@ -586,6 +600,14 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
+		DDD4FB2F2CEC6F8500FCB1FC /* DynamicTabbar */ = {
+			isa = PBXGroup;
+			children = (
+				DDD4FB322CEC6F9D00FCB1FC /* DynamicTabbar.swift */,
+			);
+			path = DynamicTabbar;
+			sourceTree = "<group>";
+		};
 		DDDD11CE2C1FCB4A004503AE /* FlipClockTextEffect */ = {
 			isa = PBXGroup;
 			children = (
@@ -774,6 +796,7 @@
 				DDC7284C2B29A00A00B068E6 /* NumberGeneratorView.swift in Sources */,
 				DDB840B62C0813BB00A31EAD /* HackerTextEffectView.swift in Sources */,
 				DD91BCE62B3E677C00E68492 /* ParallaxScrollEffectView.swift in Sources */,
+				DD3272392D06A7EC006237C4 /* PatternLockScreen.swift in Sources */,
 				DDC4545D2B89A3FB00FC2B8E /* PlayerItem.swift in Sources */,
 				DD2E2B112BB6A66600ACB285 /* SlideToUnlockView.swift in Sources */,
 				DD2F49A42B18769900E8C7FE /* ContentView.swift in Sources */,
@@ -800,6 +823,7 @@
 				DDA1D9892C8022FC0002E583 /* CustomTabbar.swift in Sources */,
 				DD656D8E2B19E7AA0067E6F9 /* DIHomeView.swift in Sources */,
 				DDDE39ED2C60AAF600382E56 /* HomeSwipeActions .swift in Sources */,
+				DDD4FB332CEC6F9D00FCB1FC /* DynamicTabbar.swift in Sources */,
 				DD3DCD2D2C1A9B86006F767E /* CustomSlider2.swift in Sources */,
 				DDE9AA422B390F8400713B39 /* ThemeChangeSwitch.swift in Sources */,
 				DDDD11D02C1FCB6D004503AE /* FlipClockTextEffectView.swift in Sources */,

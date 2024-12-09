@@ -61,6 +61,8 @@ struct HomeAnimatedSideBarView: View {
                             navigationScreen("Custom field") { CustomTextField() }
                             navigationScreen("Stack Animation") { StackAnimation() }
                             navigationScreen("DropDown") { DropDown() }
+                            navigationScreen("Dynamic Tabbar") { DynamicTabbar() }
+                            navigationScreen("Pattern Lock") { PatternLockScreen() }
                         }
                         .padding()
                     }
