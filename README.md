@@ -107,4 +107,11 @@ https://github.com/user-attachments/assets/76ffffcc-75ca-4f12-a0ba-3907caf42801
 
 https://github.com/user-attachments/assets/e532f004-2445-4104-b1fe-c4e92b3b5688
 
+<a href="https://github.com/xqsadness/IOS17-SwiftUI/tree/main/IOS17-Swift/View/DynamicTabbar" > Dynamic Tabbar </a>
+
+https://github.com/user-attachments/assets/ec45a51d-cb54-4fba-901d-01f89a276d9d
+
+<a href="https://github.com/xqsadness/IOS17-SwiftUI/tree/main/IOS17-Swift/View/PatternLock" > Pattern Lock </a>
+
+https://github.com/user-attachments/assets/9d7350ae-8abd-4e02-813c-14b50423b5dc
 
