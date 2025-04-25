@@ -115,3 +115,7 @@ https://github.com/user-attachments/assets/ec45a51d-cb54-4fba-901d-01f89a276d9d
 
 https://github.com/user-attachments/assets/9d7350ae-8abd-4e02-813c-14b50423b5dc
 
+<a href="https://github.com/xqsadness/IOS17-SwiftUI/tree/main/IOS17-Swift/View/InlineToasts" > Inline Toasts (XCODE 16) </a>
+
+https://github.com/user-attachments/assets/cbe354db-4212-4973-97f1-f10d8e37fad1
+
