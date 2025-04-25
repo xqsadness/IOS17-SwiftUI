@@ -63,6 +63,7 @@ struct HomeAnimatedSideBarView: View {
                             navigationScreen("DropDown") { DropDown() }
                             navigationScreen("Dynamic Tabbar") { DynamicTabbar() }
                             navigationScreen("Pattern Lock") { PatternLockScreen() }
+                            navigationScreen("Inline Toast") { HomeInlineToastView() }
                         }
                         .padding()
                     }

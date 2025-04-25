@@ -10,6 +10,8 @@
 		DD0887292B44F2E00054C453 /* ScrollProgressTrackerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD0887282B44F2E00054C453 /* ScrollProgressTrackerView.swift */; };
 		DD0FF0592B1ECCC9007B4F10 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD0FF0582B1ECCC9007B4F10 /* Color.swift */; };
 		DD0FF05C2B1F0C14007B4F10 /* FactoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD0FF05B2B1F0C14007B4F10 /* FactoryView.swift */; };
+		DD1AB9412DBB215D00B0407C /* HomeInlineToastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD1AB9402DBB215D00B0407C /* HomeInlineToastView.swift */; };
+		DD1AB9442DBB21B400B0407C /* InlineToast.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD1AB9432DBB21B400B0407C /* InlineToast.swift */; };
 		DD2E2B112BB6A66600ACB285 /* SlideToUnlockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2E2B102BB6A66600ACB285 /* SlideToUnlockView.swift */; };
 		DD2F49A22B18769900E8C7FE /* IOS17_SwiftApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2F49A12B18769900E8C7FE /* IOS17_SwiftApp.swift */; };
 		DD2F49A42B18769900E8C7FE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2F49A32B18769900E8C7FE /* ContentView.swift */; };
@@ -96,6 +98,8 @@
 		DD0887282B44F2E00054C453 /* ScrollProgressTrackerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollProgressTrackerView.swift; sourceTree = "<group>"; };
 		DD0FF0582B1ECCC9007B4F10 /* Color.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 		DD0FF05B2B1F0C14007B4F10 /* FactoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactoryView.swift; sourceTree = "<group>"; };
+		DD1AB9402DBB215D00B0407C /* HomeInlineToastView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeInlineToastView.swift; sourceTree = "<group>"; };
+		DD1AB9432DBB21B400B0407C /* InlineToast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InlineToast.swift; sourceTree = "<group>"; };
 		DD2E2B102BB6A66600ACB285 /* SlideToUnlockView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideToUnlockView.swift; sourceTree = "<group>"; };
 		DD2F499E2B18769900E8C7FE /* IOS17-Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "IOS17-Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD2F49A12B18769900E8C7FE /* IOS17_SwiftApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOS17_SwiftApp.swift; sourceTree = "<group>"; };
@@ -206,6 +210,23 @@
 			path = "Factory-Pattern";
 			sourceTree = "<group>";
 		};
+		DD1AB93F2DBB215200B0407C /* InlineToasts */ = {
+			isa = PBXGroup;
+			children = (
+				DD1AB9422DBB217800B0407C /* Helpers */,
+				DD1AB9402DBB215D00B0407C /* HomeInlineToastView.swift */,
+			);
+			path = InlineToasts;
+			sourceTree = "<group>";
+		};
+		DD1AB9422DBB217800B0407C /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				DD1AB9432DBB21B400B0407C /* InlineToast.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
 		DD2E2B0F2BB6A65400ACB285 /* SlideToUnlock */ = {
 			isa = PBXGroup;
 			children = (
@@ -259,6 +280,7 @@
 		DD2F49AF2B1876B200E8C7FE /* View */ = {
 			isa = PBXGroup;
 			children = (
+				DD1AB93F2DBB215200B0407C /* InlineToasts */,
 				DD3272372D06A7D9006237C4 /* PatternLock */,
 				DDD4FB2F2CEC6F8500FCB1FC /* DynamicTabbar */,
 				DDAF58C02CE596D60099A0A5 /* DropDownView */,
@@ -799,6 +821,7 @@
 				DD3272392D06A7EC006237C4 /* PatternLockScreen.swift in Sources */,
 				DDC4545D2B89A3FB00FC2B8E /* PlayerItem.swift in Sources */,
 				DD2E2B112BB6A66600ACB285 /* SlideToUnlockView.swift in Sources */,
+				DD1AB9412DBB215D00B0407C /* HomeInlineToastView.swift in Sources */,
 				DD2F49A42B18769900E8C7FE /* ContentView.swift in Sources */,
 				DD2F49B12B1876C300E8C7FE /* ScrollTransition.swift in Sources */,
 				DD0FF0592B1ECCC9007B4F10 /* Color.swift in Sources */,
@@ -810,6 +833,7 @@
 				DDCCC6672B3D566100535673 /* Event.swift in Sources */,
 				DD656D872B19D9680067E6F9 /* CoinModel.swift in Sources */,
 				DDBD56A12C363E6E001FDECA /* OnBoardingScreen.swift in Sources */,
+				DD1AB9442DBB21B400B0407C /* InlineToast.swift in Sources */,
 				DD656D762B1986FA0067E6F9 /* CombineSearch.swift in Sources */,
 				DDFA8A202B3D1AF2009F29E6 /* Person.swift in Sources */,
 				DDCCC6692B3D57B800535673 /* EditEventView.swift in Sources */,
