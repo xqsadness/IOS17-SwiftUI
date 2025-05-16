@@ -21,7 +21,7 @@ struct HomeAnimatedSideBarView: View {
             connerRadius: 25,
             showMenu: $showMenu) { safeArea in
                 NavigationStack{
-                    ScrollView(showsIndicators: false){
+                    BackToTopScrollView { _ in
                         VStack(spacing: 15) {
                             //All screen here
                             navigationScreen("Parallax Carousel Scroll") { ParallaxCarouselScrollView() }
@@ -67,6 +67,27 @@ struct HomeAnimatedSideBarView: View {
                         }
                         .padding()
                     }
+                    buttonView: {
+                        HStack {
+                            Image(systemName: "chevron.up")
+                            
+                            Text("Back to top")
+                                .font(.callout)
+                        }
+                        .foregroundStyle(Color(UIColor.systemBackground))
+                        .padding()
+                        .background(
+                            Capsule()
+                                .fill(Color.primary)
+                        )
+                    }
+                    .buttonPosition(.top)
+                    .minimumScrollOffset(30)
+                    .buttonTransition(
+                        .move(edge: .top)
+                        .combined(with: .opacity)
+                        .combined(with: .scale(scale: 0.8))
+                    )
                     .navigationTitle("Home")
                     .toolbar{
                         ToolbarItem(placement: .topBarLeading) {

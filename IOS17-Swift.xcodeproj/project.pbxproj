@@ -84,6 +84,7 @@
 		DDE889FD2BC41F9C0080D215 /* NumberPadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE889FA2BC41F9C0080D215 /* NumberPadView.swift */; };
 		DDE889FE2BC41F9C0080D215 /* PasscodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE889FB2BC41F9C0080D215 /* PasscodeView.swift */; };
 		DDE9AA422B390F8400713B39 /* ThemeChangeSwitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE9AA412B390F8400713B39 /* ThemeChangeSwitch.swift */; };
+		DDED67C22DD71A5200FCFC18 /* BackToTopScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDED67C12DD71A5200FCFC18 /* BackToTopScrollView.swift */; };
 		DDEF4D6E2BC43D3F006F2AB2 /* FloatingActionButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDEF4D6D2BC43D3F006F2AB2 /* FloatingActionButtonView.swift */; };
 		DDEF4D702BC43D88006F2AB2 /* FloatingButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDEF4D6F2BC43D88006F2AB2 /* FloatingButton.swift */; };
 		DDF3F5BF2B82FA1000A7FEC8 /* CustomSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDF3F5BE2B82FA1000A7FEC8 /* CustomSlider.swift */; };
@@ -172,6 +173,7 @@
 		DDE889FA2BC41F9C0080D215 /* NumberPadView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NumberPadView.swift; sourceTree = "<group>"; };
 		DDE889FB2BC41F9C0080D215 /* PasscodeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PasscodeView.swift; sourceTree = "<group>"; };
 		DDE9AA412B390F8400713B39 /* ThemeChangeSwitch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeChangeSwitch.swift; sourceTree = "<group>"; };
+		DDED67C12DD71A5200FCFC18 /* BackToTopScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackToTopScrollView.swift; sourceTree = "<group>"; };
 		DDEF4D6D2BC43D3F006F2AB2 /* FloatingActionButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingActionButtonView.swift; sourceTree = "<group>"; };
 		DDEF4D6F2BC43D88006F2AB2 /* FloatingButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingButton.swift; sourceTree = "<group>"; };
 		DDF3F5BE2B82FA1000A7FEC8 /* CustomSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSlider.swift; sourceTree = "<group>"; };
@@ -530,6 +532,7 @@
 				DD3B6A952B58B9C800E78429 /* CoverFlow.swift */,
 				DDC1B1E02BBA4C8800520EF9 /* LimitedTextField.swift */,
 				DDEF4D6F2BC43D88006F2AB2 /* FloatingButton.swift */,
+				DDED67C12DD71A5200FCFC18 /* BackToTopScrollView.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -829,6 +832,7 @@
 				DD3DCD2A2C1A8362006F767E /* GlitchTextEffectView.swift in Sources */,
 				DD68AA3B2B4E94A900A1CF95 /* ImageParalaxView.swift in Sources */,
 				DDFA8A282B3D1D13009F29E6 /* EditPersonView.swift in Sources */,
+				DDED67C22DD71A5200FCFC18 /* BackToTopScrollView.swift in Sources */,
 				DDC85E132B465A6C00267615 /* EditJobView.swift in Sources */,
 				DDCCC6672B3D566100535673 /* Event.swift in Sources */,
 				DD656D872B19D9680067E6F9 /* CoinModel.swift in Sources */,
