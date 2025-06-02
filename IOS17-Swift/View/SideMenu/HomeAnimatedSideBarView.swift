@@ -64,6 +64,7 @@ struct HomeAnimatedSideBarView: View {
                             navigationScreen("Dynamic Tabbar") { DynamicTabbar() }
                             navigationScreen("Pattern Lock") { PatternLockScreen() }
                             navigationScreen("Inline Toast") { HomeInlineToastView() }
+                            navigationScreen("AppleStyle Scroll") { AppleStyleScrollView() }
                         }
                         .padding()
                     }

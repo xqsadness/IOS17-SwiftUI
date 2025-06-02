@@ -74,6 +74,7 @@
 		DDC85E132B465A6C00267615 /* EditJobView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC85E122B465A6C00267615 /* EditJobView.swift */; };
 		DDCCC6672B3D566100535673 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDCCC6662B3D566100535673 /* Event.swift */; };
 		DDCCC6692B3D57B800535673 /* EditEventView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDCCC6682B3D57B800535673 /* EditEventView.swift */; };
+		DDD369A42DED8C3000D5F82E /* AppleStyleScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDD369A32DED8C2F00D5F82E /* AppleStyleScrollView.swift */; };
 		DDD4FB332CEC6F9D00FCB1FC /* DynamicTabbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDD4FB322CEC6F9D00FCB1FC /* DynamicTabbar.swift */; };
 		DDDD11D02C1FCB6D004503AE /* FlipClockTextEffectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDDD11CF2C1FCB6D004503AE /* FlipClockTextEffectView.swift */; };
 		DDDE39ED2C60AAF600382E56 /* HomeSwipeActions .swift in Sources */ = {isa = PBXBuildFile; fileRef = DDDE39EC2C60AAF600382E56 /* HomeSwipeActions .swift */; };
@@ -163,6 +164,7 @@
 		DDC85E122B465A6C00267615 /* EditJobView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditJobView.swift; sourceTree = "<group>"; };
 		DDCCC6662B3D566100535673 /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
 		DDCCC6682B3D57B800535673 /* EditEventView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditEventView.swift; sourceTree = "<group>"; };
+		DDD369A32DED8C2F00D5F82E /* AppleStyleScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleStyleScrollView.swift; sourceTree = "<group>"; };
 		DDD4FB322CEC6F9D00FCB1FC /* DynamicTabbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicTabbar.swift; sourceTree = "<group>"; };
 		DDDD11CF2C1FCB6D004503AE /* FlipClockTextEffectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlipClockTextEffectView.swift; sourceTree = "<group>"; };
 		DDDE39EC2C60AAF600382E56 /* HomeSwipeActions .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HomeSwipeActions .swift"; sourceTree = "<group>"; };
@@ -667,6 +669,7 @@
 				DD3AEB032B22C17200AFAD25 /* PalettePickerView.swift */,
 				DDB00EDC2B8446B100929C7D /* MapInteraction.swift */,
 				DD3B7EC32C8E93320087AF05 /* CustomTextField.swift */,
+				DDD369A32DED8C2F00D5F82E /* AppleStyleScrollView.swift */,
 			);
 			path = Other;
 			sourceTree = "<group>";
@@ -870,6 +873,7 @@
 				DD656D7F2B19BA440067E6F9 /* TripCard.swift in Sources */,
 				DDFA8A232B3D1B9E009F29E6 /* FaceFactsView.swift in Sources */,
 				DDBD569F2C363DB4001FDECA /* ViewExtension.swift in Sources */,
+				DDD369A42DED8C3000D5F82E /* AppleStyleScrollView.swift in Sources */,
 				DDAF58C22CE596E20099A0A5 /* DropDownView.swift in Sources */,
 				DDC1B1E12BBA4C8800520EF9 /* LimitedTextField.swift in Sources */,
 				DD6AFAF02B1D6AF5005E94F8 /* DarkLightModeView.swift in Sources */,
