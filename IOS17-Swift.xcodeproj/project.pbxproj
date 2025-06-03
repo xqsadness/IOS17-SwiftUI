@@ -55,6 +55,7 @@
 		DDB148AE2B2FE08700080396 /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDB148AD2B2FE08700080396 /* Toast.swift */; };
 		DDB67DBA2C367FE20006AA5E /* CustomLayoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDB67DB92C367FE20006AA5E /* CustomLayoutView.swift */; };
 		DDB840B62C0813BB00A31EAD /* HackerTextEffectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDB840B52C0813BB00A31EAD /* HackerTextEffectView.swift */; };
+		DDBA54362DEE912400CCF421 /* SecondaryToast.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDBA54352DEE912400CCF421 /* SecondaryToast.swift */; };
 		DDBD569D2C363CFF001FDECA /* Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDBD569C2C363CFF001FDECA /* Intro.swift */; };
 		DDBD569F2C363DB4001FDECA /* ViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDBD569E2C363DB4001FDECA /* ViewExtension.swift */; };
 		DDBD56A12C363E6E001FDECA /* OnBoardingScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDBD56A02C363E6E001FDECA /* OnBoardingScreen.swift */; };
@@ -145,6 +146,7 @@
 		DDB148AD2B2FE08700080396 /* Toast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Toast.swift; sourceTree = "<group>"; };
 		DDB67DB92C367FE20006AA5E /* CustomLayoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomLayoutView.swift; sourceTree = "<group>"; };
 		DDB840B52C0813BB00A31EAD /* HackerTextEffectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HackerTextEffectView.swift; sourceTree = "<group>"; };
+		DDBA54352DEE912400CCF421 /* SecondaryToast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondaryToast.swift; sourceTree = "<group>"; };
 		DDBD569C2C363CFF001FDECA /* Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Intro.swift; sourceTree = "<group>"; };
 		DDBD569E2C363DB4001FDECA /* ViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewExtension.swift; sourceTree = "<group>"; };
 		DDBD56A02C363E6E001FDECA /* OnBoardingScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingScreen.swift; sourceTree = "<group>"; };
@@ -284,6 +286,7 @@
 		DD2F49AF2B1876B200E8C7FE /* View */ = {
 			isa = PBXGroup;
 			children = (
+				DDBA54342DEE911D00CCF421 /* SecondaryToast */,
 				DD1AB93F2DBB215200B0407C /* InlineToasts */,
 				DD3272372D06A7D9006237C4 /* PatternLock */,
 				DDD4FB2F2CEC6F8500FCB1FC /* DynamicTabbar */,
@@ -554,6 +557,14 @@
 				DD3DCD292C1A8362006F767E /* GlitchTextEffectView.swift */,
 			);
 			path = HackerGlitchTextEffect;
+			sourceTree = "<group>";
+		};
+		DDBA54342DEE911D00CCF421 /* SecondaryToast */ = {
+			isa = PBXGroup;
+			children = (
+				DDBA54352DEE912400CCF421 /* SecondaryToast.swift */,
+			);
+			path = SecondaryToast;
 			sourceTree = "<group>";
 		};
 		DDBD569B2C363CDD001FDECA /* OnBoardingAnimation */ = {
@@ -836,6 +847,7 @@
 				DD68AA3B2B4E94A900A1CF95 /* ImageParalaxView.swift in Sources */,
 				DDFA8A282B3D1D13009F29E6 /* EditPersonView.swift in Sources */,
 				DDED67C22DD71A5200FCFC18 /* BackToTopScrollView.swift in Sources */,
+				DDBA54362DEE912400CCF421 /* SecondaryToast.swift in Sources */,
 				DDC85E132B465A6C00267615 /* EditJobView.swift in Sources */,
 				DDCCC6672B3D566100535673 /* Event.swift in Sources */,
 				DD656D872B19D9680067E6F9 /* CoinModel.swift in Sources */,
