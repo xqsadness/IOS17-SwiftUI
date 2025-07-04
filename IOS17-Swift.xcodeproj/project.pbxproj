@@ -28,6 +28,7 @@
 		DD3B7EC42C8E93320087AF05 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD3B7EC32C8E93320087AF05 /* CustomTextField.swift */; };
 		DD3DCD2A2C1A8362006F767E /* GlitchTextEffectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD3DCD292C1A8362006F767E /* GlitchTextEffectView.swift */; };
 		DD3DCD2D2C1A9B86006F767E /* CustomSlider2.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD3DCD2C2C1A9B86006F767E /* CustomSlider2.swift */; };
+		DD40B8CB2E176C0A0000459E /* PinterestLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD40B8CA2E176C0A0000459E /* PinterestLayout.swift */; };
 		DD656D762B1986FA0067E6F9 /* CombineSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD656D752B1986FA0067E6F9 /* CombineSearch.swift */; };
 		DD656D782B198ED80067E6F9 /* NetworkingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD656D772B198ED80067E6F9 /* NetworkingManager.swift */; };
 		DD656D7C2B19BA070067E6F9 /* ParallaxCarouselScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD656D7B2B19BA070067E6F9 /* ParallaxCarouselScrollView.swift */; };
@@ -120,6 +121,7 @@
 		DD3B7EC32C8E93320087AF05 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
 		DD3DCD292C1A8362006F767E /* GlitchTextEffectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlitchTextEffectView.swift; sourceTree = "<group>"; };
 		DD3DCD2C2C1A9B86006F767E /* CustomSlider2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSlider2.swift; sourceTree = "<group>"; };
+		DD40B8CA2E176C0A0000459E /* PinterestLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinterestLayout.swift; sourceTree = "<group>"; };
 		DD656D752B1986FA0067E6F9 /* CombineSearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombineSearch.swift; sourceTree = "<group>"; };
 		DD656D772B198ED80067E6F9 /* NetworkingManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkingManager.swift; sourceTree = "<group>"; };
 		DD656D7B2B19BA070067E6F9 /* ParallaxCarouselScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParallaxCarouselScrollView.swift; sourceTree = "<group>"; };
@@ -286,6 +288,7 @@
 		DD2F49AF2B1876B200E8C7FE /* View */ = {
 			isa = PBXGroup;
 			children = (
+				DD40B8C92E176C000000459E /* PinterestLayout */,
 				DDBA54342DEE911D00CCF421 /* SecondaryToast */,
 				DD1AB93F2DBB215200B0407C /* InlineToasts */,
 				DD3272372D06A7D9006237C4 /* PatternLock */,
@@ -351,6 +354,14 @@
 				DD3DCD2C2C1A9B86006F767E /* CustomSlider2.swift */,
 			);
 			path = DynamicSlider;
+			sourceTree = "<group>";
+		};
+		DD40B8C92E176C000000459E /* PinterestLayout */ = {
+			isa = PBXGroup;
+			children = (
+				DD40B8CA2E176C0A0000459E /* PinterestLayout.swift */,
+			);
+			path = PinterestLayout;
 			sourceTree = "<group>";
 		};
 		DD656D742B1986E80067E6F9 /* Patterns */ = {
@@ -843,6 +854,7 @@
 				DD2F49B12B1876C300E8C7FE /* ScrollTransition.swift in Sources */,
 				DD0FF0592B1ECCC9007B4F10 /* Color.swift in Sources */,
 				DD2F49B32B1876DF00E8C7FE /* Animation.swift in Sources */,
+				DD40B8CB2E176C0A0000459E /* PinterestLayout.swift in Sources */,
 				DD3DCD2A2C1A8362006F767E /* GlitchTextEffectView.swift in Sources */,
 				DD68AA3B2B4E94A900A1CF95 /* ImageParalaxView.swift in Sources */,
 				DDFA8A282B3D1D13009F29E6 /* EditPersonView.swift in Sources */,

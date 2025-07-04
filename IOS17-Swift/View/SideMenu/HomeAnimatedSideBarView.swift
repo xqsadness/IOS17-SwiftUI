@@ -66,6 +66,7 @@ struct HomeAnimatedSideBarView: View {
                             navigationScreen("Inline Toast") { HomeInlineToastView() }
                             navigationScreen("AppleStyle Scroll") { AppleStyleScrollView() }
                             navigationScreen("Toast") { SecondaryToastViewDemo() }
+                            navigationScreen("Pinterest Layout") { PinterestLayout() }
                         }
                         .padding()
                     }
